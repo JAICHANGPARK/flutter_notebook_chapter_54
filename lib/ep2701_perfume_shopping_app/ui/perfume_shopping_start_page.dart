@@ -10,7 +10,12 @@ class PerfumeShoppingStartPage extends StatelessWidget {
         children: [
           Expanded(child: Placeholder()),
           Text("Craft Your Unique\nEnergy Vibe."),
-          Container(),
+          Container(
+            decoration: BoxDecoration(color: Colors.black),
+            child: Center(
+              child: Text("Get Started", style: TextStyle(color: Colors.white)),
+            ),
+          ),
         ],
       ),
     );
