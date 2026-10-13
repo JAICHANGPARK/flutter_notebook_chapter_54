@@ -4,7 +4,7 @@ A new Flutter project.
 
 # EP2701
 
-- Supplements E-commerce Mobile App
+- Perfume Shopping App UI/UX Design
 - Munna Rahman ✪
 - https://dribbble.com/shots/27805008-Perfume-Shopping-App-UI-UX-Design
 
