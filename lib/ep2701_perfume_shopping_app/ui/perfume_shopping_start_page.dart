@@ -6,22 +6,29 @@ class PerfumeShoppingStartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Expanded(child: Placeholder()),
-          Text(
-            "Craft Your Unique\nEnergy Vibe.",
-            style: TextStyle(fontWeight: .bold, fontSize: 32),
-          ),
-          Container(
-            height: 52,
-            decoration: BoxDecoration(color: Colors.black),
-            child: Center(
-              child: Text("Get Started", style: TextStyle(color: Colors.white)),
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: .start,
+          spacing: 24,
+          children: [
+            Expanded(child: Placeholder()),
+            Text(
+              "Craft Your Unique\nEnergy Vibe.",
+              style: TextStyle(fontWeight: .bold, fontSize: 32),
             ),
-          ),
-          Text("I already have an account"),
-        ],
+            Container(
+              height: 52,
+              decoration: BoxDecoration(color: Colors.black),
+              child: Center(
+                child: Text(
+                  "Get Started",
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            ),
+            Text("I already have an account"),
+          ],
+        ),
       ),
     );
   }
