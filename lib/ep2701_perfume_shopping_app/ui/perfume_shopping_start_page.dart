@@ -12,21 +12,25 @@ class PerfumeShoppingStartPage extends StatelessWidget {
           spacing: 24,
           children: [
             Expanded(child: Placeholder()),
-            Text(
-              "Craft Your Unique\nEnergy Vibe.",
-              style: TextStyle(fontWeight: .bold, fontSize: 32),
-            ),
-            Container(
-              height: 52,
-              decoration: BoxDecoration(color: Colors.black),
-              child: Center(
-                child: Text(
-                  "Get Started",
-                  style: TextStyle(color: Colors.white),
+            Column(
+              children: [
+                Text(
+                  "Craft Your Unique\nEnergy Vibe.",
+                  style: TextStyle(fontWeight: .bold, fontSize: 32),
                 ),
-              ),
+                Container(
+                  height: 52,
+                  decoration: BoxDecoration(color: Colors.black),
+                  child: Center(
+                    child: Text(
+                      "Get Started",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ),
+                Center(child: Text("I already have an account")),
+              ],
             ),
-            Text("I already have an account"),
           ],
         ),
       ),
