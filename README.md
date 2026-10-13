@@ -8,4 +8,4 @@ A new Flutter project.
 - Munna Rahman ✪
 - https://dribbble.com/shots/27805008-Perfume-Shopping-App-UI-UX-Design
 
-<img src="https://cdn.dribbble.com/userupload/49266159/file/9cc68c8ef2a4b52eef4a00032ee8395a.png?resize=1905x1429&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/49301312/file/c797a0ea861344663a3e6e9580fcca9f.png?resize=1905x1429&vertical=center" alt=""/>
