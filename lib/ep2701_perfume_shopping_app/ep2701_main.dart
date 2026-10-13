@@ -1,3 +1,7 @@
 import 'package:material_ui/material_ui.dart';
 
-void main() {}
+import 'perfuem_shopping_app.dart';
+
+void main() {
+  runApp(PerfuemShoppingApp());
+}
