@@ -6,6 +6,7 @@ class PerfumeShoppingStartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(247, 243, 237, 1),
       body: SafeArea(
         child: Column(
           crossAxisAlignment: .start,
@@ -24,7 +25,10 @@ class PerfumeShoppingStartPage extends StatelessWidget {
                   ),
                   Container(
                     height: 52,
-                    decoration: BoxDecoration(color: Colors.black),
+                    decoration: BoxDecoration(
+                      color: Colors.black,
+                      boxShadow: [],
+                    ),
                     child: Center(
                       child: Text(
                         "Get Started",
