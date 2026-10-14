@@ -16,14 +16,16 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
       backgroundColor: Color.fromRGBO(247, 243, 237, 1),
       body: Stack(
         children: [
-          Positioned(
-            bottom: 24,
+          Align(
+            alignment: .bottomCenter,
             child: Container(
+              margin: .only(bottom: 32),
               decoration: BoxDecoration(color: Colors.black),
               child: Row(
                 mainAxisSize: .min,
                 children: [
                   Container(
+                    decoration: BoxDecoration(color: Colors.white),
                     child: Row(
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedHome02),
