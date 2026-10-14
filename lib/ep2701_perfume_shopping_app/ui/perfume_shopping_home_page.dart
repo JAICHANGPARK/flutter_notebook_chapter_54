@@ -11,6 +11,6 @@ class PerfumeShoppingHomePage extends StatefulWidget {
 class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
