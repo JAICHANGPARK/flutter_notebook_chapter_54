@@ -1,3 +1,4 @@
+import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
 class PerfumeShoppingHomePage extends StatefulWidget {
@@ -13,10 +14,29 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(247, 243, 237, 1),
-      body: Stack(children: [
-    
-  ],
-),
+      body: Stack(
+        children: [
+          Positioned(
+            bottom: 24,
+            child: Container(
+              decoration: BoxDecoration(color: Colors.black),
+              child: Row(
+                mainAxisSize: .min,
+                children: [
+                  Container(
+                    child: Row(
+                      children: [
+                        HugeIcon(icon: HugeIcons.strokeRoundedHome02),
+                        Text("Home"),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
