@@ -11,6 +11,12 @@ class PerfumeShoppingHomePage extends StatefulWidget {
 class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Color.fromRGBO(247, 243, 237, 1));
+    return Scaffold(
+      backgroundColor: Color.fromRGBO(247, 243, 237, 1),
+      body: Stack(children: [
+    
+  ],
+),
+    );
   }
 }
