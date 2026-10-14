@@ -23,6 +23,7 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
               padding: .all(6),
               decoration: BoxDecoration(color: Colors.black),
               child: Row(
+                spacing: 8,
                 mainAxisSize: .min,
                 children: [
                   Container(
@@ -38,7 +39,9 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                   ),
                   Container(
                     padding: .symmetric(horizontal: 16, vertical: 12),
-                    decoration: BoxDecoration(color: Colors.black12),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: .2),
+                    ),
                     child: Row(
                       spacing: 12,
                       children: [
