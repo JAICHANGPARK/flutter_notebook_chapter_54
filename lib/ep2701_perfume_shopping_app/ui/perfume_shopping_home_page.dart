@@ -71,7 +71,10 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                     child: Row(
                       spacing: 12,
                       children: [
-                        Icon(Icons.shopping_cart, color: Colors.white),
+                        Icon(
+                          Icons.account_circle_outlined,
+                          color: Colors.white,
+                        ),
                         // Text("Home"),
                       ],
                     ),
