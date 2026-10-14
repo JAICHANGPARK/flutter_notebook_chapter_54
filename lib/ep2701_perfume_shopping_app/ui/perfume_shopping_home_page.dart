@@ -20,7 +20,7 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
             alignment: .bottomCenter,
             child: Container(
               margin: .only(bottom: 32),
-              padding: .all(8),
+              padding: .all(6),
               decoration: BoxDecoration(color: Colors.black),
               child: Row(
                 mainAxisSize: .min,
@@ -29,9 +29,21 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                     padding: .symmetric(horizontal: 16, vertical: 12),
                     decoration: BoxDecoration(color: Colors.white),
                     child: Row(
+                      spacing: 12,
                       children: [
                         HugeIcon(icon: HugeIcons.strokeRoundedHome02),
                         Text("Home"),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    padding: .symmetric(horizontal: 16, vertical: 12),
+                    decoration: BoxDecoration(color: Colors.black12),
+                    child: Row(
+                      spacing: 12,
+                      children: [
+                        Icon(Icons.favorite_outline, color: Colors.white),
+                        // Text("Home"),
                       ],
                     ),
                   ),
