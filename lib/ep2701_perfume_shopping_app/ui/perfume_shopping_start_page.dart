@@ -23,22 +23,31 @@ class PerfumeShoppingStartPage extends StatelessWidget {
                     "Craft Your Unique\nEnergy Vibe.",
                     style: TextStyle(fontWeight: .bold, fontSize: 32),
                   ),
-                  Container(
-                    height: 52,
-                    decoration: BoxDecoration(
-                      color: Colors.black,
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withValues(alpha: .05),
-                          blurRadius: 10,
-                          spreadRadius: 10,
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).pushReplacement(
+                        MaterialPageRoute(
+                          builder: (context) => PerfumeShoppingHomePage(),
                         ),
-                      ],
-                    ),
-                    child: Center(
-                      child: Text(
-                        "Get Started",
-                        style: TextStyle(color: Colors.white, fontSize: 16),
+                      );
+                    },
+                    child: Container(
+                      height: 52,
+                      decoration: BoxDecoration(
+                        color: Colors.black,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: .05),
+                            blurRadius: 10,
+                            spreadRadius: 10,
+                          ),
+                        ],
+                      ),
+                      child: Center(
+                        child: Text(
+                          "Get Started",
+                          style: TextStyle(color: Colors.white, fontSize: 16),
+                        ),
                       ),
                     ),
                   ),
