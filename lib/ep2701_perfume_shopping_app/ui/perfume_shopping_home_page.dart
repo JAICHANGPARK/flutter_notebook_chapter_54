@@ -20,11 +20,13 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
             alignment: .bottomCenter,
             child: Container(
               margin: .only(bottom: 32),
+              padding: .all(8),
               decoration: BoxDecoration(color: Colors.black),
               child: Row(
                 mainAxisSize: .min,
                 children: [
                   Container(
+                    padding: .symmetric(horizontal: 16, vertical: 12),
                     decoration: BoxDecoration(color: Colors.white),
                     child: Row(
                       children: [
