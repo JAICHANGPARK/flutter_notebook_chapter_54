@@ -38,7 +38,7 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                     ),
                   ),
                   Container(
-                    padding: .symmetric(horizontal: 16, vertical: 12),
+                    padding: .symmetric(horizontal: 12, vertical: 12),
                     decoration: BoxDecoration(
                       color: Colors.white.withValues(alpha: .2),
                     ),
@@ -46,6 +46,32 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                       spacing: 12,
                       children: [
                         Icon(Icons.favorite_outline, color: Colors.white),
+                        // Text("Home"),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    padding: .symmetric(horizontal: 12, vertical: 12),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: .2),
+                    ),
+                    child: Row(
+                      spacing: 12,
+                      children: [
+                        Icon(Icons.shopping_cart, color: Colors.white),
+                        // Text("Home"),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    padding: .symmetric(horizontal: 12, vertical: 12),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withValues(alpha: .2),
+                    ),
+                    child: Row(
+                      spacing: 12,
+                      children: [
+                        Icon(Icons.shopping_cart, color: Colors.white),
                         // Text("Home"),
                       ],
                     ),
