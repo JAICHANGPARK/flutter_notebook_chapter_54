@@ -30,7 +30,6 @@ class PerfumeShoppingStartPage extends StatelessWidget {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.black.withValues(alpha: .05),
-
                           blurRadius: 10,
                           spreadRadius: 10,
                         ),
