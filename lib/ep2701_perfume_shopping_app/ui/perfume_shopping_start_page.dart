@@ -27,7 +27,14 @@ class PerfumeShoppingStartPage extends StatelessWidget {
                     height: 52,
                     decoration: BoxDecoration(
                       color: Colors.black,
-                      boxShadow: [],
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withValues(alpha: .05),
+
+                          blurRadius: 10,
+                          spreadRadius: 10,
+                        ),
+                      ],
                     ),
                     child: Center(
                       child: Text(
