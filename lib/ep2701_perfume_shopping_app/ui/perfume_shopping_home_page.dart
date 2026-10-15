@@ -21,6 +21,7 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
               child: Column(
                 children: [
                   Row(
+                    mainAxisAlignment: .spaceBetween,
                     children: [
                       Text(
                         "Parfume Shop",
