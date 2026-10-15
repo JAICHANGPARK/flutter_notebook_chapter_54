@@ -29,7 +29,7 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                         ),
                         child: Badge(
                           child: HugeIcon(
-                            icon: HugeIcons.strokeRoundedNotification02,
+                            icon: HugeIcons.strokeRoundedNotification01,
                           ),
                         ),
                       ),
