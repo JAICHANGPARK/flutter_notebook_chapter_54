@@ -18,6 +18,7 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
         children: [
           Positioned.fill(
             child: SafeArea(
+              bottom: false,
               child: Column(
                 spacing: 16,
                 children: [
