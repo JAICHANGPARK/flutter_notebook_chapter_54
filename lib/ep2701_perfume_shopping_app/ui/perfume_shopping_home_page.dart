@@ -27,6 +27,11 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                         decoration: BoxDecoration(
                           border: .all(color: Colors.grey[200]!),
                         ),
+                        child: Badge(
+                          child: HugeIcon(
+                            icon: HugeIcons.strokeRoundedNotification02,
+                          ),
+                        ),
                       ),
                     ],
                   ),
