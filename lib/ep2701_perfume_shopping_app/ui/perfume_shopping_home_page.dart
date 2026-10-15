@@ -53,7 +53,7 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                     ),
                   ),
                   Container(
-                    margin: .only(right: 16),
+                    margin: .only(left: 16),
                     height: 62,
                     child: Placeholder(),
                   ),
