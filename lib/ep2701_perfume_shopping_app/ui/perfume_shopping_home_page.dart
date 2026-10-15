@@ -52,7 +52,11 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                       style: TextStyle(fontWeight: .bold, fontSize: 32),
                     ),
                   ),
-                  Container(height: 62, child: Placeholder()),
+                  Container(
+                    margin: .only(right: 16),
+                    height: 62,
+                    child: Placeholder(),
+                  ),
                   Expanded(child: Placeholder()),
                 ],
               ),
