@@ -24,8 +24,9 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                     children: [
                       Text("Parfume Shop", style: TextStyle(fontWeight: .bold)),
                       Container(
+                        padding: .all(12),
                         decoration: BoxDecoration(
-                          border: .all(color: Colors.grey[200]!),
+                          border: .all(color: Colors.grey[400]!),
                         ),
                         child: Badge(
                           child: HugeIcon(
