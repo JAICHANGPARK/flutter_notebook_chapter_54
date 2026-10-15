@@ -19,26 +19,30 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
-                  Row(
-                    mainAxisAlignment: .spaceBetween,
-                    children: [
-                      Text(
-                        "Parfume Shop",
-                        style: TextStyle(fontWeight: .bold, fontSize: 24),
-                      ),
-                      Container(
-                        padding: .all(12),
-                        decoration: BoxDecoration(
-                          border: .all(color: Colors.grey[400]!),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      mainAxisAlignment: .spaceBetween,
+                      children: [
+                        Text(
+                          "Parfume Shop",
+                          style: TextStyle(fontWeight: .bold, fontSize: 24),
                         ),
-                        child: Badge(
-                          child: HugeIcon(
-                            icon: HugeIcons.strokeRoundedNotification01,
+                        Container(
+                          padding: .all(12),
+                          decoration: BoxDecoration(
+                            border: .all(color: Colors.grey[400]!),
+                          ),
+                          child: Badge(
+                            child: HugeIcon(
+                              icon: HugeIcons.strokeRoundedNotification01,
+                            ),
                           ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ],
               ),
