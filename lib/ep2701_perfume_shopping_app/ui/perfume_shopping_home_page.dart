@@ -16,6 +16,10 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
       backgroundColor: Color.fromRGBO(247, 243, 237, 1),
       body: Stack(
         children: [
+          Positioned(child: Column(children: [
+              
+            ],
+          )),
           Align(
             alignment: .bottomCenter,
             child: Container(
