@@ -57,7 +57,12 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                     height: 62,
                     child: Placeholder(),
                   ),
-                  Expanded(child: Placeholder()),
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Placeholder(),
+                    ),
+                  ),
                 ],
               ),
             ),
