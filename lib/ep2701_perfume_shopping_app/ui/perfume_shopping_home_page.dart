@@ -22,7 +22,10 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                 children: [
                   Row(
                     children: [
-                      Text("Parfume Shop", style: TextStyle(fontWeight: .bold)),
+                      Text(
+                        "Parfume Shop",
+                        style: TextStyle(fontWeight: .bold, fontSize: 24),
+                      ),
                       Container(
                         padding: .all(12),
                         decoration: BoxDecoration(
