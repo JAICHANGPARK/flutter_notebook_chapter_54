@@ -44,6 +44,14 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                       ],
                     ),
                   ),
+
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Text(
+                      "Scents Crafted For Your Mood.",
+                      style: TextStyle(fontWeight: .bold, fontSize: 32),
+                    ),
+                  ),
                 ],
               ),
             ),
