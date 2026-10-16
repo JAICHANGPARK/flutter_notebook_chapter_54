@@ -60,7 +60,7 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                       scrollDirection: .horizontal,
                       children: [
                         Container(
-                          margin: .only(right: 16),
+                          margin: .only(right: 12),
                           padding: .symmetric(horizontal: 12),
                           decoration: BoxDecoration(
                             border: .all(color: Colors.black),
@@ -68,8 +68,10 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                           child: Icon(Icons.search),
                         ),
                         Container(
+                          margin: .only(right: 12),
                           padding: .symmetric(horizontal: 16),
                           decoration: BoxDecoration(
+                            color: Colors.black,
                             border: .all(color: Colors.black),
                           ),
                           child: Center(
