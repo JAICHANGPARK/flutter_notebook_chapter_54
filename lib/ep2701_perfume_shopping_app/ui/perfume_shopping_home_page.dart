@@ -114,12 +114,13 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2,
-                          childAspectRatio: .8,
+                          childAspectRatio: .7,
                           mainAxisSpacing: 8,
                           crossAxisSpacing: 8,
                         ),
                         itemBuilder: ((context, index) {
                           return Column(
+                            spacing: 8,
                             children: [
                               Expanded(child: Placeholder()),
                               Row(
