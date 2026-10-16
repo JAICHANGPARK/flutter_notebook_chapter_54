@@ -56,7 +56,16 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                   Container(
                     margin: .only(left: 16),
                     height: 62,
-                    child: ListView(children: []),
+                    child: ListView(
+                      scrollDirection: .horizontal,
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            border: .all(color: Colors.black),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                   Expanded(
                     child: Padding(
