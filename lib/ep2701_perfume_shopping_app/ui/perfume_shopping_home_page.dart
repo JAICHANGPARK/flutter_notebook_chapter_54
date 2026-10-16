@@ -93,15 +93,17 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                           margin: .only(right: 12),
                           padding: .symmetric(horizontal: 16),
                           decoration: BoxDecoration(
-                            color: Colors.black,
                             border: .all(color: Colors.black),
                           ),
-                          child: Center(
-                            child: Text(
-                              "All",
-                              style: TextStyle(color: Colors.white),
-                            ),
+                          child: Center(child: Text("Dior")),
+                        ),
+                        Container(
+                          margin: .only(right: 12),
+                          padding: .symmetric(horizontal: 16),
+                          decoration: BoxDecoration(
+                            border: .all(color: Colors.black),
                           ),
+                          child: Center(child: Text("Versace")),
                         ),
                       ],
                     ),
