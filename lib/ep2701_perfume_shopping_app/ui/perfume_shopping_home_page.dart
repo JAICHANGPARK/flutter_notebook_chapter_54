@@ -81,6 +81,14 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                             ),
                           ),
                         ),
+                        Container(
+                          margin: .only(right: 12),
+                          padding: .symmetric(horizontal: 16),
+                          decoration: BoxDecoration(
+                            border: .all(color: Colors.black),
+                          ),
+                          child: Center(child: Text("Chanel")),
+                        ),
                       ],
                     ),
                   ),
