@@ -115,6 +115,8 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2,
                           childAspectRatio: .8,
+                          mainAxisSpacing: 8,
+                          crossAxisSpacing: 8,
                         ),
                         itemBuilder: ((context, index) {
                           return Column(
