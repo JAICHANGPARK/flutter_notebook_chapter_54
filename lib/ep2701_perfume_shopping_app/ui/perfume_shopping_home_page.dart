@@ -117,8 +117,13 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                           childAspectRatio: .8,
                         ),
                         itemBuilder: ((context, index) {
-                          return Column(children: [
-
+                          return Column(
+                            children: [
+                              Expanded(child: Placeholder()),
+                              Row(
+                                mainAxisAlignment: .spaceAround,
+                                children: [Text("Product"), Text("\$115.00")],
+                              ),
                             ],
                           );
                         }),
