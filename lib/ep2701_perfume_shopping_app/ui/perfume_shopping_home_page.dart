@@ -66,6 +66,18 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                           ),
                           child: Icon(Icons.search),
                         ),
+                        Container(
+                          padding: .symmetric(horizontal: 12),
+                          decoration: BoxDecoration(
+                            border: .all(color: Colors.black),
+                          ),
+                          child: Center(
+                            child: Text(
+                              "All",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
