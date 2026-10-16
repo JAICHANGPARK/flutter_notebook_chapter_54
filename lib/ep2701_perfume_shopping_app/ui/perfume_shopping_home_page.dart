@@ -111,7 +111,12 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Placeholder(),
+                      child: GridView.builder(
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                        ),
+                        itemBuilder: ((context, index) {}),
+                      ),
                     ),
                   ),
                 ],
