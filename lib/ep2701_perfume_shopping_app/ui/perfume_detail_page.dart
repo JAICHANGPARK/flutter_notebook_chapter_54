@@ -64,7 +64,10 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
               Row(
                 spacing: 8,
                 children: [
-                  Text("\$115.00"),
+                  Text(
+                    "\$115.00",
+                    style: TextStyle(fontSize: 18, fontWeight: .bold),
+                  ),
                   Container(
                     decoration: BoxDecoration(color: Colors.red[200]!),
                     child: Text("-15%", style: TextStyle(fontSize: 12)),
