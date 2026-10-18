@@ -11,10 +11,21 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(child: Column(children: [
-          
-        ],
-      )),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Row(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    border: .all(color: Colors.grey[200]!),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
