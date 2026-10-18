@@ -145,7 +145,10 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                                     "Product",
                                     style: TextStyle(fontWeight: .bold),
                                   ),
-                                  Text("\$115.00"),
+                                  Text(
+                                    "\$115.00",
+                                    style: TextStyle(fontWeight: .bold),
+                                  ),
                                 ],
                               ),
                             ],
