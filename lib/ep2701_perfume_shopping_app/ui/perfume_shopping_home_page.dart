@@ -1,3 +1,4 @@
+import 'package:flutter_notebook_chapter_54/ep2701_perfume_shopping_app/ui/perfume_detail_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
@@ -119,42 +120,51 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                           crossAxisSpacing: 12,
                         ),
                         itemBuilder: ((context, index) {
-                          return Column(
-                            spacing: 8,
-                            children: [
-                              Expanded(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.grey[200]!,
-                                  ),
-                                  child: Stack(
-                                    children: [
-                                      Positioned(
-                                        left: 16,
-                                        top: 16,
-                                        child: Icon(
-                                          Icons.favorite,
-                                          color: Colors.red,
+                          return InkWell(
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => PerfumeDetailPage(),
+                                ),
+                              );
+                            },
+                            child: Column(
+                              spacing: 8,
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.grey[200]!,
+                                    ),
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          left: 16,
+                                          top: 16,
+                                          child: Icon(
+                                            Icons.favorite,
+                                            color: Colors.red,
+                                          ),
                                         ),
-                                      ),
-                                    ],
+                                      ],
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Row(
-                                mainAxisAlignment: .spaceAround,
-                                children: [
-                                  Text(
-                                    "Product",
-                                    style: TextStyle(fontWeight: .bold),
-                                  ),
-                                  Text(
-                                    "\$115.00",
-                                    style: TextStyle(fontWeight: .bold),
-                                  ),
-                                ],
-                              ),
-                            ],
+                                Row(
+                                  mainAxisAlignment: .spaceAround,
+                                  children: [
+                                    Text(
+                                      "Product",
+                                      style: TextStyle(fontWeight: .bold),
+                                    ),
+                                    Text(
+                                      "\$115.00",
+                                      style: TextStyle(fontWeight: .bold),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
                           );
                         }),
                       ),
