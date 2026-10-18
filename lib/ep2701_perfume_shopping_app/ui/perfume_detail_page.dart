@@ -69,6 +69,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                     style: TextStyle(fontSize: 18, fontWeight: .bold),
                   ),
                   Container(
+                    padding: .symmetric(horizontal: 8, vertical: 3),
                     decoration: BoxDecoration(color: Colors.red[200]!),
                     child: Text("-15%", style: TextStyle(fontSize: 12)),
                   ),
