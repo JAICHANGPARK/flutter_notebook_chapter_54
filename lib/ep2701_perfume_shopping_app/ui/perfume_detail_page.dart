@@ -36,7 +36,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                     child: Center(
                       child: Text(
                         "Details",
-                        style: TextStyle(fontWeight: .bold, fontSize: 24),
+                        style: TextStyle(fontWeight: .bold, fontSize: 20),
                       ),
                     ),
                   ),
