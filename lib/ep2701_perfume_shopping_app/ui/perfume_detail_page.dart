@@ -17,6 +17,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
           padding: const EdgeInsets.all(16.0),
           child: Column(
             spacing: 16,
+            crossAxisAlignment: .start,
             children: [
               Row(
                 children: [
@@ -53,6 +54,12 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                     ),
                   ),
                 ],
+              ),
+              Expanded(child: Placeholder()),
+              Text("Tom Electric Perfume"),
+              Text("Eau De Parfum 50ML"),
+              Text(
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor bibendum mauris, ut scelerisque ligula maximus quis. Aenean pulvinar hendrerit urna in ornare. Morbi viverra tellus sed libero maximus, non ornare tortor vehicula. ",
               ),
             ],
           ),
