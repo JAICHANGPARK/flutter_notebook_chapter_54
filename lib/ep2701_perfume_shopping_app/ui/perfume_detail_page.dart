@@ -16,6 +16,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            spacing: 16,
             children: [
               Row(
                 children: [
@@ -35,7 +36,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                     child: Center(
                       child: Text(
                         "Details",
-                        style: TextStyle(fontWeight: .bold, fontSize: 16),
+                        style: TextStyle(fontWeight: .bold, fontSize: 24),
                       ),
                     ),
                   ),
