@@ -16,7 +16,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
-            spacing: 16,
+            spacing: 12,
             crossAxisAlignment: .start,
             children: [
               Row(
@@ -57,8 +57,12 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
               ),
               Expanded(child: Placeholder()),
               Column(
+                crossAxisAlignment: .start,
                 children: [
-                  Text("Tom Electric Perfume"),
+                  Text(
+                    "Tom Electric Perfume",
+                    style: TextStyle(fontWeight: .bold, fontSize: 26),
+                  ),
                   Text("Eau De Parfum 50ML"),
                 ],
               ),
