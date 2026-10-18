@@ -140,7 +140,13 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                               ),
                               Row(
                                 mainAxisAlignment: .spaceAround,
-                                children: [Text("Product"), Text("\$115.00")],
+                                children: [
+                                  Text(
+                                    "Product",
+                                    style: TextStyle(fontWeight: .bold),
+                                  ),
+                                  Text("\$115.00"),
+                                ],
                               ),
                             ],
                           );
