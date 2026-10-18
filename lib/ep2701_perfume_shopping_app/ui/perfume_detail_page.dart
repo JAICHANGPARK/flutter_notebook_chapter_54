@@ -56,10 +56,16 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                 ],
               ),
               Expanded(child: Placeholder()),
-              Text("Tom Electric Perfume"),
-              Text("Eau De Parfum 50ML"),
+              Column(
+                children: [
+                  Text("Tom Electric Perfume"),
+                  Text("Eau De Parfum 50ML"),
+                ],
+              ),
+
               Text(
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor bibendum mauris, ut scelerisque ligula maximus quis. Aenean pulvinar hendrerit urna in ornare. Morbi viverra tellus sed libero maximus, non ornare tortor vehicula. ",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor bibendum mauris, ut scelerisque ligula maximus quis. Aenean pulvinar hendrerit urna in ornare.",
+                style: TextStyle(fontSize: 13),
               ),
               Row(
                 spacing: 8,
