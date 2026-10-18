@@ -62,11 +62,12 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor bibendum mauris, ut scelerisque ligula maximus quis. Aenean pulvinar hendrerit urna in ornare. Morbi viverra tellus sed libero maximus, non ornare tortor vehicula. ",
               ),
               Row(
+                spacing: 8,
                 children: [
                   Text("\$115.00"),
                   Container(
                     decoration: BoxDecoration(color: Colors.red[200]!),
-                    child: Text("=15%"),
+                    child: Text("-15%", style: TextStyle(fontSize: 12)),
                   ),
                   Spacer(),
                   Container(
