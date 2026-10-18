@@ -132,7 +132,10 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                                       Positioned(
                                         left: 16,
                                         top: 16,
-                                        child: Icon(Icons.favorite),
+                                        child: Icon(
+                                          Icons.favorite,
+                                          color: Colors.red,
+                                        ),
                                       ),
                                     ],
                                   ),
