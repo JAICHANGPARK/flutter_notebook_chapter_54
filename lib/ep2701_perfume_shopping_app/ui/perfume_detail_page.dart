@@ -80,7 +80,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                     ),
                     child: Icon(Icons.remove),
                   ),
-                  Text("1"),
+                  Text("1", style: TextStyle(fontWeight: .bold, fontSize: 18)),
                   Container(
                     decoration: BoxDecoration(
                       border: .all(color: Colors.grey[400]!),
@@ -88,6 +88,15 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                     child: Icon(Icons.add),
                   ),
                 ],
+              ),
+              Container(height: 64, child: Placeholder()),
+              Container(
+                height: 120,
+                decoration: BoxDecoration(),
+                child: Row(children: [Column(children: [
+                        
+                      ],
+                    )]),
               ),
             ],
           ),
