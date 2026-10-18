@@ -89,10 +89,21 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                   ),
                 ],
               ),
-              Container(height: 64, child: Placeholder()),
+              Container(
+                height: 64,
+                decoration: BoxDecoration(color: Colors.black),
+                child: Center(
+                  child: Text(
+                    "Buy Now \$115",
+                    style: TextStyle(fontWeight: .bold),
+                  ),
+                ),
+              ),
               Container(
                 height: 120,
-                decoration: BoxDecoration(),
+                decoration: BoxDecoration(
+                  border: .all(color: Colors.grey[400]!),
+                ),
                 child: Row(children: [Column(children: [
                         
                       ],
