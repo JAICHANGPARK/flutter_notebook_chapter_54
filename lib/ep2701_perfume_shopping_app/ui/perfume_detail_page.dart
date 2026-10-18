@@ -76,6 +76,12 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                     child: Icon(Icons.remove),
                   ),
                   Text("1"),
+                  Container(
+                    decoration: BoxDecoration(
+                      border: .all(color: Colors.grey[400]!),
+                    ),
+                    child: Icon(Icons.add),
+                  ),
                 ],
               ),
             ],
