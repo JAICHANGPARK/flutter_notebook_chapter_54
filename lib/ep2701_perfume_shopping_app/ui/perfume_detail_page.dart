@@ -20,6 +20,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                   decoration: BoxDecoration(
                     border: .all(color: Colors.grey[200]!),
                   ),
+                  child: Icon(Icons.arrow_back),
                 ),
               ],
             ),
