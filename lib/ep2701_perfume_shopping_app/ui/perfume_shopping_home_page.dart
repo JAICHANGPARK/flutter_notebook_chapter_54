@@ -115,14 +115,29 @@ class _PerfumeShoppingHomePageState extends State<PerfumeShoppingHomePage> {
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2,
                           childAspectRatio: .7,
-                          mainAxisSpacing: 8,
-                          crossAxisSpacing: 8,
+                          mainAxisSpacing: 12,
+                          crossAxisSpacing: 12,
                         ),
                         itemBuilder: ((context, index) {
                           return Column(
                             spacing: 8,
                             children: [
-                              Expanded(child: Placeholder()),
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!,
+                                  ),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        left: 16,
+                                        top: 16,
+                                        child: Icon(Icons.favorite),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
                               Row(
                                 mainAxisAlignment: .spaceAround,
                                 children: [Text("Product"), Text("\$115.00")],
