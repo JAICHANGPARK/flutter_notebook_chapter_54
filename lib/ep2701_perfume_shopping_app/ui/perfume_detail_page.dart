@@ -90,17 +90,17 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                 ],
               ),
               Container(
-                height: 64,
+                height: 56,
                 decoration: BoxDecoration(color: Colors.black),
                 child: Center(
                   child: Text(
                     "Buy Now \$115",
-                    style: TextStyle(fontWeight: .bold),
+                    style: TextStyle(fontWeight: .bold, color: Colors.white),
                   ),
                 ),
               ),
               Container(
-                height: 120,
+                height: 100,
                 decoration: BoxDecoration(
                   border: .all(color: Colors.grey[400]!),
                 ),
