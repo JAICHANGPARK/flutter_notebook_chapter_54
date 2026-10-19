@@ -123,10 +123,17 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                 decoration: BoxDecoration(
                   border: .all(color: Colors.grey[400]!),
                 ),
-                child: Row(children: [Column(children: [
-                        
+                child: Row(
+                  children: [
+                    Column(
+                      children: [
+                        Icon(Icons.check_circle_outline),
+                        Text("long Lasting"),
+                        Text("(12+Hours)"),
                       ],
-                    )]),
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
