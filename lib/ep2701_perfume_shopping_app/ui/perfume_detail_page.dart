@@ -1,3 +1,4 @@
+import 'package:gap/gap.dart';
 import 'package:material_ui/material_ui.dart';
 
 class PerfumeDetailPage extends StatefulWidget {
@@ -130,7 +131,8 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                       mainAxisAlignment: .center,
                       children: [
                         Icon(Icons.check_circle_outline),
-                        Text("long Lasting"),
+                        Gap(8),
+                        Text("long Lasting", style: TextStyle(fontSize: 12)),
                         Text("(12+Hours)"),
                       ],
                     ),
