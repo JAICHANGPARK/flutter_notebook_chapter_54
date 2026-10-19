@@ -14,7 +14,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
       backgroundColor: Color.fromRGBO(247, 243, 237, 1),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(20.0),
           child: Column(
             spacing: 12,
             crossAxisAlignment: .start,
