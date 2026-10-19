@@ -125,6 +125,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                   border: .all(color: Colors.grey[400]!),
                 ),
                 child: Row(
+                  mainAxisAlignment: .spaceAround,
                   children: [
                     Column(
                       crossAxisAlignment: .center,
@@ -140,10 +141,10 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                       crossAxisAlignment: .center,
                       mainAxisAlignment: .center,
                       children: [
-                        Icon(Icons.check_circle_outline),
+                        Icon(Icons.security_outlined),
                         Gap(8),
-                        Text("long Lasting", style: TextStyle(fontSize: 12)),
-                        Text("(12+Hours)", style: TextStyle(fontSize: 12)),
+                        Text("Premium", style: TextStyle(fontSize: 12)),
+                        Text("", style: TextStyle(fontSize: 12)),
                       ],
                     ),
                     Column(
