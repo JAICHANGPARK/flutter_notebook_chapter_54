@@ -67,7 +67,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                   Text("Eau De Parfum 50ML"),
                 ],
               ),
-
+              Gap(0),
               Text(
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor bibendum mauris, ut scelerisque ligula maximus quis. Aenean pulvinar hendrerit urna in ornare.",
                 style: TextStyle(fontSize: 13),
@@ -100,6 +100,7 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                   ),
                 ],
               ),
+              Gap(0),
               Container(
                 height: 56,
                 decoration: BoxDecoration(
