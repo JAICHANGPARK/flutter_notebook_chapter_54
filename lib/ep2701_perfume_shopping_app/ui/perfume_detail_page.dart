@@ -126,6 +126,8 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                 child: Row(
                   children: [
                     Column(
+                      crossAxisAlignment: .center,
+                      mainAxisAlignment: .center,
                       children: [
                         Icon(Icons.check_circle_outline),
                         Text("long Lasting"),
