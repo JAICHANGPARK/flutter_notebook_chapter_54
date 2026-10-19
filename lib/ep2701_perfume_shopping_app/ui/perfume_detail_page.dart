@@ -101,7 +101,16 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
               ),
               Container(
                 height: 56,
-                decoration: BoxDecoration(color: Colors.black, boxShadow: []),
+                decoration: BoxDecoration(
+                  color: Colors.black,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: .1),
+                      blurRadius: 10,
+                      spreadRadius: 10,
+                    ),
+                  ],
+                ),
                 child: Center(
                   child: Text(
                     "Buy Now \$115",
