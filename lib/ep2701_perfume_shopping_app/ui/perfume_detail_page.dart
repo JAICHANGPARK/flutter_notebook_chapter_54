@@ -133,7 +133,17 @@ class _PerfumeDetailPageState extends State<PerfumeDetailPage> {
                         Icon(Icons.check_circle_outline),
                         Gap(8),
                         Text("long Lasting", style: TextStyle(fontSize: 12)),
-                        Text("(12+Hours)"),
+                        Text("(12+Hours)", style: TextStyle(fontSize: 12)),
+                      ],
+                    ),
+                    Column(
+                      crossAxisAlignment: .center,
+                      mainAxisAlignment: .center,
+                      children: [
+                        Icon(Icons.check_circle_outline),
+                        Gap(8),
+                        Text("long Lasting", style: TextStyle(fontSize: 12)),
+                        Text("(12+Hours)", style: TextStyle(fontSize: 12)),
                       ],
                     ),
                   ],
