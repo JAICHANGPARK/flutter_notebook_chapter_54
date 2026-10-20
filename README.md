@@ -4,7 +4,7 @@ A new Flutter project.
 
 # EP2707
 
-- Perfume Shopping App UI/UX Design
+- Modern Music Streaming App UI
 - Munna Rahman ✪
 - https://dribbble.com/shots/27805008-Perfume-Shopping-App-UI-UX-Design
 
