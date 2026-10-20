@@ -37,10 +37,13 @@ class _MusicHomePageState extends State<MusicHomePage> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
-          BottomNavigationBarItem(icon: Icon(Icons.bar_chart), label: "Search"),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.bar_chart),
+            label: "Library",
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person_2_outlined),
-            label: "Search",
+            label: "Profile",
           ),
         ],
       ),
