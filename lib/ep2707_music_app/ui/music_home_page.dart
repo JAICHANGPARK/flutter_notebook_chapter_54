@@ -14,7 +14,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
       backgroundColor: Colors.black,
       body: Column(
         children: [
-          Container(height: 160, child: Placeholder()),
+          Container(height: 200, child: Placeholder()),
           Container(height: 160, child: Placeholder()),
         ],
       ),
