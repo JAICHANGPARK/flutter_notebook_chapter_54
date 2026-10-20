@@ -15,7 +15,15 @@ class _MusicHomePageState extends State<MusicHomePage> {
       body: Column(
         children: [
           Container(height: 200, child: Placeholder()),
-          Container(height: 160, child: Placeholder()),
+          Container(height: 100, child: Placeholder()),
+          Row(
+            children: [
+              Text("Recently Played"),
+              Text("See All"),
+              Icon(Icons.keyboard_arrow_right, color: Colors.white),
+            ],
+          ),
+          Expanded(child: ListView.builder(itemBuilder: (context,index){},)))
         ],
       ),
     );
