@@ -12,10 +12,12 @@ class _MusicHomePageState extends State<MusicHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Column(children: [
-        
-      ],
-    ),
+      body: Column(
+        children: [
+          Container(height: 160, child: Placeholder()),
+          Container(height: 160, child: Placeholder()),
+        ],
+      ),
     );
   }
 }
