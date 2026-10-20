@@ -33,7 +33,12 @@ class _MusicHomePageState extends State<MusicHomePage> {
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.home_mini), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.home_mini), label: "Home"),
+        ],
+      ),
     );
   }
 }
