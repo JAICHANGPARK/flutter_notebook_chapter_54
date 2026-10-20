@@ -23,13 +23,17 @@ class _MusicHomePageState extends State<MusicHomePage> {
               Icon(Icons.keyboard_arrow_right, color: Colors.white),
             ],
           ),
-          Expanded(child: ListView.builder(
-            itemCount: 10,
-            itemBuilder: (context,index){
-            return Placeholder();
-          },)))
+          Expanded(
+            child: ListView.builder(
+              itemCount: 10,
+              itemBuilder: (context, index) {
+                return Placeholder();
+              },
+            ),
+          ),
         ],
       ),
+      bottomNavigationBar: BottomNavigationBar(),
     );
   }
 }
