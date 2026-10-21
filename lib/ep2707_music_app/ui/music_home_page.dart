@@ -23,16 +23,29 @@ class _MusicHomePageState extends State<MusicHomePage> {
                 children: [
                   Container(
                     height: 200,
-                    decoration: BoxDecoration(color: Colors.white),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: .circular(24),
+                    ),
                     child: Column(
                       children: [
                         Row(
+                          spacing: 12,
                           children: [
                             CircleAvatar(),
                             Spacer(),
                             CircleAvatar(),
                             CircleAvatar(),
                           ],
+                        ),
+                        Text("Discover"),
+                        Text("New Music"),
+                        Text("Find your next favorite track"),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: .fromRGBO(209, 249, 88, 1),
+                          ),
                         ),
                       ],
                     ),
