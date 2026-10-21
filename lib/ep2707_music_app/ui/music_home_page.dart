@@ -57,9 +57,12 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             color: .fromRGBO(209, 249, 88, 1),
                           ),
                         ),
-                        Gap(8),
-                        Text("Find your next favorite track"),
-                        Gap(12),
+
+                        Text(
+                          "Find your next favorite track",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        Gap(20),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
@@ -78,7 +81,12 @@ class _MusicHomePageState extends State<MusicHomePage> {
                       ],
                     ),
                   ),
-                  Container(height: 100, child: Placeholder()),
+                  Container(
+                    height: 100,
+                    child: Row(
+                      children: [Expanded(child: Column(children: []))],
+                    ),
+                  ),
                   Row(
                     children: [
                       Text("Recently Played"),
