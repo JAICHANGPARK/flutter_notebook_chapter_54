@@ -14,33 +14,46 @@ class _MusicHomePageState extends State<MusicHomePage> {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
-          Column(
-            children: [
-              Container(
-                height: 200,
-                child: Column(
-                  children: [
-                    Row(children: [CircleAvatar(), Spacer(), CircleAvatar()]),
-                  ],
-                ),
-              ),
-              Container(height: 100, child: Placeholder()),
-              Row(
+          Positioned.fill(
+            left: 16,
+            right: 16,
+            child: SafeArea(
+              child: Column(
                 children: [
-                  Text("Recently Played"),
-                  Text("See All"),
-                  Icon(Icons.keyboard_arrow_right, color: Colors.white),
+                  Container(
+                    height: 200,
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            CircleAvatar(),
+                            Spacer(),
+                            CircleAvatar(),
+                            CircleAvatar(),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(height: 100, child: Placeholder()),
+                  Row(
+                    children: [
+                      Text("Recently Played"),
+                      Text("See All"),
+                      Icon(Icons.keyboard_arrow_right, color: Colors.white),
+                    ],
+                  ),
+                  Expanded(
+                    child: ListView.builder(
+                      itemCount: 10,
+                      itemBuilder: (context, index) {
+                        return Placeholder();
+                      },
+                    ),
+                  ),
                 ],
               ),
-              Expanded(
-                child: ListView.builder(
-                  itemCount: 10,
-                  itemBuilder: (context, index) {
-                    return Placeholder();
-                  },
-                ),
-              ),
-            ],
+            ),
           ),
         ],
       ),
