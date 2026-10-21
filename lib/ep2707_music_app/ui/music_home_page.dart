@@ -16,7 +16,14 @@ class _MusicHomePageState extends State<MusicHomePage> {
         children: [
           Column(
             children: [
-              Container(height: 200, child: Placeholder()),
+              Container(
+                height: 200,
+                child: Column(
+                  children: [
+                    Row(children: [CircleAvatar(), Spacer(), CircleAvatar()]),
+                  ],
+                ),
+              ),
               Container(height: 100, child: Placeholder()),
               Row(
                 children: [
