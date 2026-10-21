@@ -45,7 +45,10 @@ class _MusicHomePageState extends State<MusicHomePage> {
                           "Discover",
                           style: TextStyle(fontSize: 24, fontWeight: .bold),
                         ),
-                        Text("New Music"),
+                        Text(
+                          "New Music",
+                          style: TextStyle(fontSize: 24, fontWeight: .bold),
+                        ),
                         Gap(8),
                         Text("Find your next favorite track"),
                         Gap(12),
