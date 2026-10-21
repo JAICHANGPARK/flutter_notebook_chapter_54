@@ -94,16 +94,26 @@ class _MusicHomePageState extends State<MusicHomePage> {
                   ),
                   Row(
                     children: [
-                      Text("Recently Played"),
-                      Text("See All"),
-                      Icon(Icons.keyboard_arrow_right, color: Colors.white),
+                      Text(
+                        "Recently Played",
+                        style: TextStyle(color: Colors.white, fontSize: 20),
+                      ),
+                      Spacer(),
+                      Text(
+                        "See All",
+                        style: TextStyle(color: .fromRGBO(209, 249, 88, 1)),
+                      ),
+                      Icon(
+                        Icons.keyboard_arrow_right,
+                        color: .fromRGBO(209, 249, 88, 1),
+                      ),
                     ],
                   ),
                   Expanded(
                     child: ListView.builder(
                       itemCount: 10,
                       itemBuilder: (context, index) {
-                        return Placeholder();
+                        return Container(height: 80, child: Placeholder());
                       },
                     ),
                   ),
