@@ -34,9 +34,9 @@ class _MusicHomePageState extends State<MusicHomePage> {
                         Row(
                           spacing: 12,
                           children: [
-                            CircleAvatar(),
+                            CircleAvatar(child: Icon(Icons.menu)),
                             Spacer(),
-                            CircleAvatar(),
+                            CircleAvatar(child: Icon(Icons.search)),
                             CircleAvatar(),
                           ],
                         ),
