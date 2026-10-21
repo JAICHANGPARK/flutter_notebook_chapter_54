@@ -82,9 +82,14 @@ class _MusicHomePageState extends State<MusicHomePage> {
                     ),
                   ),
                   Container(
-                    height: 100,
+                    height: 80,
                     child: Row(
-                      children: [Expanded(child: Column(children: []))],
+                      children: [
+                        Expanded(child: Column(children: [])),
+                        Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
+                      ],
                     ),
                   ),
                   Row(
