@@ -46,6 +46,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             shape: StadiumBorder(),
                             color: .fromRGBO(209, 249, 88, 1),
                           ),
+                          child: Row(children: []),
                         ),
                       ],
                     ),
