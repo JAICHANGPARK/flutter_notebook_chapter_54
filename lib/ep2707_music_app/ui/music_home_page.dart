@@ -27,7 +27,9 @@ class _MusicHomePageState extends State<MusicHomePage> {
                       color: Colors.white,
                       borderRadius: .circular(24),
                     ),
+                    padding: .all(12),
                     child: Column(
+                      crossAxisAlignment: .start,
                       children: [
                         Row(
                           spacing: 12,
@@ -38,6 +40,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             CircleAvatar(),
                           ],
                         ),
+
                         Text("Discover"),
                         Text("New Music"),
                         Text("Find your next favorite track"),
@@ -46,7 +49,13 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             shape: StadiumBorder(),
                             color: .fromRGBO(209, 249, 88, 1),
                           ),
-                          child: Row(children: []),
+                          child: Row(
+                            mainAxisSize: .min,
+                            children: [
+                              Icon(Icons.play_arrow),
+                              Text("Explore Now"),
+                            ],
+                          ),
                         ),
                       ],
                     ),
