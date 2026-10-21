@@ -19,9 +19,11 @@ class _MusicHomePageState extends State<MusicHomePage> {
             right: 16,
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
                   Container(
                     height: 200,
+                    decoration: BoxDecoration(color: Colors.white),
                     child: Column(
                       children: [
                         Row(
