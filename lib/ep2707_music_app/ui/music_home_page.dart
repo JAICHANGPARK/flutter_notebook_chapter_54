@@ -12,24 +12,28 @@ class _MusicHomePageState extends State<MusicHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Column(
+      body: Stack(
         children: [
-          Container(height: 200, child: Placeholder()),
-          Container(height: 100, child: Placeholder()),
-          Row(
+          Column(
             children: [
-              Text("Recently Played"),
-              Text("See All"),
-              Icon(Icons.keyboard_arrow_right, color: Colors.white),
+              Container(height: 200, child: Placeholder()),
+              Container(height: 100, child: Placeholder()),
+              Row(
+                children: [
+                  Text("Recently Played"),
+                  Text("See All"),
+                  Icon(Icons.keyboard_arrow_right, color: Colors.white),
+                ],
+              ),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: 10,
+                  itemBuilder: (context, index) {
+                    return Placeholder();
+                  },
+                ),
+              ),
             ],
-          ),
-          Expanded(
-            child: ListView.builder(
-              itemCount: 10,
-              itemBuilder: (context, index) {
-                return Placeholder();
-              },
-            ),
           ),
         ],
       ),
