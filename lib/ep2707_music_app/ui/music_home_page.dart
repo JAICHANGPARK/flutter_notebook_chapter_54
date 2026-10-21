@@ -24,7 +24,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      // color: Colors.white,
                       borderRadius: .circular(24),
                     ),
                     padding: .all(12),
@@ -43,11 +43,19 @@ class _MusicHomePageState extends State<MusicHomePage> {
                         Gap(24),
                         Text(
                           "Discover",
-                          style: TextStyle(fontSize: 24, fontWeight: .bold),
+                          style: TextStyle(
+                            fontSize: 30,
+                            fontWeight: .bold,
+                            color: Colors.white,
+                          ),
                         ),
                         Text(
                           "New Music",
-                          style: TextStyle(fontSize: 24, fontWeight: .bold),
+                          style: TextStyle(
+                            fontSize: 30,
+                            fontWeight: .bold,
+                            color: .fromRGBO(209, 249, 88, 1),
+                          ),
                         ),
                         Gap(8),
                         Text("Find your next favorite track"),
