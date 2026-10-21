@@ -1,3 +1,4 @@
+import 'package:gap/gap.dart';
 import 'package:material_ui/material_ui.dart';
 
 class MusicHomePage extends StatefulWidget {
@@ -22,7 +23,6 @@ class _MusicHomePageState extends State<MusicHomePage> {
                 spacing: 16,
                 children: [
                   Container(
-                    height: 200,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: .circular(24),
@@ -40,13 +40,15 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             CircleAvatar(),
                           ],
                         ),
-
+                        Gap(24),
                         Text(
                           "Discover",
                           style: TextStyle(fontSize: 24, fontWeight: .bold),
                         ),
                         Text("New Music"),
+                        Gap(8),
                         Text("Find your next favorite track"),
+                        Gap(12),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
