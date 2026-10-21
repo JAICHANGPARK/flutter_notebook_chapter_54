@@ -41,7 +41,10 @@ class _MusicHomePageState extends State<MusicHomePage> {
                           ],
                         ),
 
-                        Text("Discover"),
+                        Text(
+                          "Discover",
+                          style: TextStyle(fontSize: 24, fontWeight: .bold),
+                        ),
                         Text("New Music"),
                         Text("Find your next favorite track"),
                         Container(
@@ -49,7 +52,9 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             shape: StadiumBorder(),
                             color: .fromRGBO(209, 249, 88, 1),
                           ),
+                          padding: .symmetric(horizontal: 16, vertical: 12),
                           child: Row(
+                            spacing: 12,
                             mainAxisSize: .min,
                             children: [
                               Icon(Icons.play_arrow),
