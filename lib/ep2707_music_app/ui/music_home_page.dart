@@ -35,6 +35,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.black,
+        selectedItemColor: .fromRGBO(209, 249, 88, 1),
         type: .fixed,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
