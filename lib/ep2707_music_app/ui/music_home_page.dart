@@ -95,7 +95,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                 child: Container(
                                   width: double.infinity,
                                   decoration: BoxDecoration(
-                                    borderRadius: .circular(24),
+                                    borderRadius: .circular(20),
                                     border: .all(color: Colors.white30),
                                   ),
                                   child: Icon(
