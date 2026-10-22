@@ -84,6 +84,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                   Container(
                     height: 80,
                     child: Row(
+                      spacing: 20,
                       children: [
                         Expanded(
                           child: Column(
@@ -92,9 +93,10 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             children: [
                               Expanded(
                                 child: Container(
+                                  width: double.infinity,
                                   decoration: BoxDecoration(
                                     borderRadius: .circular(24),
-                                    border: .all(color: Colors.white10),
+                                    border: .all(color: Colors.white30),
                                   ),
                                   child: Icon(
                                     Icons.bar_chart,
