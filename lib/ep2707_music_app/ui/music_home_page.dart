@@ -156,14 +156,14 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                     border: .all(color: Colors.white30),
                                   ),
                                   child: Icon(
-                                    Icons.bar_chart,
+                                    Icons.music_note,
                                     color: .fromRGBO(209, 249, 88, 1),
                                     size: 28,
                                   ),
                                 ),
                               ),
                               Text(
-                                "Top Charts",
+                                "Genres",
                                 style: TextStyle(
                                   fontWeight: .bold,
                                   fontSize: 13,
@@ -185,17 +185,17 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                     border: .all(color: Colors.white30),
                                   ),
                                   child: Icon(
-                                    Icons.bar_chart,
+                                    Icons.star,
                                     color: .fromRGBO(209, 249, 88, 1),
                                     size: 28,
                                   ),
                                 ),
                               ),
                               Text(
-                                "Top Charts",
+                                "New Releases",
                                 style: TextStyle(
                                   fontWeight: .bold,
-                                  fontSize: 13,
+                                  fontSize: 12,
                                   color: Colors.white,
                                 ),
                               ),
