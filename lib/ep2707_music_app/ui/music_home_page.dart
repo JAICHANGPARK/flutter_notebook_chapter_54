@@ -87,8 +87,14 @@ class _MusicHomePageState extends State<MusicHomePage> {
                       children: [
                         Expanded(
                           child: Column(
+                            spacing: 4,
                             children: [
-                              Container(decoration: BoxDecoration()),
+                              Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: .circular(24),
+                                  border: .all(color: Colors.white10),
+                                ),
+                              ),
                               Text("Top Charts"),
                             ],
                           ),
