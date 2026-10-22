@@ -95,7 +95,14 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                   border: .all(color: Colors.white10),
                                 ),
                               ),
-                              Text("Top Charts"),
+                              Text(
+                                "Top Charts",
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 15,
+                                  color: Colors.white,
+                                ),
+                              ),
                             ],
                           ),
                         ),
