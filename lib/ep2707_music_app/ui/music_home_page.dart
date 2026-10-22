@@ -101,6 +101,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                   child: Icon(
                                     Icons.bar_chart,
                                     color: .fromRGBO(209, 249, 88, 1),
+                                    size: 28,
                                   ),
                                 ),
                               ),
@@ -108,7 +109,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                 "Top Charts",
                                 style: TextStyle(
                                   fontWeight: .bold,
-                                  fontSize: 15,
+                                  fontSize: 13,
                                   color: Colors.white,
                                 ),
                               ),
