@@ -127,14 +127,14 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                     border: .all(color: Colors.white30),
                                   ),
                                   child: Icon(
-                                    Icons.bar_chart,
+                                    Icons.sentiment_satisfied,
                                     color: .fromRGBO(209, 249, 88, 1),
                                     size: 28,
                                   ),
                                 ),
                               ),
                               Text(
-                                "Top Charts",
+                                "Mood",
                                 style: TextStyle(
                                   fontWeight: .bold,
                                   fontSize: 13,
