@@ -85,7 +85,14 @@ class _MusicHomePageState extends State<MusicHomePage> {
                     height: 80,
                     child: Row(
                       children: [
-                        Expanded(child: Column(children: [])),
+                        Expanded(
+                          child: Column(
+                            children: [
+                              Container(decoration: BoxDecoration()),
+                              Text("Top Charts"),
+                            ],
+                          ),
+                        ),
                         Expanded(child: Placeholder()),
                         Expanded(child: Placeholder()),
                         Expanded(child: Placeholder()),
