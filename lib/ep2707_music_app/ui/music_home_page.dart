@@ -88,15 +88,18 @@ class _MusicHomePageState extends State<MusicHomePage> {
                         Expanded(
                           child: Column(
                             spacing: 4,
+
                             children: [
-                              Container(
-                                decoration: BoxDecoration(
-                                  borderRadius: .circular(24),
-                                  border: .all(color: Colors.white10),
-                                ),
-                                child: Icon(
-                                  Icons.bar_chart,
-                                  color: .fromRGBO(209, 249, 88, 1),
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: .circular(24),
+                                    border: .all(color: Colors.white10),
+                                  ),
+                                  child: Icon(
+                                    Icons.bar_chart,
+                                    color: .fromRGBO(209, 249, 88, 1),
+                                  ),
                                 ),
                               ),
                               Text(
