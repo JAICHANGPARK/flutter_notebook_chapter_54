@@ -94,6 +94,10 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                   borderRadius: .circular(24),
                                   border: .all(color: Colors.white10),
                                 ),
+                                child: Icon(
+                                  Icons.bar_chart,
+                                  color: .fromRGBO(209, 249, 88, 1),
+                                ),
                               ),
                               Text(
                                 "Top Charts",
