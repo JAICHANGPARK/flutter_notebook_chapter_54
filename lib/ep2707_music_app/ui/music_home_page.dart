@@ -89,7 +89,6 @@ class _MusicHomePageState extends State<MusicHomePage> {
                         Expanded(
                           child: Column(
                             spacing: 4,
-
                             children: [
                               Expanded(
                                 child: Container(
@@ -116,9 +115,93 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             ],
                           ),
                         ),
-                        Expanded(child: Placeholder()),
-                        Expanded(child: Placeholder()),
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                          child: Column(
+                            spacing: 4,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  width: double.infinity,
+                                  decoration: BoxDecoration(
+                                    borderRadius: .circular(20),
+                                    border: .all(color: Colors.white30),
+                                  ),
+                                  child: Icon(
+                                    Icons.bar_chart,
+                                    color: .fromRGBO(209, 249, 88, 1),
+                                    size: 28,
+                                  ),
+                                ),
+                              ),
+                              Text(
+                                "Top Charts",
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 13,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Expanded(
+                          child: Column(
+                            spacing: 4,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  width: double.infinity,
+                                  decoration: BoxDecoration(
+                                    borderRadius: .circular(20),
+                                    border: .all(color: Colors.white30),
+                                  ),
+                                  child: Icon(
+                                    Icons.bar_chart,
+                                    color: .fromRGBO(209, 249, 88, 1),
+                                    size: 28,
+                                  ),
+                                ),
+                              ),
+                              Text(
+                                "Top Charts",
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 13,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Expanded(
+                          child: Column(
+                            spacing: 4,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  width: double.infinity,
+                                  decoration: BoxDecoration(
+                                    borderRadius: .circular(20),
+                                    border: .all(color: Colors.white30),
+                                  ),
+                                  child: Icon(
+                                    Icons.bar_chart,
+                                    color: .fromRGBO(209, 249, 88, 1),
+                                    size: 28,
+                                  ),
+                                ),
+                              ),
+                              Text(
+                                "Top Charts",
+                                style: TextStyle(
+                                  fontWeight: .bold,
+                                  fontSize: 13,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
