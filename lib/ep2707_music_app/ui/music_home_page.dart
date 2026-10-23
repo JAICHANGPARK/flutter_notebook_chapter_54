@@ -241,6 +241,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
             child: Container(
               padding: .symmetric(horizontal: 24, vertical: 8),
               decoration: ShapeDecoration(
+                color: Color.fromRGBO(13, 25, 23, 1),
                 shape: StadiumBorder(side: BorderSide(color: Colors.white)),
               ),
               child: Row(
