@@ -232,7 +232,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                           padding: .symmetric(horizontal: 20, vertical: 8),
                           decoration: BoxDecoration(
                             color: Color.fromRGBO(13, 25, 23, 1),
-                            border: BorderSide(color: Colors.white10),
+                            border: Border.all(color: Colors.white10),
                           ),
                           child: Row(
                             spacing: 8,
