@@ -231,6 +231,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                           margin: .only(bottom: 6),
                           padding: .symmetric(horizontal: 12, vertical: 8),
                           decoration: BoxDecoration(
+                            borderRadius: .circular(12),
                             color: Color.fromRGBO(13, 25, 23, 1),
                             border: Border.all(color: Colors.white10),
                           ),
