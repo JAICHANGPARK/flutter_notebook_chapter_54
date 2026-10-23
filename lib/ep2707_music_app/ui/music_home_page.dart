@@ -240,7 +240,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
             left: 8,
             right: 8,
             child: Container(
-              padding: .symmetric(horizontal: 24, vertical: 8),
+              padding: .symmetric(horizontal: 20, vertical: 8),
               decoration: ShapeDecoration(
                 color: Color.fromRGBO(13, 25, 23, 1),
                 shape: StadiumBorder(side: BorderSide(color: Colors.white24)),
@@ -278,6 +278,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                   ),
                   CircleAvatar(
                     child: Icon(Icons.pause),
+                    foregroundColor: Colors.black,
                     backgroundColor: .fromRGBO(209, 249, 88, 1),
                   ),
                 ],
