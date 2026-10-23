@@ -229,7 +229,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                       itemBuilder: (context, index) {
                         return Container(
                           margin: .only(bottom: 6),
-                          padding: .symmetric(horizontal: 20, vertical: 8),
+                          padding: .symmetric(horizontal: 12, vertical: 8),
                           decoration: BoxDecoration(
                             color: Color.fromRGBO(13, 25, 23, 1),
                             border: Border.all(color: Colors.white10),
@@ -238,8 +238,8 @@ class _MusicHomePageState extends State<MusicHomePage> {
                             spacing: 8,
                             children: [
                               Container(
-                                height: 54,
-                                width: 60,
+                                height: 64,
+                                width: 64,
                                 decoration: BoxDecoration(
                                   color: Colors.blue,
                                   borderRadius: .circular(16),
