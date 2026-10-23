@@ -276,6 +276,10 @@ class _MusicHomePageState extends State<MusicHomePage> {
                     icon: HugeIcons.strokeRoundedWave,
                     color: .fromRGBO(209, 249, 88, 1),
                   ),
+                  CircleAvatar(
+                    child: Icon(Icons.pause),
+                    backgroundColor: .fromRGBO(209, 249, 88, 1),
+                  ),
                 ],
               ),
             ),
