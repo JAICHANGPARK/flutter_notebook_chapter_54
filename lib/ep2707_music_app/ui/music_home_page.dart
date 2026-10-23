@@ -227,7 +227,51 @@ class _MusicHomePageState extends State<MusicHomePage> {
                     child: ListView.builder(
                       itemCount: 10,
                       itemBuilder: (context, index) {
-                        return Container(height: 80, child: Placeholder());
+                        return Container(
+                          margin: .only(bottom: 6),
+                          padding: .symmetric(horizontal: 20, vertical: 8),
+                          decoration: BoxDecoration(
+                            color: Color.fromRGBO(13, 25, 23, 1),
+                          ),
+                          child: Row(
+                            spacing: 8,
+                            children: [
+                              Container(
+                                height: 54,
+                                width: 60,
+                                decoration: BoxDecoration(
+                                  color: Colors.blue,
+                                  borderRadius: .circular(16),
+                                ),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  spacing: 3,
+                                  crossAxisAlignment: .start,
+                                  children: [
+                                    Text(
+                                      "Better Days",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                    Text(
+                                      "Dreamwalkers",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              HugeIcon(
+                                icon: HugeIcons.strokeRoundedWave,
+                                color: .fromRGBO(209, 249, 88, 1),
+                              ),
+                              CircleAvatar(
+                                child: Icon(Icons.pause),
+                                foregroundColor: Colors.black,
+                                backgroundColor: .fromRGBO(209, 249, 88, 1),
+                              ),
+                            ],
+                          ),
+                        );
                       },
                     ),
                   ),
