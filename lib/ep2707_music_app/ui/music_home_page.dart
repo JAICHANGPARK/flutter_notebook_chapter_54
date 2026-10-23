@@ -235,8 +235,19 @@ class _MusicHomePageState extends State<MusicHomePage> {
             ),
           ),
           Positioned(
+            bottom: 12,
+            left: 12,
+            right: 12,
             child: Container(
               decoration: ShapeDecoration(shape: StadiumBorder()),
+              child: Row(
+                children: [
+                  Container(height: 64, width: 64, child: Placeholder()),
+                  Expanded(child: Column(children: [
+                    
+                  ],)),
+                ],
+              ),
             ),
           ),
         ],
