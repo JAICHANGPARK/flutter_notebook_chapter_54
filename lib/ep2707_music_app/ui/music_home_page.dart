@@ -239,6 +239,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
             left: 8,
             right: 8,
             child: Container(
+              padding: .symmetric(horizontal: 24, vertical: 12),
               decoration: ShapeDecoration(
                 shape: StadiumBorder(side: BorderSide(color: Colors.white)),
               ),
