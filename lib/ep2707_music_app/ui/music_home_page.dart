@@ -243,7 +243,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
               padding: .symmetric(horizontal: 20, vertical: 8),
               decoration: ShapeDecoration(
                 color: Color.fromRGBO(13, 25, 23, 1),
-                shape: StadiumBorder(side: BorderSide(color: Colors.white24)),
+                shape: StadiumBorder(side: BorderSide(color: Colors.white10)),
               ),
               child: Row(
                 spacing: 8,
