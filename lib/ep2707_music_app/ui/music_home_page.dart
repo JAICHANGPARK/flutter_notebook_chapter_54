@@ -239,7 +239,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
             left: 8,
             right: 8,
             child: Container(
-              padding: .symmetric(horizontal: 24, vertical: 12),
+              padding: .symmetric(horizontal: 24, vertical: 8),
               decoration: ShapeDecoration(
                 shape: StadiumBorder(side: BorderSide(color: Colors.white)),
               ),
@@ -258,6 +258,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.black,
         selectedItemColor: .fromRGBO(209, 249, 88, 1),
+        unselectedItemColor: Colors.white,
         type: .fixed,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
