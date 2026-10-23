@@ -246,10 +246,12 @@ class _MusicHomePageState extends State<MusicHomePage> {
               ),
               child: Row(
                 children: [
-                  Container(height: 64, width: 64, child: Placeholder()),
-                  Expanded(child: Column(children: [
-                    
-                  ],)),
+                  Container(height: 54, width: 60, child: Placeholder()),
+                  Expanded(
+                    child: Column(
+                      children: [Text("Better Days"), Text("Dreamwalkers")],
+                    ),
+                  ),
                 ],
               ),
             ),
