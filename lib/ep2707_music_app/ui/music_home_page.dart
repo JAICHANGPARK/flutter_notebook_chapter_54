@@ -261,14 +261,14 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                   ],
                                 ),
                               ),
-                              HugeIcon(
-                                icon: HugeIcons.strokeRoundedWave,
-                                color: .fromRGBO(209, 249, 88, 1),
-                              ),
+                              // HugeIcon(
+                              //   icon: HugeIcons.strokeRoundedWave,
+                              //   color: .fromRGBO(209, 249, 88, 1),
+                              // ),
                               CircleAvatar(
-                                child: Icon(Icons.pause),
-                                foregroundColor: Colors.black,
-                                backgroundColor: .fromRGBO(209, 249, 88, 1),
+                                child: Icon(Icons.play_arrow),
+                                foregroundColor: Colors.white,
+                                backgroundColor: Colors.white10,
                               ),
                             ],
                           ),
