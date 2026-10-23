@@ -1,4 +1,5 @@
 import 'package:gap/gap.dart';
+import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
 class MusicHomePage extends StatefulWidget {
@@ -245,13 +246,35 @@ class _MusicHomePageState extends State<MusicHomePage> {
                 shape: StadiumBorder(side: BorderSide(color: Colors.white24)),
               ),
               child: Row(
+                spacing: 8,
                 children: [
-                  Container(height: 54, width: 60, child: Placeholder()),
+                  Container(
+                    height: 54,
+                    width: 60,
+                    decoration: BoxDecoration(
+                      color: Colors.blue,
+                      borderRadius: .circular(16),
+                    ),
+                  ),
                   Expanded(
                     child: Column(
+                      spacing: 3,
                       crossAxisAlignment: .start,
-                      children: [Text("Better Days"), Text("Dreamwalkers")],
+                      children: [
+                        Text(
+                          "Better Days",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        Text(
+                          "Dreamwalkers",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ],
                     ),
+                  ),
+                  HugeIcon(
+                    icon: HugeIcons.strokeRoundedWave,
+                    color: .fromRGBO(209, 249, 88, 1),
                   ),
                 ],
               ),
