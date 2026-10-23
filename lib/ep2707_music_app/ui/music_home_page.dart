@@ -249,6 +249,7 @@ class _MusicHomePageState extends State<MusicHomePage> {
                   Container(height: 54, width: 60, child: Placeholder()),
                   Expanded(
                     child: Column(
+                      crossAxisAlignment: .start,
                       children: [Text("Better Days"), Text("Dreamwalkers")],
                     ),
                   ),
