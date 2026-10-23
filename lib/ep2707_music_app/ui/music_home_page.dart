@@ -259,6 +259,10 @@ class _MusicHomePageState extends State<MusicHomePage> {
                                       "Dreamwalkers",
                                       style: TextStyle(color: Colors.white),
                                     ),
+                                    Text(
+                                      "2:21",
+                                      style: TextStyle(color: Colors.grey),
+                                    ),
                                   ],
                                 ),
                               ),
