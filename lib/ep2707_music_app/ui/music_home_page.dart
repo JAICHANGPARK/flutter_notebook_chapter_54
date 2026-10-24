@@ -2,6 +2,8 @@ import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
+import 'music_player_page.dart';
+
 class MusicHomePage extends StatefulWidget {
   const new({super.key});
 
@@ -290,7 +292,11 @@ class _MusicHomePageState extends State<MusicHomePage> {
             left: 8,
             right: 8,
             child: GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => MusicPlayerPage()),
+                );
+              },
               child: Container(
                 padding: .symmetric(horizontal: 20, vertical: 8),
                 decoration: ShapeDecoration(
