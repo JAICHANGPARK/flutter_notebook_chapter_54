@@ -25,12 +25,22 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
             Slider(value: 0, onChanged: (value) {}),
             Row(children: [Text("1:42"), Text("3:24")]),
             Row(
+              mainAxisAlignment: .spaceBetween,
               children: [
                 Icon(Icons.shuffle),
                 Icon(Icons.skip_previous),
                 CircleAvatar(),
                 Icon(Icons.skip_next),
                 Icon(Icons.loop),
+              ],
+            ),
+            Container(height: 64, child: Placeholder()),
+            Row(
+              children: [
+                Text("Up Next"),
+                Spacer(),
+                Text("See All"),
+                Icon(Icons.chevron_right),
               ],
             ),
           ],
