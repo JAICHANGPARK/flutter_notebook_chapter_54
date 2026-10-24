@@ -43,6 +43,11 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 Icon(Icons.chevron_right),
               ],
             ),
+            Column(
+              children: List.generate(4, (idx) {
+                return Container(height: 72, child: Placeholder());
+              }),
+            ),
           ],
         ),
       ),
