@@ -28,7 +28,15 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                   CircleAvatar(),
                 ],
               ),
-              Container(height: 240, child: Placeholder()),
+              Container(
+                height: 240,
+                child: Row(
+                  children: [
+                    SizedBox(width: 64),
+                    Expanded(child: Placeholder()),
+                  ],
+                ),
+              ),
               Text("Better Days"),
               Text("Dreamwalker"),
               Slider(value: 0, onChanged: (value) {}),
