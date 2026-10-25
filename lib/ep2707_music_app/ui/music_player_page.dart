@@ -16,6 +16,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
+            spacing: 16,
             children: [
               Row(
                 mainAxisAlignment: .spaceBetween,
