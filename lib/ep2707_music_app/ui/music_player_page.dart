@@ -96,8 +96,12 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
               ),
               Container(height: 64, child: Placeholder()),
               Row(
+                spacing: 4,
                 children: [
-                  Text("Up Next"),
+                  Text(
+                    "Up Next",
+                    style: TextStyle(fontWeight: .bold, fontSize: 16),
+                  ),
                   Spacer(),
                   Text("See All"),
                   Icon(Icons.chevron_right),
