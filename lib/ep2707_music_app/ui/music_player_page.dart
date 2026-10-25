@@ -26,7 +26,11 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                     foregroundColor: Colors.black,
                     child: Icon(Icons.chevron_left),
                   ),
-                  CircleAvatar(),
+                  CircleAvatar(
+                    backgroundColor: Colors.grey[100],
+                    foregroundColor: Colors.black,
+                    child: Icon(Icons.more_horiz),
+                  ),
                 ],
               ),
               Container(
