@@ -67,13 +67,18 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 ),
               ),
               Column(
+                crossAxisAlignment: .start,
                 children: [
                   Text(
                     "Better Days",
                     style: TextStyle(fontSize: 30, fontWeight: .bold),
                   ),
                   Text("Dreamwalker"),
-                  Slider(value: 0, onChanged: (value) {}),
+                  Slider(
+                    value: 0,
+                    onChanged: (value) {},
+                    padding: .symmetric(horizontal: 8, vertical: 12),
+                  ),
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
