@@ -69,7 +69,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 mainAxisAlignment: .spaceBetween,
                 children: [
                   Text("1:42", style: TextStyle(fontSize: 12)),
-                  Text("3:24"),
+                  Text("3:24", style: TextStyle(fontSize: 12)),
                 ],
               ),
               Row(
