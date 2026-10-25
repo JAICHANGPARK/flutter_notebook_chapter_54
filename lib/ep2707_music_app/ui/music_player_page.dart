@@ -34,7 +34,19 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                   children: [
                     SizedBox(width: 64),
                     Expanded(child: Placeholder()),
-                    SizedBox(width: 64, child: Column(children: [])),
+                    SizedBox(
+                      width: 64,
+                      child: Column(
+                        spacing: 6,
+                        mainAxisAlignment: .center,
+
+                        children: [
+                          CircleAvatar(),
+                          CircleAvatar(),
+                          CircleAvatar(),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
