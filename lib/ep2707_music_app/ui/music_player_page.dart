@@ -33,7 +33,14 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 child: Row(
                   children: [
                     SizedBox(width: 64),
-                    Expanded(child: Placeholder()),
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.blue,
+                          borderRadius: .circular(12),
+                        ),
+                      ),
+                    ),
                     SizedBox(
                       width: 64,
                       child: Column(
@@ -59,19 +66,24 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                   ],
                 ),
               ),
-              Text(
-                "Better Days",
-                style: TextStyle(fontSize: 30, fontWeight: .bold),
-              ),
-              Text("Dreamwalker"),
-              Slider(value: 0, onChanged: (value) {}),
-              Row(
-                mainAxisAlignment: .spaceBetween,
+              Column(
                 children: [
-                  Text("1:42", style: TextStyle(fontSize: 12)),
-                  Text("3:24", style: TextStyle(fontSize: 12)),
+                  Text(
+                    "Better Days",
+                    style: TextStyle(fontSize: 30, fontWeight: .bold),
+                  ),
+                  Text("Dreamwalker"),
+                  Slider(value: 0, onChanged: (value) {}),
+                  Row(
+                    mainAxisAlignment: .spaceBetween,
+                    children: [
+                      Text("1:42", style: TextStyle(fontSize: 12)),
+                      Text("3:24", style: TextStyle(fontSize: 12)),
+                    ],
+                  ),
                 ],
               ),
+
               Row(
                 mainAxisAlignment: .spaceBetween,
                 children: [
