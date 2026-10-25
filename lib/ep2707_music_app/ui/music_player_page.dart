@@ -39,11 +39,16 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                       child: Column(
                         spacing: 6,
                         mainAxisAlignment: .center,
-
                         children: [
-                          CircleAvatar(),
-                          CircleAvatar(),
-                          CircleAvatar(),
+                          CircleAvatar(
+                            child: Icon(Icons.favorite),
+                            foregroundColor: Colors.black,
+                          ),
+                          CircleAvatar(
+                            backgroundColor: Colors.white,
+                            child: Icon(Icons.add),
+                          ),
+                          CircleAvatar(backgroundColor: Colors.white),
                         ],
                       ),
                     ),
