@@ -77,11 +77,9 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 children: [
                   IconButton(onPressed: () {}, icon: Icon(Icons.shuffle)),
                   IconButton(onPressed: () {}, icon: Icon(Icons.skip_previous)),
-
-                  CircleAvatar(radius: 30),
+                  CircleAvatar(radius: 30, child: Icon(Icons.pause)),
                   IconButton(onPressed: () {}, icon: Icon(Icons.skip_next)),
-                  Icon(Icons.skip_next),
-                  Icon(Icons.loop),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.loop)),
                 ],
               ),
               Container(height: 64, child: Placeholder()),
