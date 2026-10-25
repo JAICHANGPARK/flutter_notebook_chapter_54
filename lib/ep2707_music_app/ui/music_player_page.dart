@@ -34,6 +34,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                   children: [
                     SizedBox(width: 64),
                     Expanded(child: Placeholder()),
+                    SizedBox(width: 64, child: Column(children: [])),
                   ],
                 ),
               ),
