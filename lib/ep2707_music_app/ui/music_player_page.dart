@@ -65,7 +65,13 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
               ),
               Text("Dreamwalker"),
               Slider(value: 0, onChanged: (value) {}),
-              Row(children: [Text("1:42"), Text("3:24")]),
+              Row(
+                mainAxisAlignment: .spaceBetween,
+                children: [
+                  Text("1:42", style: TextStyle(fontSize: 12)),
+                  Text("3:24"),
+                ],
+              ),
               Row(
                 mainAxisAlignment: .spaceBetween,
                 children: [
