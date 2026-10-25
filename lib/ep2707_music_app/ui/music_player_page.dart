@@ -76,9 +76,10 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 mainAxisAlignment: .spaceBetween,
                 children: [
                   IconButton(onPressed: () {}, icon: Icon(Icons.shuffle)),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.skip_previous)),
 
-                  Icon(Icons.skip_previous),
-                  CircleAvatar(),
+                  CircleAvatar(radius: 30),
+                  IconButton(onPressed: () {}, icon: Icon(Icons.skip_next)),
                   Icon(Icons.skip_next),
                   Icon(Icons.loop),
                 ],
