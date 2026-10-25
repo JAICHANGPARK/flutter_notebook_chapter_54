@@ -59,7 +59,10 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                   ],
                 ),
               ),
-              Text("Better Days"),
+              Text(
+                "Better Days",
+                style: TextStyle(fontSize: 30, fontWeight: .bold),
+              ),
               Text("Dreamwalker"),
               Slider(value: 0, onChanged: (value) {}),
               Row(children: [Text("1:42"), Text("3:24")]),
