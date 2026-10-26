@@ -148,10 +148,14 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 ],
               ),
               Container(
-                height: 64,
+                decoration: BoxDecoration(
+                  color: Color.fromRGBO(243, 245, 247, 1),
+                  borderRadius: .circular(15),
+                ),
+                padding: .symmetric(horizontal: 16, vertical: 12),
                 child: Row(
                   children: [
-                    CircleAvatar(),
+                    CircleAvatar(radius: 32),
                     Expanded(child: Column(children: [])),
                   ],
                 ),
