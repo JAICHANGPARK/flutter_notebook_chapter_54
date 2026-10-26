@@ -58,14 +58,16 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                             foregroundColor: Colors.black,
                           ),
                           Container(
+                            padding: .all(10),
                             decoration: BoxDecoration(
                               shape: .circle,
                               color: Colors.white,
+
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withValues(alpha: .1),
-                                  spreadRadius: 4,
-                                  blurRadius: 8,
+                                  spreadRadius: 2,
+                                  blurRadius: 20,
                                 ),
                               ],
                             ),
