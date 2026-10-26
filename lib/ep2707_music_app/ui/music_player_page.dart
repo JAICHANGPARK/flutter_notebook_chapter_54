@@ -147,7 +147,15 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                   IconButton(onPressed: () {}, icon: Icon(Icons.loop)),
                 ],
               ),
-              Container(height: 64, child: Placeholder()),
+              Container(
+                height: 64,
+                child: Row(
+                  children: [
+                    CircleAvatar(),
+                    Expanded(child: Column(children: [])),
+                  ],
+                ),
+              ),
               Row(
                 spacing: 4,
                 children: [
