@@ -57,8 +57,10 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                             backgroundColor: Color.fromRGBO(230, 249, 197, 1),
                             foregroundColor: Colors.black,
                           ),
+                          Container(child: Icon(Icons.add)),
                           CircleAvatar(
                             backgroundColor: Colors.white,
+
                             child: Icon(Icons.add),
                           ),
                           CircleAvatar(
