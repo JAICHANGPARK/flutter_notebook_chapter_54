@@ -184,10 +184,15 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                         shape: StadiumBorder(),
                         color: Colors.black,
                       ),
+                      padding: .symmetric(horizontal: 24, vertical: 12),
                       child: Center(
                         child: Text(
                           "Follow",
-                          style: TextStyle(fontWeight: .bold),
+                          style: TextStyle(
+                            fontWeight: .bold,
+                            color: Colors.white,
+                            fontSize: 14,
+                          ),
                         ),
                       ),
                     ),
