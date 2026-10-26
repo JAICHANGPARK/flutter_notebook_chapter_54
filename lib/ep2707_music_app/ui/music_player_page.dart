@@ -1,3 +1,4 @@
+import 'package:gap/gap.dart';
 import 'package:material_ui/material_ui.dart';
 
 class MusicPlayerPage extends StatefulWidget {
@@ -147,6 +148,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                   IconButton(onPressed: () {}, icon: Icon(Icons.loop)),
                 ],
               ),
+              Gap(4),
               Container(
                 decoration: BoxDecoration(
                   color: Color.fromRGBO(243, 245, 247, 1),
@@ -179,6 +181,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                         ],
                       ),
                     ),
+
                     Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
