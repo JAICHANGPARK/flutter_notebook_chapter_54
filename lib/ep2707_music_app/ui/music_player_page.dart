@@ -164,7 +164,10 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                           Row(
                             spacing: 4,
                             children: [
-                              Text("Dreamwalker"),
+                              Text(
+                                "Dreamwalker",
+                                style: TextStyle(fontWeight: .bold),
+                              ),
                               Icon(
                                 Icons.check_circle,
                                 size: 16,
@@ -174,6 +177,18 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                           ),
                           Text("3.3M monthly listeners"),
                         ],
+                      ),
+                    ),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.black,
+                      ),
+                      child: Center(
+                        child: Text(
+                          "Follow",
+                          style: TextStyle(fontWeight: .bold),
+                        ),
                       ),
                     ),
                   ],
