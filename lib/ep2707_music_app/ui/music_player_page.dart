@@ -155,8 +155,21 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 padding: .symmetric(horizontal: 16, vertical: 12),
                 child: Row(
                   children: [
-                    CircleAvatar(radius: 32),
-                    Expanded(child: Column(children: [])),
+                    CircleAvatar(radius: 30),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: .start,
+                        children: [
+                          Row(
+                            children: [
+                              Text("Dreamwalker"),
+                              Icon(Icons.check_circle),
+                            ],
+                          ),
+                          Text("3.3M monthly listeners"),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
