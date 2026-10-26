@@ -57,7 +57,20 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                             backgroundColor: Color.fromRGBO(230, 249, 197, 1),
                             foregroundColor: Colors.black,
                           ),
-                          Container(child: Icon(Icons.add)),
+                          Container(
+                            decoration: BoxDecoration(
+                              shape: .circle,
+                              color: Colors.white,
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withValues(alpha: .1),
+                                  spreadRadius: 4,
+                                  blurRadius: 8,
+                                ),
+                              ],
+                            ),
+                            child: Icon(Icons.add),
+                          ),
                           CircleAvatar(
                             backgroundColor: Colors.white,
 
