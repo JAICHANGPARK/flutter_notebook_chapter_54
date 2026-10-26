@@ -6,6 +6,8 @@ class MusicApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: MusicHomePage());
+    return MaterialApp(home: MusicHomePage(),
+      
+    );
   }
 }
