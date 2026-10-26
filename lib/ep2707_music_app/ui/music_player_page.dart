@@ -36,7 +36,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
               Container(
                 height: 240,
                 child: Row(
-                  spacing: 12,
+                  spacing: 8,
                   children: [
                     SizedBox(width: 64),
                     Expanded(
@@ -48,7 +48,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                             BoxShadow(
                               color: Colors.black.withValues(alpha: .1),
                               blurRadius: 30,
-                              spreadRadius: 2,
+                              spreadRadius: 15,
                             ),
                           ],
                         ),
