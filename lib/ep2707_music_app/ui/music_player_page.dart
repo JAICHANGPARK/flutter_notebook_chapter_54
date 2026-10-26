@@ -49,13 +49,24 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                     SizedBox(
                       width: 64,
                       child: Column(
-                        spacing: 6,
+                        spacing: 12,
                         mainAxisAlignment: .center,
                         children: [
-                          CircleAvatar(
+                          Container(
+                            padding: .all(10),
+                            decoration: BoxDecoration(
+                              shape: .circle,
+                              color: Color.fromRGBO(230, 249, 197, 1),
+
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withValues(alpha: .1),
+                                  spreadRadius: 2,
+                                  blurRadius: 20,
+                                ),
+                              ],
+                            ),
                             child: Icon(Icons.favorite),
-                            backgroundColor: Color.fromRGBO(230, 249, 197, 1),
-                            foregroundColor: Colors.black,
                           ),
                           Container(
                             padding: .all(10),
