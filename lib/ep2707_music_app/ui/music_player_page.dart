@@ -84,11 +84,23 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                             ),
                             child: Icon(Icons.add),
                           ),
-                          CircleAvatar(
-                            backgroundColor: Colors.white,
+                          Container(
+                            padding: .all(10),
+                            decoration: BoxDecoration(
+                              shape: .circle,
+                              color: Colors.white,
 
-                            child: Icon(Icons.add),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withValues(alpha: .1),
+                                  spreadRadius: 2,
+                                  blurRadius: 20,
+                                ),
+                              ],
+                            ),
+                            child: Icon(Icons.share),
                           ),
+
                           CircleAvatar(
                             backgroundColor: Colors.white,
                             foregroundColor: Colors.black,
