@@ -154,6 +154,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 ),
                 padding: .symmetric(horizontal: 16, vertical: 12),
                 child: Row(
+                  spacing: 12,
                   children: [
                     CircleAvatar(radius: 30),
                     Expanded(
@@ -161,9 +162,14 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                         crossAxisAlignment: .start,
                         children: [
                           Row(
+                            spacing: 4,
                             children: [
                               Text("Dreamwalker"),
-                              Icon(Icons.check_circle),
+                              Icon(
+                                Icons.check_circle,
+                                size: 16,
+                                color: Colors.green,
+                              ),
                             ],
                           ),
                           Text("3.3M monthly listeners"),
