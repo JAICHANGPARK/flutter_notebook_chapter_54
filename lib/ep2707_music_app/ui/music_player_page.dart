@@ -36,6 +36,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
               Container(
                 height: 240,
                 child: Row(
+                  spacing: 12,
                   children: [
                     SizedBox(width: 64),
                     Expanded(
@@ -43,6 +44,13 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                         decoration: BoxDecoration(
                           color: Colors.blue,
                           borderRadius: .circular(12),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.black.withValues(alpha: .1),
+                              blurRadius: 30,
+                              spreadRadius: 2,
+                            ),
+                          ],
                         ),
                       ),
                     ),
@@ -98,12 +106,6 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                                 ),
                               ],
                             ),
-                            child: Icon(Icons.share),
-                          ),
-
-                          CircleAvatar(
-                            backgroundColor: Colors.white,
-                            foregroundColor: Colors.black,
                             child: Icon(Icons.share),
                           ),
                         ],
