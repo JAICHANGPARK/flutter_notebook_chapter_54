@@ -215,8 +215,16 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 ],
               ),
               Column(
-                children: List.generate(4, (idx) {
-                  return Container(height: 72, child: Placeholder());
+                children: List.generate(3, (idx) {
+                  return Container(
+                    height: 72,
+                    child: Row(
+                      children: [
+                        Expanded(child: Container()),
+                        IconButton(onPressed: () {}, icon: ),
+                      ],
+                    ),
+                  );
                 }),
               ),
             ],
