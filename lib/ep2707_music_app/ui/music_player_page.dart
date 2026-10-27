@@ -234,10 +234,14 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                                 child: Row(
                                   children: [
                                     Container(height: 52, width: 52),
-                                    Expanded(child: Column(children: [
-                                      
-                                    ],
-                                  )),
+                                    Expanded(
+                                      child: Column(
+                                        children: [
+                                          Text("Dream"),
+                                          Text("Walker Walker"),
+                                        ],
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ),
