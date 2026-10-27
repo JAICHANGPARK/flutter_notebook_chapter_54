@@ -220,8 +220,11 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                     height: 72,
                     child: Row(
                       children: [
-                        Expanded(child: Container()),
-                        IconButton(onPressed: () {}, icon: ),
+                        Expanded(child: Container(decoration: BoxDecoration())),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.more_horiz),
+                        ),
                       ],
                     ),
                   );
