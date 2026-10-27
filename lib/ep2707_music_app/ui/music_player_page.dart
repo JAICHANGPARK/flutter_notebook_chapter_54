@@ -236,11 +236,19 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                                     Container(height: 52, width: 52),
                                     Expanded(
                                       child: Column(
+                                        crossAxisAlignment: .start,
+                                        mainAxisAlignment: .center,
                                         children: [
                                           Text("Dream"),
                                           Text("Walker Walker"),
                                         ],
                                       ),
+                                    ),
+                                    Column(
+                                      children: [
+                                        Icon(Icons.waves),
+                                        Text("2:21"),
+                                      ],
                                     ),
                                   ],
                                 ),
