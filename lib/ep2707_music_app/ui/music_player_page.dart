@@ -216,10 +216,17 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
               Column(
                 children: List.generate(3, (idx) {
                   return Container(
-                    height: 72,
+                    height: 64,
+                    margin: .only(bottom: 8),
                     child: Row(
                       children: [
-                        Expanded(child: Container(decoration: BoxDecoration())),
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: .fromRGBO(243, 245, 247, 1),
+                            ),
+                          ),
+                        ),
                         IconButton(
                           onPressed: () {},
                           icon: Icon(Icons.more_horiz),
