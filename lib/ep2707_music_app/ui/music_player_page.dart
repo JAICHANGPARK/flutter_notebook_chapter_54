@@ -231,6 +231,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                                       ? .fromRGBO(243, 245, 247, 1)
                                       : Colors.white,
                                 ),
+                                padding: .only(left: 16, right: 16),
                                 child: Row(
                                   children: [
                                     Container(height: 52, width: 52),
