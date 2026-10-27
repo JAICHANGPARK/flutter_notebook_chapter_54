@@ -245,6 +245,8 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                                       ),
                                     ),
                                     Column(
+                                      mainAxisAlignment: .center,
+                                      crossAxisAlignment: .center,
                                       children: [
                                         Icon(Icons.waves),
                                         Text("2:21"),
