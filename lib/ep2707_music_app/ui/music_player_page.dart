@@ -35,7 +35,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                 ],
               ),
               Container(
-                height: 240,
+                height: 220,
                 child: Row(
                   spacing: 8,
                   children: [
@@ -66,7 +66,6 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                             decoration: BoxDecoration(
                               shape: .circle,
                               color: Color.fromRGBO(230, 249, 197, 1),
-
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withValues(alpha: .1),
