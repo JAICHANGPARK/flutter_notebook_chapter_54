@@ -226,9 +226,19 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                             Expanded(
                               child: Container(
                                 decoration: BoxDecoration(
+                                  borderRadius: .circular(12),
                                   color: idx == 0
                                       ? .fromRGBO(243, 245, 247, 1)
                                       : Colors.white,
+                                ),
+                                child: Row(
+                                  children: [
+                                    Container(height: 52, width: 52),
+                                    Expanded(child: Column(children: [
+                                      
+                                    ],
+                                  )),
+                                  ],
                                 ),
                               ),
                             ),
