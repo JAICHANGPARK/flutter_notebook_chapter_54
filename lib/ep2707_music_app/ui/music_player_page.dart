@@ -14,6 +14,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
+        bottom: false,
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
@@ -225,7 +226,9 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                             Expanded(
                               child: Container(
                                 decoration: BoxDecoration(
-                                  color: .fromRGBO(243, 245, 247, 1),
+                                  color: idx == 0
+                                      ? .fromRGBO(243, 245, 247, 1)
+                                      : Colors.white,
                                 ),
                               ),
                             ),
