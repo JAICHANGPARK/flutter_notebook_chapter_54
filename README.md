@@ -1,6 +1,5 @@
 # flutter_notebook_chapter_54
 
-
 # EP2707
 
 - Modern Music Streaming App UI
