@@ -16,6 +16,13 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
           children: [Text("Your"), Text("Library"), Spacer(), CircleAvatar()],
         ),
         SizedBox(height: 72, child: Placeholder()),
+        Row(
+          children: [
+            Text("My Playlists"),
+            Text("See All"),
+            Icon(Icons.keyboard_arrow_right),
+          ],
+        ),
       ],
     );
   }
