@@ -137,7 +137,6 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                   ),
                 ],
               ),
-
               Row(
                 mainAxisAlignment: .spaceBetween,
                 children: [
