@@ -101,7 +101,11 @@ class _MusicHomePageState extends State<MusicHomePage> {
         unselectedItemColor: Colors.white,
         type: .fixed,
 
-        onTap: (idx) {},
+        onTap: (idx) {
+          setState(() {
+            pageNum = idx;
+          });
+        },
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
