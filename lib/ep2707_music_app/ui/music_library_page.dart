@@ -10,6 +10,13 @@ class MusicLibraryPage extends StatefulWidget {
 class _MusicLibraryPageState extends State<MusicLibraryPage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(child: Column());
+    return Column(
+      children: [
+        Row(
+          children: [Text("Your"), Text("Library"), Spacer(), CircleAvatar()],
+        ),
+        SizedBox(height: 72, child: Placeholder()),
+      ],
+    );
   }
 }
