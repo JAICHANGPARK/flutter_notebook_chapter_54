@@ -23,6 +23,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
             Icon(Icons.keyboard_arrow_right),
           ],
         ),
+        SizedBox(height: 180, child: Placeholder()),
       ],
     );
   }
