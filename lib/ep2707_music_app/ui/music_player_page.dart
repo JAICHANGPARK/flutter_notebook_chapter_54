@@ -180,7 +180,6 @@ class _MusicPlayerPageState extends State<MusicPlayerPage> {
                         ],
                       ),
                     ),
-
                     Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
