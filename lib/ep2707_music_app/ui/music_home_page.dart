@@ -28,7 +28,11 @@ class _MusicHomePageState extends State<MusicHomePage> {
             child: SafeArea(
               child: IndexedStack(
                 index: pageNum,
-                children: [MusicHomeWidget(), MusicLibraryPage()],
+                children: [
+                  MusicHomeWidget(),
+                  Placeholder(),
+                  MusicLibraryPage(),
+                ],
               ),
             ),
           ),
