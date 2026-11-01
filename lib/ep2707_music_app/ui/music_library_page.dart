@@ -24,6 +24,14 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
           ],
         ),
         SizedBox(height: 180, child: Placeholder()),
+        Row(
+          children: [
+            Text("My Playlists"),
+            Text("See All"),
+            Icon(Icons.keyboard_arrow_right),
+          ],
+        ),
+        Expanded(child: Placeholder()),
       ],
     );
   }
