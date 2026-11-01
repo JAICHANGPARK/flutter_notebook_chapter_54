@@ -12,6 +12,7 @@ class MusicHomePage extends StatefulWidget {
 }
 
 class _MusicHomePageState extends State<MusicHomePage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -351,6 +352,8 @@ class _MusicHomePageState extends State<MusicHomePage> {
         selectedItemColor: .fromRGBO(209, 249, 88, 1),
         unselectedItemColor: Colors.white,
         type: .fixed,
+
+        onTap: (idx) {},
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
