@@ -116,7 +116,10 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                   "See All",
                   style: TextStyle(color: .fromRGBO(209, 249, 88, 1)),
                 ),
-                Icon(Icons.keyboard_arrow_right),
+                Icon(
+                  Icons.keyboard_arrow_right,
+                  color: .fromRGBO(209, 249, 88, 1),
+                ),
               ],
             ),
           ],
