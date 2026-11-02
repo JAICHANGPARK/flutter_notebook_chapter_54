@@ -44,7 +44,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
           crossAxisAlignment: .start,
           children: [
             SizedBox(
-              height: 52,
+              height: 48,
               child: ListView(
                 scrollDirection: .horizontal,
                 children: [
@@ -53,7 +53,9 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                       shape: StadiumBorder(),
                       color: .fromRGBO(209, 249, 88, 1),
                     ),
+                    padding: .symmetric(horizontal: 16),
                     child: Row(
+                      spacing: 12,
                       children: [Icon(Icons.music_note), Text("Playlists")],
                     ),
                   ),
