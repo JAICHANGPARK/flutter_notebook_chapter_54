@@ -15,14 +15,20 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
         Row(
           children: [Text("Your"), Text("Library"), Spacer(), CircleAvatar()],
         ),
-        SizedBox(height: 72, child: Placeholder()),
-        Row(
+        Column(
+          crossAxisAlignment: .start,
           children: [
-            Text("My Playlists"),
-            Text("See All"),
-            Icon(Icons.keyboard_arrow_right),
+            SizedBox(height: 72, child: Placeholder()),
+            Row(
+              children: [
+                Text("My Playlists"),
+                Text("See All"),
+                Icon(Icons.keyboard_arrow_right),
+              ],
+            ),
           ],
         ),
+
         SizedBox(height: 180, child: Placeholder()),
         Row(
           children: [
