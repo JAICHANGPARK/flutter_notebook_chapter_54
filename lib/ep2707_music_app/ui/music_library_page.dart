@@ -59,22 +59,29 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
             ],
           ),
         ),
-        Column(crossAxisAlignment: .start, children: [
-          
+        Column(
+          crossAxisAlignment: .start,
+          spacing: 12,
+          children: [
+            Row(
+              children: [
+                Text(
+                  "My Playlists",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: .bold,
+                    fontSize: 20,
+                  ),
+                ),
+                Spacer(),
+                Text("See All"),
+                Icon(Icons.keyboard_arrow_right),
+              ],
+            ),
+            SizedBox(height: 180, child: Placeholder()),
           ],
         ),
 
-        Row(
-          children: [
-            Text(
-              "My Playlists",
-              style: TextStyle(color: Colors.white, fontWeight: .bold),
-            ),
-            Text("See All"),
-            Icon(Icons.keyboard_arrow_right),
-          ],
-        ),
-        SizedBox(height: 180, child: Placeholder()),
         Row(
           children: [
             Text("My Playlists"),
