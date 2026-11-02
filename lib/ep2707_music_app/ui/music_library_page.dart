@@ -84,7 +84,15 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                 ),
               ],
             ),
-            SizedBox(height: 180, child: Placeholder()),
+            SizedBox(
+              height: 180,
+              child: ListView.builder(
+                scrollDirection: .horizontal,
+                itemBuilder: (context, index) {
+                  return Container(width: 140, child: Placeholder());
+                },
+              ),
+            ),
           ],
         ),
 
