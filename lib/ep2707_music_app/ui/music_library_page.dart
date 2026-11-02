@@ -43,7 +43,23 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
         Column(
           crossAxisAlignment: .start,
           children: [
-            SizedBox(height: 72, child: Placeholder()),
+            SizedBox(
+              height: 52,
+              child: ListView(
+                scrollDirection: .horizontal,
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: .fromRGBO(209, 249, 88, 1),
+                    ),
+                    child: Row(
+                      children: [Icon(Icons.music_note), Text("Playlists")],
+                    ),
+                  ),
+                ],
+              ),
+            ),
             Row(
               children: [
                 Text("My Playlists"),
