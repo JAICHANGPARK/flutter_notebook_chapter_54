@@ -11,6 +11,8 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: .start,
+      spacing: 16,
       children: [
         Row(
           children: [Text("Your"), Text("Library"), Spacer(), CircleAvatar()],
