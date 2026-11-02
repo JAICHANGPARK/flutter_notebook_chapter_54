@@ -16,8 +16,22 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
       children: [
         Row(
           children: [
-            Text("Your", style: TextStyle(fontSize: 32, color: Colors.white)),
-            Text("Library"),
+            Text(
+              "Your",
+              style: TextStyle(
+                fontSize: 32,
+                color: Colors.white,
+                fontWeight: .bold,
+              ),
+            ),
+            Text(
+              " Library",
+              style: TextStyle(
+                fontSize: 32,
+                color: .fromRGBO(209, 249, 88, 1),
+                fontWeight: .bold,
+              ),
+            ),
             Spacer(),
             CircleAvatar(),
           ],
