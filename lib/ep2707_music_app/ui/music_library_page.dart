@@ -124,7 +124,13 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                   ),
                 ],
               ),
-              Expanded(child: Placeholder()),
+              Expanded(
+                child: ListView.builder(
+                  itemBuilder: (context, index) {
+                    return Container(height: 70, child: Placeholder());
+                  },
+                ),
+              ),
             ],
           ),
         ),
