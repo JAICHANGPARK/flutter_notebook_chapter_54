@@ -74,8 +74,14 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                   ),
                 ),
                 Spacer(),
-                Text("See All"),
-                Icon(Icons.keyboard_arrow_right),
+                Text(
+                  "See All",
+                  style: TextStyle(color: .fromRGBO(209, 249, 88, 1)),
+                ),
+                Icon(
+                  Icons.keyboard_arrow_right,
+                  color: .fromRGBO(209, 249, 88, 1),
+                ),
               ],
             ),
             SizedBox(height: 180, child: Placeholder()),
