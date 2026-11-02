@@ -99,33 +99,35 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
             ),
           ],
         ),
-        Column(
-          crossAxisAlignment: .start,
-          children: [
-            Row(
-              children: [
-                Text(
-                  "My Playlists",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: .bold,
-                    fontSize: 20,
+        Expanded(
+          child: Column(
+            crossAxisAlignment: .start,
+            children: [
+              Row(
+                children: [
+                  Text(
+                    "My Playlists",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: .bold,
+                      fontSize: 20,
+                    ),
                   ),
-                ),
-                Text(
-                  "See All",
-                  style: TextStyle(color: .fromRGBO(209, 249, 88, 1)),
-                ),
-                Icon(
-                  Icons.keyboard_arrow_right,
-                  color: .fromRGBO(209, 249, 88, 1),
-                ),
-              ],
-            ),
-          ],
+                  Spacer(),
+                  Text(
+                    "See All",
+                    style: TextStyle(color: .fromRGBO(209, 249, 88, 1)),
+                  ),
+                  Icon(
+                    Icons.keyboard_arrow_right,
+                    color: .fromRGBO(209, 249, 88, 1),
+                  ),
+                ],
+              ),
+              Expanded(child: Placeholder()),
+            ],
+          ),
         ),
-
-        Expanded(child: Placeholder()),
       ],
     );
   }
