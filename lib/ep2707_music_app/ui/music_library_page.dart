@@ -40,41 +40,40 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
             ),
           ],
         ),
-        Column(
-          crossAxisAlignment: .start,
-          children: [
-            SizedBox(
-              height: 48,
-              child: ListView(
-                scrollDirection: .horizontal,
-                children: [
-                  Container(
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: .fromRGBO(209, 249, 88, 1),
-                    ),
-                    padding: .symmetric(horizontal: 16),
-                    child: Row(
-                      spacing: 12,
-                      children: [Icon(Icons.music_note), Text("Playlists")],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Row(
-              children: [
-                Text(
-                  "My Playlists",
-                  style: TextStyle(color: Colors.white, fontWeight: .bold),
+        SizedBox(
+          height: 48,
+          child: ListView(
+            scrollDirection: .horizontal,
+            children: [
+              Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: .fromRGBO(209, 249, 88, 1),
                 ),
-                Text("See All"),
-                Icon(Icons.keyboard_arrow_right),
-              ],
-            ),
+                padding: .symmetric(horizontal: 16),
+                child: Row(
+                  spacing: 12,
+                  children: [Icon(Icons.music_note), Text("Playlists")],
+                ),
+              ),
+            ],
+          ),
+        ),
+        Column(crossAxisAlignment: .start, children: [
+          
           ],
         ),
 
+        Row(
+          children: [
+            Text(
+              "My Playlists",
+              style: TextStyle(color: Colors.white, fontWeight: .bold),
+            ),
+            Text("See All"),
+            Icon(Icons.keyboard_arrow_right),
+          ],
+        ),
         SizedBox(height: 180, child: Placeholder()),
         Row(
           children: [
