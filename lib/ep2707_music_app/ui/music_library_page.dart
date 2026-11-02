@@ -33,7 +33,11 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
               ),
             ),
             Spacer(),
-            CircleAvatar(),
+            CircleAvatar(
+              backgroundColor: Colors.white10,
+              foregroundColor: Colors.white,
+              child: Icon(Icons.search),
+            ),
           ],
         ),
         Column(
