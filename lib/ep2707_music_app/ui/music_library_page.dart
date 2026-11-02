@@ -15,7 +15,12 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
       spacing: 16,
       children: [
         Row(
-          children: [Text("Your"), Text("Library"), Spacer(), CircleAvatar()],
+          children: [
+            Text("Your", style: TextStyle(fontSize: 32, color: Colors.white)),
+            Text("Library"),
+            Spacer(),
+            CircleAvatar(),
+          ],
         ),
         Column(
           crossAxisAlignment: .start,
