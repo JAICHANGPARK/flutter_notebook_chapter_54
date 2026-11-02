@@ -64,7 +64,10 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
             ),
             Row(
               children: [
-                Text("My Playlists"),
+                Text(
+                  "My Playlists",
+                  style: TextStyle(color: Colors.white, fontWeight: .bold),
+                ),
                 Text("See All"),
                 Icon(Icons.keyboard_arrow_right),
               ],
