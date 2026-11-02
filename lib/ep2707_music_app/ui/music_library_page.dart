@@ -85,24 +85,33 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
               ],
             ),
             SizedBox(
-              height: 180,
+              height: 170,
               child: ListView.builder(
                 scrollDirection: .horizontal,
                 itemBuilder: (context, index) {
-                  return Container(width: 140, child: Placeholder());
+                  return Container(
+                    margin: .only(right: 12),
+                    width: 120,
+                    child: Placeholder(),
+                  );
                 },
               ),
             ),
           ],
         ),
-
-        Row(
+        Column(
+          crossAxisAlignment: .start,
           children: [
-            Text("My Playlists"),
-            Text("See All"),
-            Icon(Icons.keyboard_arrow_right),
+            Row(
+              children: [
+                Text("My Playlists"),
+                Text("See All"),
+                Icon(Icons.keyboard_arrow_right),
+              ],
+            ),
           ],
         ),
+
         Expanded(child: Placeholder()),
       ],
     );
