@@ -12,7 +12,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: .start,
-      spacing: 16,
+      spacing: 24,
       children: [
         Row(
           children: [
@@ -126,6 +126,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                         Padding(
                           padding: const EdgeInsets.all(12.0),
                           child: Column(
+                            spacing: 3,
                             crossAxisAlignment: .start,
                             children: [
                               Text(
