@@ -56,6 +56,10 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                   children: [Icon(Icons.music_note), Text("Playlists")],
                 ),
               ),
+              Container(
+                decoration: ShapeDecoration(shape: StadiumBorder()),
+                child: Text("Artists"),
+              ),
             ],
           ),
         ),
