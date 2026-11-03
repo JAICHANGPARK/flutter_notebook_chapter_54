@@ -58,7 +58,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
               ),
               Container(
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide()),
+                  shape: StadiumBorder(side: BorderSide(color: Colors.white10)),
                   color: .fromRGBO(14, 22, 24, 1),
                 ),
                 padding: .symmetric(horizontal: 12, vertical: 12),
