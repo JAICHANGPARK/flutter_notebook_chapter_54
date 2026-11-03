@@ -110,7 +110,14 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                                 Positioned(
                                   right: 12,
                                   bottom: 12,
-                                  child: CircleAvatar(),
+                                  child: CircleAvatar(
+                                    radius: 14,
+                                    backgroundColor: Colors.white,
+                                    child: Icon(
+                                      Icons.play_arrow,
+                                      color: Colors.black,
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
