@@ -106,7 +106,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
               Row(
                 children: [
                   Text(
-                    "My Playlists",
+                    "Recently Added",
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: .bold,
