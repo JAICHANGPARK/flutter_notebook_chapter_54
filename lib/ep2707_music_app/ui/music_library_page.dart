@@ -105,6 +105,15 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                               borderRadius: .circular(12),
                               color: Colors.green,
                             ),
+                            child: Stack(
+                              children: [
+                                Positioned(
+                                  right: 12,
+                                  bottom: 12,
+                                  child: CircleAvatar(),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                         Padding(
