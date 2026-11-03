@@ -127,7 +127,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
               Expanded(
                 child: ListView.builder(
                   itemBuilder: (context, index) {
-                    return Container(height: 70, child: Placeholder());
+                    return Container(height: 70, child: Row(children: []));
                   },
                 ),
               ),
