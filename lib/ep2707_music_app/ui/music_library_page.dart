@@ -58,10 +58,13 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
               ),
               Container(
                 decoration: ShapeDecoration(
-                  shape: StadiumBorder(),
+                  shape: StadiumBorder(side: BorderSide()),
                   color: .fromRGBO(14, 22, 24, 1),
                 ),
-                child: Text("Artists", style: TextStyle(color: Colors.white)),
+                padding: .symmetric(horizontal: 12, vertical: 12),
+                child: Center(
+                  child: Text("Artists", style: TextStyle(color: Colors.white)),
+                ),
               ),
             ],
           ),
