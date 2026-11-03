@@ -96,8 +96,13 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                       color: .fromRGBO(21, 37, 41, 1),
                     ),
                     width: 120,
-                    child: Column(children: [
-                        
+                    child: Column(
+                      children: [
+                        Expanded(child: Container()),
+                        Text(
+                          "Chill Vibes",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ],
                     ),
                   );
