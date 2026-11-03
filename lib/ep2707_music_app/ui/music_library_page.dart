@@ -50,6 +50,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                   shape: StadiumBorder(),
                   color: .fromRGBO(209, 249, 88, 1),
                 ),
+                margin: .only(right: 12),
                 padding: .symmetric(horizontal: 16),
                 child: Row(
                   spacing: 12,
@@ -61,9 +62,12 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                   shape: StadiumBorder(side: BorderSide(color: Colors.white10)),
                   color: .fromRGBO(14, 22, 24, 1),
                 ),
-                padding: .symmetric(horizontal: 12, vertical: 12),
+                padding: .symmetric(horizontal: 16, vertical: 12),
                 child: Center(
-                  child: Text("Artists", style: TextStyle(color: Colors.white)),
+                  child: Text(
+                    "Artists",
+                    style: TextStyle(color: Colors.white, fontSize: 12),
+                  ),
                 ),
               ),
             ],
