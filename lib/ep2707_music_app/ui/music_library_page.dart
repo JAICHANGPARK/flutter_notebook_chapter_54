@@ -95,11 +95,18 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                       borderRadius: .circular(12),
                       color: .fromRGBO(21, 37, 41, 1),
                     ),
-                    width: 120,
+                    width: 110,
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
-                        Expanded(child: Container()),
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: .circular(12),
+                              color: Colors.green,
+                            ),
+                          ),
+                        ),
                         Padding(
                           padding: const EdgeInsets.all(12.0),
                           child: Column(
@@ -111,7 +118,10 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                               ),
                               Text(
                                 "24 songs",
-                                style: TextStyle(color: Colors.white30),
+                                style: TextStyle(
+                                  color: Colors.white30,
+                                  fontSize: 12,
+                                ),
                               ),
                             ],
                           ),
