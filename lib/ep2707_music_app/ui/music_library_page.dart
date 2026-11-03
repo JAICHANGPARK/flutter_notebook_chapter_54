@@ -97,11 +97,16 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                     ),
                     width: 120,
                     child: Column(
+                      crossAxisAlignment: .start,
                       children: [
                         Expanded(child: Container()),
                         Text(
                           "Chill Vibes",
                           style: TextStyle(color: Colors.white),
+                        ),
+                        Text(
+                          "24 songs",
+                          style: TextStyle(color: Colors.white30),
                         ),
                       ],
                     ),
