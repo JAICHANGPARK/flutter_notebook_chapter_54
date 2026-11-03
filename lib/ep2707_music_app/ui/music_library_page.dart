@@ -91,8 +91,15 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                 itemBuilder: (context, index) {
                   return Container(
                     margin: .only(right: 12),
+                    decoration: BoxDecoration(
+                      borderRadius: .circular(12),
+                      color: .fromRGBO(21, 37, 41, 1),
+                    ),
                     width: 120,
-                    child: Placeholder(),
+                    child: Column(children: [
+                        
+                      ],
+                    ),
                   );
                 },
               ),
