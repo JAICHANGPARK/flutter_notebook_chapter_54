@@ -85,7 +85,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
               ],
             ),
             SizedBox(
-              height: 170,
+              height: 180,
               child: ListView.builder(
                 scrollDirection: .horizontal,
                 itemBuilder: (context, index) {
@@ -95,7 +95,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                       borderRadius: .circular(12),
                       color: .fromRGBO(21, 37, 41, 1),
                     ),
-                    width: 110,
+                    width: 116,
                     child: Column(
                       crossAxisAlignment: .start,
                       children: [
