@@ -230,9 +230,12 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                           Expanded(
                             child: Column(
                               children: [
-                                Text("Dream Walker"),
                                 Text(
-                                  "1500 songs",
+                                  "Dream Walker",
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                                Text(
+                                  "1,500 songs",
                                   style: TextStyle(color: Colors.white38),
                                 ),
                               ],
