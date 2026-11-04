@@ -227,7 +227,17 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                       child: Row(
                         children: [
                           CircleAvatar(radius: 26),
-                          Expanded(child: Column(children: [])),
+                          Expanded(
+                            child: Column(
+                              children: [
+                                Text("Dream Walker"),
+                                Text(
+                                  "1500 songs",
+                                  style: TextStyle(color: Colors.white12),
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     );
