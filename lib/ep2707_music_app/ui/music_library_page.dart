@@ -231,6 +231,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                             child: Column(
                               spacing: 4,
                               crossAxisAlignment: .start,
+                              mainAxisAlignment: .center,
                               children: [
                                 Text(
                                   "Dream Walker",
