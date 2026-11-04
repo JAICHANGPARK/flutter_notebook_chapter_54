@@ -233,7 +233,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                                 Text("Dream Walker"),
                                 Text(
                                   "1500 songs",
-                                  style: TextStyle(color: Colors.white12),
+                                  style: TextStyle(color: Colors.white38),
                                 ),
                               ],
                             ),
