@@ -197,6 +197,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
         Expanded(
           child: Column(
             crossAxisAlignment: .start,
+            spacing: 12,
             children: [
               Row(
                 children: [
@@ -247,6 +248,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                           ),
                           IconButton(
                             onPressed: () {},
+                            color: Colors.white,
                             icon: Icon(Icons.chevron_right),
                           ),
                         ],
