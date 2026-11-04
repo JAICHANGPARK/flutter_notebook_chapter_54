@@ -229,6 +229,8 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                           CircleAvatar(radius: 26),
                           Expanded(
                             child: Column(
+                              spacing: 4,
+                              crossAxisAlignment: .start,
                               children: [
                                 Text(
                                   "Dream Walker",
