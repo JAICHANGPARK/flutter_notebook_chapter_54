@@ -245,6 +245,10 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                               ],
                             ),
                           ),
+                          IconButton(
+                            onPressed: () {},
+                            icon: Icon(Icons.chevron_right),
+                          ),
                         ],
                       ),
                     );
