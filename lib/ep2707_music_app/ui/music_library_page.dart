@@ -225,11 +225,12 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                     return Container(
                       height: 70,
                       child: Row(
+                        spacing: 12,
                         children: [
                           CircleAvatar(radius: 26),
                           Expanded(
                             child: Column(
-                              spacing: 4,
+                              spacing: 2,
                               crossAxisAlignment: .start,
                               mainAxisAlignment: .center,
                               children: [
