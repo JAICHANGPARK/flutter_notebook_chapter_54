@@ -53,7 +53,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                 margin: .only(right: 12),
                 padding: .symmetric(horizontal: 16),
                 child: Row(
-                  spacing: 12,
+                  spacing: 8,
                   children: [Icon(Icons.music_note), Text("Playlists")],
                 ),
               ),
@@ -81,7 +81,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                 child: Center(
                   child: Text(
                     "Albums",
-                    style: TextStyle(color: Colors.white, fontSize: 12),
+                    style: TextStyle(color: Colors.white, fontSize: 13),
                   ),
                 ),
               ),
@@ -95,7 +95,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                 child: Center(
                   child: Text(
                     "Podcasts",
-                    style: TextStyle(color: Colors.white, fontSize: 12),
+                    style: TextStyle(color: Colors.white, fontSize: 13),
                   ),
                 ),
               ),
@@ -241,7 +241,7 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                                 ),
                                 Text(
                                   "1,500 songs",
-                                  style: TextStyle(color: Colors.white38),
+                                  style: TextStyle(color: Colors.white60),
                                 ),
                               ],
                             ),
