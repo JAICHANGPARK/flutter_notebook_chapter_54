@@ -224,7 +224,12 @@ class _MusicLibraryPageState extends State<MusicLibraryPage> {
                   itemBuilder: (context, index) {
                     return Container(
                       height: 70,
-                      child: Row(children: [CircleAvatar()]),
+                      child: Row(
+                        children: [
+                          CircleAvatar(radius: 26),
+                          Expanded(child: Column(children: [])),
+                        ],
+                      ),
                     );
                   },
                 ),
