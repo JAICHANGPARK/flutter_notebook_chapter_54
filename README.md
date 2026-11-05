@@ -6,7 +6,7 @@
 - Awe Mobile App for Awe Design Studio
 - https://dribbble.com/shots/27863969-Doctor-Appointment-App
 
-<img src="https://cdn.dribbble.com/userupload/49331456/file/6b5f71e2221bfadf6318cab8ff3cee6f.png?resize=2048x1536&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/49523409/file/3904fafaac32743df1bbda69532a1a25.png?resize=1600x1200&vertical=center" alt=""/>
 
 # EP2707-2718
 
