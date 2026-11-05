@@ -10,6 +10,10 @@ class AppintmentMainPage extends StatefulWidget {
 class _AppintmentMainPageState extends State<AppintmentMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: SafeArea(
+        child: Stack(children: [Positioned.fill(child: Placeholder())]),
+      ),
+    );
   }
 }
