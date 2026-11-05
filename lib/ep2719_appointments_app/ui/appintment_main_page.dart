@@ -24,9 +24,12 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                   shape: StadiumBorder(),
                   color: Colors.black,
                 ),
+                padding: .all(6),
                 child: Row(
+                  mainAxisSize: .min,
                   children: [
                     CircleAvatar(
+                      radius: 32,
                       backgroundColor: Colors.white,
                       child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                     ),
