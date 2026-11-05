@@ -1,3 +1,4 @@
+import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
 class AppintmentMainPage extends StatefulWidget {
@@ -25,7 +26,10 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                 ),
                 child: Row(
                   children: [
-                    CircleAvatar(),
+                    CircleAvatar(
+                      backgroundColor: Colors.white,
+                      child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                    ),
                     CircleAvatar(),
                     CircleAvatar(),
                     CircleAvatar(),
