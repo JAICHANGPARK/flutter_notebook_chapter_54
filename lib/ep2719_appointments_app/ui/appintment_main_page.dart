@@ -15,12 +15,15 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
         child: Stack(
           children: [
             Positioned.fill(child: Placeholder()),
-            Positioned(
+            Align(
+              alignment: .bottomCenter,
               child: Container(
+                margin: .only(bottom: 32),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.black,
                 ),
+                child: Row(children: []),
               ),
             ),
           ],
