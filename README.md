@@ -4,7 +4,7 @@
 
 - Doctor Appointment App
 - Awe Mobile App for Awe Design Studio
-- https://dribbble.com/shots/27813385-Modern-Music-Streaming-App-UI
+- https://dribbble.com/shots/27863969-Doctor-Appointment-App
 
 <img src="https://cdn.dribbble.com/userupload/49331456/file/6b5f71e2221bfadf6318cab8ff3cee6f.png?resize=2048x1536&vertical=center" alt=""/>
 
