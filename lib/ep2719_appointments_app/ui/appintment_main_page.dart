@@ -27,15 +27,16 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                 padding: .all(6),
                 child: Row(
                   mainAxisSize: .min,
+                  spacing: 12,
                   children: [
                     CircleAvatar(
-                      radius: 32,
+                      radius: 26,
                       backgroundColor: Colors.white,
                       child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                     ),
-                    CircleAvatar(),
-                    CircleAvatar(),
-                    CircleAvatar(),
+                    CircleAvatar(radius: 26),
+                    CircleAvatar(radius: 26),
+                    CircleAvatar(radius: 26),
                   ],
                 ),
               ),
