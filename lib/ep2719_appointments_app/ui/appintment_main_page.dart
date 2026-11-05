@@ -17,7 +17,10 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
             Positioned.fill(child: Placeholder()),
             Positioned(
               child: Container(
-                decoration: ShapeDecoration(shape: StadiumBorder()),
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.black,
+                ),
               ),
             ),
           ],
