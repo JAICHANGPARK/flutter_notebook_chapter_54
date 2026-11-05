@@ -100,7 +100,6 @@ class _MusicHomePageState extends State<MusicHomePage> {
         selectedItemColor: .fromRGBO(209, 249, 88, 1),
         unselectedItemColor: Colors.white,
         type: .fixed,
-
         onTap: (idx) {
           setState(() {
             pageNum = idx;
