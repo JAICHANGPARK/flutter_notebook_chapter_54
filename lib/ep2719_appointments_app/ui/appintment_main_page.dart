@@ -12,7 +12,16 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Stack(children: [Positioned.fill(child: Placeholder())]),
+        child: Stack(
+          children: [
+            Positioned.fill(child: Placeholder()),
+            Positioned(
+              child: Container(
+                decoration: ShapeDecoration(shape: StadiumBorder()),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
