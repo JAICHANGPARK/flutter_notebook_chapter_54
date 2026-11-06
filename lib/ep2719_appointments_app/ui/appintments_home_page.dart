@@ -10,6 +10,9 @@ class AppintmentsHomePage extends StatefulWidget {
 class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(children: [
+        
+      ],
+    );
   }
 }
