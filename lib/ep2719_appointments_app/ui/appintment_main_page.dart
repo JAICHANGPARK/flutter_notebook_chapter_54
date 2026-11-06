@@ -55,7 +55,13 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                           pageNum = 1;
                         });
                       },
-                      child: CircleAvatar(radius: 26),
+                      child: CircleAvatar(
+                        radius: 26,
+                        backgroundColor: pageNum == 1
+                            ? Colors.white
+                            : Colors.transparent,
+                        child: HugeIcon(icon: HugeIcons.strokeRoundedUserGroup),
+                      ),
                     ),
                     CircleAvatar(radius: 26),
                     CircleAvatar(radius: 26),
