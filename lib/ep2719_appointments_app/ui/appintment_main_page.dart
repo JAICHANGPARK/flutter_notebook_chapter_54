@@ -49,7 +49,14 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                         child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                       ),
                     ),
-                    CircleAvatar(radius: 26),
+                    GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          pageNum = 1;
+                        });
+                      },
+                      child: CircleAvatar(radius: 26),
+                    ),
                     CircleAvatar(radius: 26),
                     CircleAvatar(radius: 26),
                   ],
