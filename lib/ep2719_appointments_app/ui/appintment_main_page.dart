@@ -1,6 +1,8 @@
 import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
+import 'appintments_home_page.dart';
+
 class AppintmentMainPage extends StatefulWidget {
   const new({super.key});
 
@@ -17,10 +19,10 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
         child: Stack(
           children: [
             Positioned.fill(
-              child: IndexedStack(index: pageNum, children: [
-                
-              ],
-            ),
+              child: IndexedStack(
+                index: pageNum,
+                children: [AppintmentsHomePage()],
+              ),
             ),
             Align(
               alignment: .bottomCenter,
@@ -35,10 +37,17 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                   mainAxisSize: .min,
                   spacing: 12,
                   children: [
-                    CircleAvatar(
-                      radius: 26,
-                      backgroundColor: Colors.white,
-                      child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                    GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          pageNum = 0;
+                        });
+                      },
+                      child: CircleAvatar(
+                        radius: 26,
+                        backgroundColor: Colors.white,
+                        child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                      ),
                     ),
                     CircleAvatar(radius: 26),
                     CircleAvatar(radius: 26),
