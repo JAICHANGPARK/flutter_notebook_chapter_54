@@ -60,6 +60,9 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                         backgroundColor: pageNum == 1
                             ? Colors.white
                             : Colors.transparent,
+                        foregroundColor: pageNum == 1
+                            ? Colors.purple
+                            : Colors.grey,
                         child: HugeIcon(icon: HugeIcons.strokeRoundedUserGroup),
                       ),
                     ),
