@@ -25,6 +25,10 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
             ),
           ],
         ),
+        Container(height: 240, child: Placeholder()),
+
+        Text("Specialities"),
+        Container(height: 180, child: Placeholder()),
       ],
     );
   }
