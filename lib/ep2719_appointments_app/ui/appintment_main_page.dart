@@ -9,13 +9,17 @@ class AppintmentMainPage extends StatefulWidget {
 }
 
 class _AppintmentMainPageState extends State<AppintmentMainPage> {
+  int pageNum = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
         child: Stack(
           children: [
-            Positioned.fill(child: Placeholder()),
+            Positioned.fill(child: IndexedStack(children: [
+                
+              ],
+            )),
             Align(
               alignment: .bottomCenter,
               child: Container(
