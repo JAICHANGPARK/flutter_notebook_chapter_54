@@ -10,8 +10,21 @@ class AppintmentsHomePage extends StatefulWidget {
 class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Column(children: [
-        
+    return Column(
+      crossAxisAlignment: .start,
+      children: [
+        Row(
+          children: [
+            CircleAvatar(),
+            Container(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white,
+              ),
+              child: Row(children: [Icon(Icons.search), Text("Search")]),
+            ),
+          ],
+        ),
       ],
     );
   }
