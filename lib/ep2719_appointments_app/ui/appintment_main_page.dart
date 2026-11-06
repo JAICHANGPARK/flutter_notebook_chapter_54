@@ -16,10 +16,12 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
       body: SafeArea(
         child: Stack(
           children: [
-            Positioned.fill(child: IndexedStack(children: [
+            Positioned.fill(
+              child: IndexedStack(index: pageNum, children: [
                 
               ],
-            )),
+            ),
+            ),
             Align(
               alignment: .bottomCenter,
               child: Container(
