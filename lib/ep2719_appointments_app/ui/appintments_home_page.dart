@@ -13,12 +13,16 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: Column(
+        spacing: 16,
         crossAxisAlignment: .start,
         children: [
           Row(
+            mainAxisAlignment: .spaceBetween,
             children: [
-              CircleAvatar(),
+              CircleAvatar(radius: 24),
               Container(
+                width: 140,
+                padding: .only(left: 12, right: 12, bottom: 4, top: 4),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.white,
