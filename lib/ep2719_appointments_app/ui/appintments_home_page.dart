@@ -40,10 +40,18 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
               borderRadius: .circular(16),
               color: .fromRGBO(121, 60, 251, 1),
             ),
-            padding: .all(12),
+            padding: .all(16),
             child: Column(
               children: [
-                Row(children: [Text("Upcoming appointment")]),
+                Row(
+                  children: [
+                    Text("Upcoming appointment"),
+                    Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      child: Text("In 2 days"),
+                    ),
+                  ],
+                ),
               ],
             ),
           ),
