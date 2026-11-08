@@ -35,15 +35,16 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
             ],
           ),
           Container(
-            height: 200,
             decoration: BoxDecoration(
               borderRadius: .circular(16),
               color: .fromRGBO(121, 60, 251, 1),
             ),
             padding: .all(16),
             child: Column(
+              spacing: 16,
               children: [
                 Row(
+                  mainAxisAlignment: .spaceBetween,
                   children: [
                     Text("Upcoming appointment"),
                     Container(
@@ -53,6 +54,7 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                   ],
                 ),
                 Row(
+                  spacing: 12,
                   children: [
                     Container(width: 52, height: 52, child: Placeholder()),
                     Expanded(
@@ -64,23 +66,35 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                         ],
                       ),
                     ),
-                    Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
-                      child: Row(
-                        children: [
-                          Expanded(child: Row()),
-                          Expanded(child: Row()),
-                        ],
-                      ),
-                    ),
                   ],
+                ),
+                Container(
+                  height: 42,
+                  decoration: ShapeDecoration(shape: StadiumBorder()),
+                  child: Row(
+                    children: [
+                      Expanded(child: Row()),
+                      VerticalDivider(),
+                      Expanded(child: Row()),
+                    ],
+                  ),
                 ),
               ],
             ),
           ),
 
           Text("Specialities"),
-          Container(height: 200, child: Placeholder()),
+          Container(
+            height: 200,
+            child: GridView.builder(
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 5,
+              ),
+              itemBuilder: (context, index) {
+                return Placeholder();
+              },
+            ),
+          ),
           Text("Recommended Doctors"),
           Container(height: 200, child: Placeholder()),
         ],
