@@ -66,8 +66,14 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                         child: HugeIcon(icon: HugeIcons.strokeRoundedUserGroup),
                       ),
                     ),
-                    CircleAvatar(radius: 26),
-                    CircleAvatar(radius: 26),
+                    CircleAvatar(
+                      radius: 26,
+                      backgroundColor: Colors.transparent,
+                    ),
+                    CircleAvatar(
+                      radius: 26,
+                      backgroundColor: Colors.transparent,
+                    ),
                   ],
                 ),
               ),
