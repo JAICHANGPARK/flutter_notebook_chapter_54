@@ -52,6 +52,19 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                     ),
                   ],
                 ),
+                Row(
+                  children: [
+                    Container(width: 52, height: 52, child: Placeholder()),
+                    Expanded(
+                      child: Column(
+                        children: [
+                          Text("Dr. Dreamwalker"),
+                          Text("Flutter | Dart Dash Medical"),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ],
             ),
           ),
