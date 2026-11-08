@@ -100,8 +100,14 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
             height: 180,
             child: ListView.builder(
               scrollDirection: .horizontal,
+
               itemBuilder: (context, index) {
-                return Container(width: 280, child: Placeholder());
+                return Container(
+                  width: 280,
+                  margin: .only(right: 16),
+
+                  child: Placeholder(),
+                );
               },
             ),
           ),
