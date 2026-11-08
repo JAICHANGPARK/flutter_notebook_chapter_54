@@ -22,12 +22,15 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
               CircleAvatar(radius: 24),
               Container(
                 width: 140,
-                padding: .only(left: 12, right: 12, bottom: 4, top: 4),
+                padding: .only(left: 12, right: 12, bottom: 6, top: 6),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
-                child: Row(children: [Icon(Icons.search), Text("Search")]),
+                child: Row(
+                  spacing: 4,
+                  children: [Icon(Icons.search), Text("Search")],
+                ),
               ),
             ],
           ),
