@@ -34,7 +34,17 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
               ),
             ],
           ),
-          Container(height: 200, child: Placeholder()),
+          Container(
+            height: 200,
+            decoration: BoxDecoration(
+              borderRadius: .circular(16),
+              color: .fromRGBO(121, 60, 251, 1),
+            ),
+            child: Column(children: [
+              
+            ],
+          ),
+          ),
 
           Text("Specialities"),
           Container(height: 200, child: Placeholder()),
