@@ -69,10 +69,12 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                     CircleAvatar(
                       radius: 26,
                       backgroundColor: Colors.transparent,
+                      child: Icon(Icons.local_activity),
                     ),
                     CircleAvatar(
                       radius: 26,
                       backgroundColor: Colors.transparent,
+                      child: Icon(Icons.settings),
                     ),
                   ],
                 ),
