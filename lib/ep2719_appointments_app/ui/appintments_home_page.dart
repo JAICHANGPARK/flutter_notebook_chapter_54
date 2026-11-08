@@ -96,7 +96,10 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
             ),
           ),
           Text("Recommended Doctors"),
-          Container(height: 200, child: Placeholder()),
+          Container(
+            height: 200,
+            child: ListView.builder(scrollDirection: .horizontal),
+          ),
         ],
       ),
     );
