@@ -11,6 +11,7 @@ class PerfumeShoppingStartPage extends StatelessWidget {
       backgroundColor: Color.fromRGBO(247, 243, 237, 1),
       body: SafeArea(
         child: Column(
+
           crossAxisAlignment: .start,
           spacing: 24,
           children: [
