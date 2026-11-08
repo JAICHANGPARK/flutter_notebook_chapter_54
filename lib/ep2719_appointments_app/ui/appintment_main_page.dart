@@ -15,6 +15,7 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: .fromRGBO(246, 246, 246, 1),
       body: SafeArea(
         child: Stack(
           children: [
