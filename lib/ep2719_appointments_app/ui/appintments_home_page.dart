@@ -56,12 +56,22 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                 Row(
                   spacing: 12,
                   children: [
-                    Container(width: 52, height: 52, child: Placeholder()),
+                    Container(width: 64, height: 64,decoration: BoxDecoration(
+                      color: Colors.purple
+                    ),),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: .start,
                         children: [
-                          Text("Dr. Dreamwalker"),
+                          Text(
+                            "Dr. Dreamwalker",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: .bold,
+                              fontSize: 20,,
+                          
+                            ),
+                          ),
                           Text("Flutter | Dart Dash Medical"),
                         ],
                       ),
