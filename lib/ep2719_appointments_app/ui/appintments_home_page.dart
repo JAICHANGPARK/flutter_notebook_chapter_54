@@ -56,11 +56,17 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                 Row(
                   spacing: 12,
                   children: [
-                    Container(width: 64, height: 64,decoration: BoxDecoration(
-                      color: Colors.purple
-                    ),),
+                    Container(
+                      width: 64,
+                      height: 64,
+                      decoration: BoxDecoration(
+                        color: Colors.purple[100],
+                        borderRadius: .circular(16),
+                      ),
+                    ),
                     Expanded(
                       child: Column(
+                        spacing: 4,
                         crossAxisAlignment: .start,
                         children: [
                           Text(
@@ -68,11 +74,13 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                             style: TextStyle(
                               color: Colors.white,
                               fontWeight: .bold,
-                              fontSize: 20,,
-                          
+                              fontSize: 20,
                             ),
                           ),
-                          Text("Flutter | Dart Dash Medical"),
+                          Text(
+                            "Flutter | Dart Dash Medical",
+                            style: TextStyle(color: Colors.white70),
+                          ),
                         ],
                       ),
                     ),
