@@ -41,12 +41,15 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
             ),
             padding: .all(16),
             child: Column(
-              spacing: 16,
+              spacing: 25,
               children: [
                 Row(
                   mainAxisAlignment: .spaceBetween,
                   children: [
-                    Text("Upcoming appointment"),
+                    Text(
+                      "Upcoming appointment",
+                      style: TextStyle(fontSize: 16, color: Colors.white),
+                    ),
                     Container(
                       decoration: ShapeDecoration(shape: StadiumBorder()),
                       child: Text("In 2 days"),
