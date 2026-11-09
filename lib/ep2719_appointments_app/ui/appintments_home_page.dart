@@ -91,6 +91,7 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                 crossAxisCount: 5,
                 mainAxisSpacing: 16,
                 crossAxisSpacing: 16,
+                childAspectRatio: .7,
               ),
               itemBuilder: (context, index) {
                 return Column(
@@ -100,7 +101,7 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                       child: Container(
                         decoration: BoxDecoration(
                           color: Colors.white,
-                          borderRadius: .circular(3),
+                          borderRadius: .circular(6),
                         ),
                       ),
                     ),
