@@ -89,9 +89,12 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
             child: GridView.builder(
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 5,
+                mainAxisSpacing: 16,
+                crossAxisSpacing: 16,
               ),
               itemBuilder: (context, index) {
                 return Column(
+                  spacing: 5,
                   children: [
                     Expanded(
                       child: Container(
