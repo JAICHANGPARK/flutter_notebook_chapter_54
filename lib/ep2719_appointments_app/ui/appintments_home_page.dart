@@ -70,11 +70,15 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                 ),
                 Container(
                   height: 42,
-                  decoration: ShapeDecoration(shape: StadiumBorder()),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    gradient: LinearGradient(colors: []),
+                  ),
                   child: Row(
                     children: [
                       Expanded(
                         child: Row(
+                          mainAxisAlignment: .center,
                           spacing: 6,
                           children: [
                             Icon(Icons.calendar_month, color: Colors.white),
