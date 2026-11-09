@@ -75,6 +75,8 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                       side: BorderSide(color: Colors.white30, width: .5),
                     ),
                     gradient: LinearGradient(
+                      begin: .topCenter,
+                      end: .bottomCenter,
                       colors: [
                         .fromRGBO(153, 107, 254, 1),
                         .fromRGBO(138, 86, 249, 1),
