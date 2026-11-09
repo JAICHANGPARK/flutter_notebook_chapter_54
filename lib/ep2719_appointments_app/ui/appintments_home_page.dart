@@ -64,6 +64,7 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                           ],
                         ),
                       ),
+                      padding: .symmetric(horizontal: 16, vertical: 8),
                       child: Text(
                         "In 2 days",
                         style: TextStyle(color: Colors.white),
