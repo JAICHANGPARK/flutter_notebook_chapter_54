@@ -88,7 +88,7 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                       Expanded(
                         child: Row(
                           mainAxisAlignment: .center,
-                          spacing: 6,
+                          spacing: 12,
                           children: [
                             Icon(Icons.calendar_month, color: Colors.white),
                             Text(
