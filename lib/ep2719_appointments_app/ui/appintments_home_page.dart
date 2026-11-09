@@ -91,7 +91,19 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                 crossAxisCount: 5,
               ),
               itemBuilder: (context, index) {
-                return Column(children: []);
+                return Column(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: .circular(3),
+                        ),
+                      ),
+                    ),
+                    Text("General"),
+                  ],
+                );
               },
             ),
           ),
