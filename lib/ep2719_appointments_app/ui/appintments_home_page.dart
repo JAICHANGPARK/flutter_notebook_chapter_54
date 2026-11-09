@@ -69,9 +69,11 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                   ],
                 ),
                 Container(
-                  height: 42,
+                  height: 52,
                   decoration: ShapeDecoration(
-                    shape: StadiumBorder(),
+                    shape: StadiumBorder(
+                      side: BorderSide(color: Colors.white30, width: .5),
+                    ),
                     gradient: LinearGradient(
                       colors: [
                         .fromRGBO(153, 107, 254, 1),
