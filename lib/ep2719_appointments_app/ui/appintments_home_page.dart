@@ -83,6 +83,7 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                       ],
                     ),
                   ),
+                  padding: .symmetric(vertical: 12),
                   child: Row(
                     children: [
                       Expanded(
@@ -99,7 +100,22 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                         ),
                       ),
                       VerticalDivider(),
-                      Expanded(child: Row()),
+                      Expanded(
+                        child: Row(
+                          mainAxisAlignment: .center,
+                          spacing: 12,
+                          children: [
+                            Icon(
+                              Icons.access_time_outlined,
+                              color: Colors.white,
+                            ),
+                            Text(
+                              "10:30 AM",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ),
