@@ -95,7 +95,7 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
               ),
               itemBuilder: (context, index) {
                 return Column(
-                  spacing: 5,
+                  spacing: 7,
                   children: [
                     Expanded(
                       child: Container(
@@ -105,7 +105,10 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                         ),
                       ),
                     ),
-                    Text("General"),
+                    Text(
+                      "General",
+                      style: TextStyle(fontWeight: .bold, color: Colors.grey),
+                    ),
                   ],
                 );
               },
