@@ -73,7 +73,10 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
                     gradient: LinearGradient(
-                      colors: [.fromRGBO(153, 107, 254, 1)],
+                      colors: [
+                        .fromRGBO(153, 107, 254, 1),
+                        .fromRGBO(138, 86, 249, 1),
+                      ],
                     ),
                   ),
                   child: Row(
