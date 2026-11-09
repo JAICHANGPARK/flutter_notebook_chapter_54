@@ -73,7 +73,18 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                   decoration: ShapeDecoration(shape: StadiumBorder()),
                   child: Row(
                     children: [
-                      Expanded(child: Row()),
+                      Expanded(
+                        child: Row(
+                          spacing: 6,
+                          children: [
+                            Icon(Icons.calendar_month, color: Colors.white),
+                            Text(
+                              "Thu, Oct 16",
+                              style: TextStyle(color: Colors.white),
+                            ),
+                          ],
+                        ),
+                      ),
                       VerticalDivider(),
                       Expanded(child: Row()),
                     ],
