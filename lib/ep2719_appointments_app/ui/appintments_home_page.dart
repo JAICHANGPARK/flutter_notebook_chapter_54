@@ -231,6 +231,13 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                                 Text("Specialist in wellness with dash"),
                               ],
                             ),
+                            Row(
+                              spacing: 8,
+                              children: [
+                                CircleAvatar(radius: 14),
+                                Text("Dreamwalker"),
+                              ],
+                            ),
                           ],
                         ),
                       ),
