@@ -207,10 +207,22 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                         top: 16,
                         right: 16,
                         bottom: 16,
-                        child: Column(crossAxisAlignment: .start, children: [
+                        child: Column(
+                          crossAxisAlignment: .start,
+                          children: [
+                            Row(children: [
 
-                        ],
-                      ),
+                            ],
+                          ),
+                            Column(
+                              children: [
+                                Text("Dr. Dream"),
+                                Text("Flutter Dev"),
+                                Text("Specialist in wellness with dash"),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),
