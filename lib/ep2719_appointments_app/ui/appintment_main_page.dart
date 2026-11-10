@@ -17,6 +17,7 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
     return Scaffold(
       backgroundColor: .fromRGBO(246, 246, 246, 1),
       body: SafeArea(
+        bottom: false,
         child: Stack(
           children: [
             Positioned.fill(
