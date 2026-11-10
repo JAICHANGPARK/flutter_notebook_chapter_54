@@ -193,7 +193,7 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
           ),
           Text("Recommended Doctors"),
           Container(
-            height: 200,
+            height: 220,
             child: ListView.builder(
               scrollDirection: .horizontal,
               itemBuilder: (context, index) {
@@ -238,8 +238,14 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                             Column(
                               crossAxisAlignment: .start,
                               children: [
-                                Text("Dr. Dream"),
-                                Text("Flutter Dev"),
+                                Text(
+                                  "Dr. Dream",
+                                  style: TextStyle(fontSize: 20),
+                                ),
+                                Text(
+                                  "Flutter Dev",
+                                  style: TextStyle(fontSize: 20),
+                                ),
                                 Text("Specialist in wellness with dash"),
                               ],
                             ),
