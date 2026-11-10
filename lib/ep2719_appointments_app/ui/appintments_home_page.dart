@@ -200,11 +200,17 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                 return Container(
                   width: 280,
                   margin: .only(right: 16),
+                  decoration: ShapeDecoration(
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(16),
+                    ),
+                    color: Colors.white,
+                  ),
                   child: Stack(
                     children: [
                       Positioned(
                         left: 16,
-                        top: 16,
+                        top: 12,
                         right: 16,
                         bottom: 16,
                         child: Column(
@@ -212,10 +218,15 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                           spacing: 16,
                           children: [
                             Row(
+                              mainAxisAlignment: .spaceBetween,
                               children: [
                                 Container(
                                   child: Row(
-                                    children: [Icon(Icons.star), Text("4.9")],
+                                    spacing: 4,
+                                    children: [
+                                      Icon(Icons.star, color: Colors.orange),
+                                      Text("4.9"),
+                                    ],
                                   ),
                                 ),
                                 IconButton(
