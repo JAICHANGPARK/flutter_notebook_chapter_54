@@ -210,11 +210,21 @@ class _AppintmentsHomePageState extends State<AppintmentsHomePage> {
                         child: Column(
                           crossAxisAlignment: .start,
                           children: [
-                            Row(children: [
-
-                            ],
-                          ),
+                            Row(
+                              children: [
+                                Container(
+                                  child: Row(
+                                    children: [Icon(Icons.star), Text("4.9")],
+                                  ),
+                                ),
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.favorite_outline),
+                                ),
+                              ],
+                            ),
                             Column(
+                              crossAxisAlignment: .start,
                               children: [
                                 Text("Dr. Dream"),
                                 Text("Flutter Dev"),
