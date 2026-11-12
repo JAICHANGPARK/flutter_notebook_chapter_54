@@ -11,6 +11,9 @@ class AppointmentsProfilePage extends StatefulWidget {
 class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Column(children: [
+        
+      ],
+    );
   }
 }
