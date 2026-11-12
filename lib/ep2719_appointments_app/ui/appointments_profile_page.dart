@@ -11,8 +11,22 @@ class AppointmentsProfilePage extends StatefulWidget {
 class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
   @override
   Widget build(BuildContext context) {
-    return Column(crossAxisAlignment: .start, children: [
-        
+    return Column(
+      crossAxisAlignment: .start,
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            CircleAvatar(backgroundColor: Colors.white),
+          ],
+        ),
       ],
     );
   }
