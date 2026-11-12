@@ -29,6 +29,19 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
             CircleAvatar(radius: 24, backgroundColor: Colors.white),
           ],
         ),
+        SizedBox(height: 62, child: Placeholder()),
+        SizedBox(height: 62, child: Placeholder()),
+        Expanded(
+          child: ListView.builder(
+            itemBuilder: (context, index) {
+              return Container(
+                decoration: ShapeDecoration(
+                  shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
+                ),
+              );
+            },
+          ),
+        ),
       ],
     );
   }
