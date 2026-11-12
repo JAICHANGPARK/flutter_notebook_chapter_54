@@ -35,25 +35,33 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
         ),
         SizedBox(height: 62, child: Placeholder()),
         SizedBox(height: 62, child: Placeholder()),
-        Row(
-          children: [
-            Text("152 doctors found"),
-            Spacer(),
-            Text("Sort by"),
-            Icon(Icons.keyboard_arrow_down),
-          ],
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Row(
+            children: [
+              Text("152 doctors found"),
+              Spacer(),
+              Text("Sort by"),
+              Icon(Icons.keyboard_arrow_down),
+            ],
+          ),
         ),
         Expanded(
-          child: ListView.builder(
-            itemBuilder: (context, index) {
-              return Container(
-                height: 62,
-                decoration: ShapeDecoration(
-                  shape: RoundedSuperellipseBorder(borderRadius: .circular(16)),
-                  color: Colors.white,
-                ),
-              );
-            },
+          child: Padding(
+            padding: .symmetric(horizontal: 16),
+            child: ListView.builder(
+              itemBuilder: (context, index) {
+                return Container(
+                  height: 100,
+                  decoration: ShapeDecoration(
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(16),
+                    ),
+                    color: Colors.white,
+                  ),
+                );
+              },
+            ),
           ),
         ),
       ],
