@@ -1,4 +1,4 @@
-import 'package:flutter_notebook_chapter_54/ep2719_appointments_app/ui/appontment_main_page.dart';
+import 'package:flutter_notebook_chapter_54/ep2719_appointments_app/ui/appontments_main_page.dart';
 import 'package:material_ui/material_ui.dart';
 
 class AppointmentsApp extends StatelessWidget {
