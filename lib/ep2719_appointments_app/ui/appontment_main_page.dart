@@ -1,7 +1,8 @@
+import 'package:flutter_notebook_chapter_54/ep2719_appointments_app/ui/appointments_profile_page.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
-import 'appintments_home_page.dart';
+import 'appontments_home_page.dart';
 
 class AppintmentMainPage extends StatefulWidget {
   const new({super.key});
@@ -23,7 +24,7 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
             Positioned.fill(
               child: IndexedStack(
                 index: pageNum,
-                children: [AppintmentsHomePage()],
+                children: [AppintmentsHomePage(), AppointmentsProfilePage()],
               ),
             ),
             Align(
