@@ -53,6 +53,7 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
               itemBuilder: (context, index) {
                 return Container(
                   height: 100,
+                  margin: .only(bottom: 16),
                   decoration: ShapeDecoration(
                     shape: RoundedSuperellipseBorder(
                       borderRadius: .circular(16),
