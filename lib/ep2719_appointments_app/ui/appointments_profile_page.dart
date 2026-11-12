@@ -13,21 +13,25 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: .start,
+      spacing: 16,
       children: [
-        Row(
-          spacing: 12,
-          children: [
-            Expanded(
-              child: Container(
-                decoration: ShapeDecoration(
-                  shape: StadiumBorder(),
-                  color: Colors.white,
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Row(
+            spacing: 12,
+            children: [
+              Expanded(
+                child: Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.white,
+                  ),
+                  child: TextField(),
                 ),
-                child: TextField(),
               ),
-            ),
-            CircleAvatar(radius: 24, backgroundColor: Colors.white),
-          ],
+              CircleAvatar(radius: 24, backgroundColor: Colors.white),
+            ],
+          ),
         ),
         SizedBox(height: 62, child: Placeholder()),
         SizedBox(height: 62, child: Placeholder()),
