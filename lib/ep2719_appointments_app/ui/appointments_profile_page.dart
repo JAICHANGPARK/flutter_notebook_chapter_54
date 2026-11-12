@@ -15,6 +15,7 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
       crossAxisAlignment: .start,
       children: [
         Row(
+          spacing: 12,
           children: [
             Expanded(
               child: Container(
@@ -22,9 +23,10 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
+                child: TextField(),
               ),
             ),
-            CircleAvatar(backgroundColor: Colors.white),
+            CircleAvatar(radius: 24, backgroundColor: Colors.white),
           ],
         ),
       ],
