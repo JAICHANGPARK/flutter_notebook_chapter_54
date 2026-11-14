@@ -46,7 +46,7 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
           ),
         ),
         Container(
-          height: 54,
+          height: 52,
           margin: .only(left: 16),
           child: ListView(
             scrollDirection: .horizontal,
@@ -74,10 +74,51 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                   children: [Icon(Icons.face), Text("Flutter")],
                 ),
               ),
+              Container(
+                margin: .only(right: 16),
+                padding: .symmetric(horizontal: 16),
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                child: Row(
+                  spacing: 16,
+                  children: [Icon(Icons.face), Text("Android/iOS")],
+                ),
+              ),
             ],
           ),
         ),
-        SizedBox(height: 62, child: Placeholder()),
+        Container(
+          height: 52,
+          margin: .only(left: 16),
+          child: ListView(
+            scrollDirection: .horizontal,
+            children: [
+              Container(
+                margin: .only(right: 16),
+                padding: .symmetric(horizontal: 16),
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                child: Row(spacing: 16, children: [Text("Flutter")]),
+              ),
+              Container(
+                margin: .only(right: 16),
+                padding: .symmetric(horizontal: 16),
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                child: Row(
+                  spacing: 16,
+                  children: [Icon(Icons.face), Text("Android/iOS")],
+                ),
+              ),
+            ],
+          ),
+        ),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Row(
