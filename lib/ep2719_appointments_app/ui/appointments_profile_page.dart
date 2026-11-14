@@ -102,7 +102,13 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
-                child: Row(spacing: 16, children: [Text("Flutter")]),
+                child: Row(
+                  spacing: 16,
+                  children: [
+                    Text("Availability"),
+                    Icon(Icons.keyboard_arrow_down),
+                  ],
+                ),
               ),
               Container(
                 margin: .only(right: 16),
