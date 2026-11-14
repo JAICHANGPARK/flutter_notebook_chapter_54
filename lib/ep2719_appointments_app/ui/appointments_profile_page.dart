@@ -96,14 +96,14 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
             scrollDirection: .horizontal,
             children: [
               Container(
-                margin: .only(right: 16),
+                margin: .only(right: 12),
                 padding: .symmetric(horizontal: 16),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
                 child: Row(
-                  spacing: 16,
+                  spacing: 12,
                   children: [
                     Text("Availability"),
                     Icon(Icons.keyboard_arrow_down),
@@ -111,15 +111,30 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                 ),
               ),
               Container(
-                margin: .only(right: 16),
+                margin: .only(right: 12),
                 padding: .symmetric(horizontal: 16),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
                 child: Row(
-                  spacing: 16,
-                  children: [Icon(Icons.face), Text("Android/iOS")],
+                  spacing: 12,
+                  children: [Text("Rating"), Icon(Icons.keyboard_arrow_down)],
+                ),
+              ),
+              Container(
+                margin: .only(right: 12),
+                padding: .symmetric(horizontal: 16),
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                child: Row(
+                  spacing: 12,
+                  children: [
+                    Text("Online con"),
+                    Icon(Icons.keyboard_arrow_down),
+                  ],
                 ),
               ),
             ],
