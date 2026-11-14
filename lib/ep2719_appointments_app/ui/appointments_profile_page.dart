@@ -39,12 +39,29 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
               CircleAvatar(
                 radius: 24,
                 backgroundColor: Colors.white,
+                foregroundColor: Colors.grey,
                 child: Icon(Icons.filter_alt_outlined),
               ),
             ],
           ),
         ),
-        SizedBox(height: 62, child: Placeholder()),
+        Container(
+          height: 62,
+          child: ListView(
+            scrollDirection: .horizontal,
+            children: [
+              Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: .fromRGBO(115, 56, 239, 1),
+                ),
+                child: Center(
+                  child: Text("All", style: TextStyle(color: Colors.white)),
+                ),
+              ),
+            ],
+          ),
+        ),
         SizedBox(height: 62, child: Placeholder()),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
