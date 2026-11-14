@@ -52,11 +52,13 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
             scrollDirection: .horizontal,
             children: [
               Container(
+                margin: .only(right: 16),
+                padding: .symmetric(horizontal: 26),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: .fromRGBO(115, 56, 239, 1),
                 ),
-                padding: .symmetric(horizontal: 26),
+
                 child: Center(
                   child: Text("All", style: TextStyle(color: Colors.white)),
                 ),
