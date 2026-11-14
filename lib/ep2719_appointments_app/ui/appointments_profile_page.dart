@@ -26,7 +26,13 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                     shape: StadiumBorder(),
                     color: Colors.white,
                   ),
-                  child: TextField(decoration: InputDecoration(border: .none)),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      border: .none,
+                      hintText: "Search...",
+                      icon: Icon(Icons.search),
+                    ),
+                  ),
                 ),
               ),
               CircleAvatar(radius: 24, backgroundColor: Colors.white),
