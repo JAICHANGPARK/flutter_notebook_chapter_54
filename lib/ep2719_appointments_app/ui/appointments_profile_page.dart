@@ -1,3 +1,4 @@
+import 'package:gap/gap.dart';
 import 'package:material_ui/material_ui.dart';
 
 class AppointmentsProfilePage extends StatefulWidget {
@@ -140,9 +141,11 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
             ],
           ),
         ),
+        Gap(6),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Row(
+            spacing: 4,
             children: [
               Text("152 doctors found"),
               Spacer(),
