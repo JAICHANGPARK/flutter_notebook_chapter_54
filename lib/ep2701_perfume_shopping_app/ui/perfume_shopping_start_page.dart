@@ -13,7 +13,7 @@ class PerfumeShoppingStartPage extends StatelessWidget {
         child: Column(
 
           crossAxisAlignment: .start,
-          
+
           spacing: 24,
           children: [
             Expanded(child: Placeholder()),
