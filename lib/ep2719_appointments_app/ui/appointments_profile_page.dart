@@ -46,7 +46,8 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
           ),
         ),
         Container(
-          height: 62,
+          height: 54,
+          margin: .only(left: 16),
           child: ListView(
             scrollDirection: .horizontal,
             children: [
@@ -55,6 +56,7 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                   shape: StadiumBorder(),
                   color: .fromRGBO(115, 56, 239, 1),
                 ),
+                padding: .symmetric(horizontal: 26),
                 child: Center(
                   child: Text("All", style: TextStyle(color: Colors.white)),
                 ),
