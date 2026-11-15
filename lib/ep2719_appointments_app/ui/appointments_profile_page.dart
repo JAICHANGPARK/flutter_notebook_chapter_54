@@ -175,7 +175,7 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                       Container(height: 72, width: 72, child: Placeholder()),
                       Expanded(
                         child: Column(
-                          spacing: 8,
+                          spacing: 4,
                           crossAxisAlignment: .start,
                           children: [
                             Row(
@@ -186,7 +186,20 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                                   style: TextStyle(fontWeight: .bold),
                                 ),
 
-                                Container(child: Text("Today")),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.purple[50],
+                                  ),
+                                  padding: .symmetric(
+                                    horizontal: 12,
+                                    vertical: 6,
+                                  ),
+                                  child: Text(
+                                    "Today",
+                                    style: TextStyle(fontSize: 12),
+                                  ),
+                                ),
                               ],
                             ),
                             Text("Flutter Dev"),
