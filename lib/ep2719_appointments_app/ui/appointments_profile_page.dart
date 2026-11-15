@@ -181,19 +181,29 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                             Row(
                               mainAxisAlignment: .spaceBetween,
                               children: [
-                                Text("Dr. Dream"),
+                                Text(
+                                  "Dr. Dream",
+                                  style: TextStyle(fontWeight: .bold),
+                                ),
 
                                 Container(child: Text("Today")),
                               ],
                             ),
                             Text("Flutter Dev"),
                             Row(
+                              spacing: 2,
                               children: [
-                                Icon(Icons.star_rate_rounded),
+                                Icon(
+                                  Icons.star_rate_rounded,
+                                  color: Colors.amber,
+                                ),
                                 Text("4.9"),
                                 Text("(1.2k reviews)"),
                                 Spacer(),
-                                Text("\$120"),
+                                Text(
+                                  "\$120",
+                                  style: TextStyle(fontWeight: .bold),
+                                ),
                                 Text("/ visit"),
                               ],
                             ),
