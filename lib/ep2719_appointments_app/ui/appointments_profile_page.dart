@@ -172,6 +172,28 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                   child: Row(
                     children: [
                       Container(height: 64, width: 64, child: Placeholder()),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: .start,
+                          children: [
+                            Row(
+                              children: [
+                                Text("Dr. Dream"),
+                                Container(child: Text("Today")),
+                              ],
+                            ),
+                            Text("Flutter Dev"),
+                            Row(
+                              children: [
+                                Icon(Icons.star_rate_rounded),
+                                Text("4.9"),
+                                Text("(1.2k reviews)"),
+                                Spacer(),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 );
