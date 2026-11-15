@@ -48,7 +48,6 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                       },
                       child: CircleAvatar(
                         radius: 26,
-
                         backgroundColor: pageNum == 0
                             ? Colors.white
                             : Colors.transparent,
