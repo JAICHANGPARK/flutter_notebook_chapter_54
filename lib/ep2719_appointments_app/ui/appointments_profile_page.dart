@@ -160,7 +160,8 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
             child: ListView.builder(
               itemBuilder: (context, index) {
                 return Container(
-                  height: 100,
+                  height: 92,
+                  padding: .all(12),
                   margin: .only(bottom: 16),
                   decoration: ShapeDecoration(
                     shape: RoundedSuperellipseBorder(
