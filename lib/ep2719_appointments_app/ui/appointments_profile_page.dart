@@ -168,6 +168,11 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                     ),
                     color: Colors.white,
                   ),
+                  child: Row(
+                    children: [
+                      Container(height: 52, width: 52, child: Placeholder()),
+                    ],
+                  ),
                 );
               },
             ),
