@@ -160,7 +160,7 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
             child: ListView.builder(
               itemBuilder: (context, index) {
                 return Container(
-                  height: 92,
+                  // height: 92,
                   padding: .all(16),
                   margin: .only(bottom: 16),
                   decoration: ShapeDecoration(
@@ -189,6 +189,8 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                                 Text("4.9"),
                                 Text("(1.2k reviews)"),
                                 Spacer(),
+                                Text("\$120"),
+                                Text("/ visit"),
                               ],
                             ),
                           ],
