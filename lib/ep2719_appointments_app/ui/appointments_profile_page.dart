@@ -170,15 +170,19 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
                     color: Colors.white,
                   ),
                   child: Row(
+                    spacing: 12,
                     children: [
-                      Container(height: 64, width: 64, child: Placeholder()),
+                      Container(height: 72, width: 72, child: Placeholder()),
                       Expanded(
                         child: Column(
+                          spacing: 8,
                           crossAxisAlignment: .start,
                           children: [
                             Row(
+                              mainAxisAlignment: .spaceBetween,
                               children: [
                                 Text("Dr. Dream"),
+
                                 Container(child: Text("Today")),
                               ],
                             ),
