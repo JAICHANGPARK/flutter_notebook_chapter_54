@@ -161,17 +161,17 @@ class _AppointmentsProfilePageState extends State<AppointmentsProfilePage> {
               itemBuilder: (context, index) {
                 return Container(
                   height: 92,
-                  padding: .all(12),
+                  padding: .all(16),
                   margin: .only(bottom: 16),
                   decoration: ShapeDecoration(
                     shape: RoundedSuperellipseBorder(
-                      borderRadius: .circular(16),
+                      borderRadius: .circular(20),
                     ),
                     color: Colors.white,
                   ),
                   child: Row(
                     children: [
-                      Container(height: 52, width: 52, child: Placeholder()),
+                      Container(height: 64, width: 64, child: Placeholder()),
                     ],
                   ),
                 );
