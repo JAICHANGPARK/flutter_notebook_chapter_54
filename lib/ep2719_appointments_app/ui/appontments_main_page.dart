@@ -48,7 +48,13 @@ class _AppintmentMainPageState extends State<AppintmentMainPage> {
                       },
                       child: CircleAvatar(
                         radius: 26,
-                        backgroundColor: Colors.white,
+
+                        backgroundColor: pageNum == 0
+                            ? Colors.white
+                            : Colors.transparent,
+                        foregroundColor: pageNum == 0
+                            ? Colors.purple
+                            : Colors.grey,
                         child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
                       ),
                     ),
