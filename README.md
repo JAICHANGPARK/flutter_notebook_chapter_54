@@ -1,5 +1,12 @@
 # flutter_notebook_chapter_54
 
+# EP2727
+
+- AI Pet Care Agent, Shop & Health App Animation
+- Abdur Razzak
+- https://dribbble.com/shots/27890514-AI-Pet-Care-Agent-Shop-Health-App-Animation
+
+<img src="https://cdn.dribbble.com/userupload/49523409/file/3904fafaac32743df1bbda69532a1a25.png?resize=1600x1200&vertical=center" alt=""/>
 
 # EP2719-2726
 
