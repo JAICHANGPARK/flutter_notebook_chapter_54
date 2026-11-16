@@ -6,7 +6,7 @@
 - Abdur Razzak
 - https://dribbble.com/shots/27890514-AI-Pet-Care-Agent-Shop-Health-App-Animation
 
-<img src="https://cdn.dribbble.com/userupload/49523409/file/3904fafaac32743df1bbda69532a1a25.png?resize=1600x1200&vertical=center" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/49625592/file/6ea97de65e9bebe23c176c8bfe6ae0af.mp4" alt=""/>
 
 # EP2719-2726
 
