@@ -10,6 +10,24 @@ class PetCareMainPage extends StatefulWidget {
 class _PetCareMainPageState extends State<PetCareMainPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: .fromRGBO(214, 216, 215, 1),
+      body: Stack(
+        children: [
+          Row(
+            children: [
+              Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(side: BorderSide(color: Colors.white)),
+                ),
+                child: Row(children: [
+                  
+                ],),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
   }
 }
