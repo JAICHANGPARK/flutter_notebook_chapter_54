@@ -14,17 +14,34 @@ class _PetCareMainPageState extends State<PetCareMainPage> {
       backgroundColor: .fromRGBO(214, 216, 215, 1),
       body: Stack(
         children: [
-          Row(
-            children: [
-              Container(
-                decoration: ShapeDecoration(
-                  shape: StadiumBorder(side: BorderSide(color: Colors.white)),
-                ),
-                child: Row(children: [
-                  
-                ],),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Align(
+              alignment: .bottomCenter,
+              child: Row(
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(
+                        side: BorderSide(color: Colors.white),
+                      ),
+                    ),
+                    child: Row(
+                      children: [
+                        CircleAvatar(),
+                        CircleAvatar(),
+                        CircleAvatar(),
+                        CircleAvatar(),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(shape: .circle),
+                    child: CircleAvatar(),
+                  ),
+                ],
               ),
-            ],
+            ),
           ),
         ],
       ),
