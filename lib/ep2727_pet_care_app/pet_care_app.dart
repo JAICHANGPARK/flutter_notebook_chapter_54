@@ -1,3 +1,4 @@
+import 'package:flutter_notebook_chapter_54/ep2727_pet_care_app/ui/pet_care_main_page.dart';
 import 'package:material_ui/material_ui.dart';
 
 class PetCareApp extends StatelessWidget {
@@ -5,6 +6,6 @@ class PetCareApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(home: PetCareMainPage());
   }
 }
