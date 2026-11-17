@@ -1,3 +1,4 @@
+import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
 class PetCareMainPage extends StatefulWidget {
@@ -14,6 +15,9 @@ class _PetCareMainPageState extends State<PetCareMainPage> {
       backgroundColor: .fromRGBO(214, 216, 215, 1),
       body: Stack(
         children: [
+          Positioned.fill(
+            child: SafeArea(child: IndexedStack(children: [])),
+          ),
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Align(
@@ -28,10 +32,18 @@ class _PetCareMainPageState extends State<PetCareMainPage> {
                     ),
                     child: Row(
                       children: [
-                        CircleAvatar(),
-                        CircleAvatar(),
-                        CircleAvatar(),
-                        CircleAvatar(),
+                        CircleAvatar(
+                          child: HugeIcon(icon: HugeIcons.strokeRoundedHome01),
+                        ),
+                        CircleAvatar(
+                          child: HugeIcon(icon: HugeIcons.strokeRoundedHeart),
+                        ),
+                        CircleAvatar(
+                          child: HugeIcon(icon: HugeIcons.strokeRoundedStore01),
+                        ),
+                        CircleAvatar(
+                          child: HugeIcon(icon: HugeIcons.strokeRoundedUser02),
+                        ),
                       ],
                     ),
                   ),
