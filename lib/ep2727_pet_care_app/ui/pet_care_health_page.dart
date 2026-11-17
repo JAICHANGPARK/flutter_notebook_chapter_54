@@ -27,6 +27,20 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
               CircleAvatar(),
             ],
           ),
+          Container(height: 420, child: Placeholder()),
+          Row(
+            mainAxisAlignment: .spaceBetween,
+            children: [
+              Text("Vaccination history"),
+              TextButton(onPressed: () {}, child: Text("View All")),
+            ],
+          ),
+          Column(
+            children: List.generate(
+              5,
+              (idx) => Container(height: 42, child: Placeholder()),
+            ),
+          ),
         ],
       ),
     );
