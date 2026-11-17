@@ -37,7 +37,9 @@ class _PetCareMainPageState extends State<PetCareMainPage> {
                   ),
                   Container(
                     decoration: BoxDecoration(shape: .circle),
-                    child: CircleAvatar(),
+                    child: CircleAvatar(
+                      backgroundColor: .fromRGBO(252, 246, 100, 1),
+                    ),
                   ),
                 ],
               ),
