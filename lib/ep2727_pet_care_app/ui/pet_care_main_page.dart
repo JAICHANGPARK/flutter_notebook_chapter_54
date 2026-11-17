@@ -1,6 +1,8 @@
 import 'package:hugeicons/hugeicons.dart';
 import 'package:material_ui/material_ui.dart';
 
+import 'pet_care_health_page.dart';
+
 class PetCareMainPage extends StatefulWidget {
   const new({super.key});
 
@@ -16,13 +18,16 @@ class _PetCareMainPageState extends State<PetCareMainPage> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: SafeArea(child: IndexedStack(children: [])),
+            child: SafeArea(
+              child: IndexedStack(children: [PetCareHealthPage()]),
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Align(
               alignment: .bottomCenter,
               child: Row(
+                mainAxisAlignment: .center,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
