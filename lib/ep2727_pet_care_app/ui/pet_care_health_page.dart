@@ -81,26 +81,63 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                     child: Row(
                       spacing: 12,
                       children: [
-                        Expanded(child: Placeholder()),
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: .circular(24),
+                              ),
+                              color: .fromRGBO(181, 179, 219, 1),
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: .circular(24),
+                              ),
+                              color: .fromRGBO(230, 230, 230, 1),
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
                 ],
               ),
             ),
-            Row(
-              mainAxisAlignment: .spaceBetween,
-              children: [
-                Text("Vaccination history"),
-                TextButton(onPressed: () {}, child: Text("View All")),
-              ],
-            ),
             Column(
-              children: List.generate(
-                5,
-                (idx) => Container(height: 42, child: Placeholder()),
-              ),
+              crossAxisAlignment: .start,
+              spacing: 2,
+              children: [
+                Row(
+                  mainAxisAlignment: .spaceBetween,
+                  children: [
+                    Text("Vaccination history", style: TextStyle(fontSize: 16)),
+                    TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        "View All",
+                        style: TextStyle(decoration: .underline),
+                      ),
+                      style: TextButton.styleFrom(
+                        foregroundColor: Colors.black,
+                      ),
+                    ),
+                  ],
+                ),
+                Column(
+                  children: List.generate(
+                    5,
+                    (idx) => Container(
+                      height: 62,
+                      child: Placeholder(),
+                      margin: .only(bottom: 8),
+                    ),
+                  ),
+                ),
+              ],
             ),
           ],
         ),
