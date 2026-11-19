@@ -22,12 +22,12 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
               children: [
                 Expanded(
                   child: Column(
-                    spacing: 4,
+                    spacing: 2,
                     crossAxisAlignment: .start,
                     children: [
                       Text(
                         "Health & Vaccination",
-                        style: TextStyle(fontWeight: .bold, fontSize: 16),
+                        style: TextStyle(fontWeight: .bold, fontSize: 20),
                       ),
                       Text("Keep Dream healthy and happy"),
                     ],
