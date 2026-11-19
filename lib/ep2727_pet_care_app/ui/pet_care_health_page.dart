@@ -38,18 +38,40 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
             ),
             Container(
               height: 420,
+              decoration: ShapeDecoration(
+                shape: RoundedSuperellipseBorder(borderRadius: .circular(24)),
+                color: .fromRGBO(201, 203, 203, 1),
+              ),
               child: Column(
                 spacing: 12,
                 children: [
                   Expanded(
                     child: Row(
+                      spacing: 12,
                       children: [
-                        Expanded(child: Placeholder()),
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: .circular(24),
+                              ),
+                              color: .fromRGBO(174, 162, 141, 1),
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: .circular(24),
+                              ),
+                              color: .fromRGBO(122, 153, 140, 1),
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
-
                   Expanded(
                     child: Row(
                       spacing: 12,
