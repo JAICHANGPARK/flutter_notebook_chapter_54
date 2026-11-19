@@ -15,6 +15,7 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
       child: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
+          spacing: 16,
           children: [
             Row(
               mainAxisAlignment: .spaceBetween,
@@ -24,7 +25,10 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                     spacing: 4,
                     crossAxisAlignment: .start,
                     children: [
-                      Text("Health & Vaccination"),
+                      Text(
+                        "Health & Vaccination",
+                        style: TextStyle(fontWeight: .bold, fontSize: 16),
+                      ),
                       Text("Keep Dream healthy and happy"),
                     ],
                   ),
@@ -42,6 +46,7 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                 shape: RoundedSuperellipseBorder(borderRadius: .circular(24)),
                 color: .fromRGBO(201, 203, 203, 1),
               ),
+              padding: .all(16),
               child: Column(
                 spacing: 12,
                 children: [
