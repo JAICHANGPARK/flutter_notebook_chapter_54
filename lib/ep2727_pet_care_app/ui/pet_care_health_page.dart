@@ -251,7 +251,6 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                     5,
                     (idx) => Container(
                       // height: 62,
-
                       margin: .only(bottom: 8),
                       decoration: ShapeDecoration(
                         shape: RoundedSuperellipseBorder(
@@ -281,7 +280,10 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                             ),
                           ),
                           Container(
-                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: .fromRGBO(181, 179, 219, 1),
+                            ),
                             child: Center(
                               child: Text(
                                 "Done",
