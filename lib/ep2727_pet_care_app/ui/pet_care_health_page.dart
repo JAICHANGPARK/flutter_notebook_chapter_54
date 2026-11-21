@@ -250,7 +250,7 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                   children: List.generate(
                     5,
                     (idx) => Container(
-                      height: 62,
+                      // height: 62,
 
                       margin: .only(bottom: 8),
                       decoration: ShapeDecoration(
@@ -259,7 +259,9 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                         ),
                         color: .fromRGBO(230, 230, 230, 1),
                       ),
+                      padding: .all(12),
                       child: Row(
+                        spacing: 12,
                         children: [
                           Container(
                             decoration: BoxDecoration(),
@@ -269,7 +271,9 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                           ),
                           Expanded(
                             child: Column(
+                              spacing: 4,
                               crossAxisAlignment: .start,
+                              mainAxisAlignment: .center,
                               children: [
                                 Text("Robisa"),
                                 Text("Complete May 10, 2026"),
