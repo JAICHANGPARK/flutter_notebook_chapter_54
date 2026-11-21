@@ -267,6 +267,24 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                             width: 54,
                             child: Placeholder(),
                           ),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: .start,
+                              children: [
+                                Text("Robisa"),
+                                Text("Complete May 10, 2026"),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            child: Center(
+                              child: Text(
+                                "Done",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                     ),
