@@ -67,14 +67,24 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                               spacing: 3,
                               crossAxisAlignment: .start,
                               children: [
-                                CircleAvatar(radius: 24),
-                                Text("Weight"),
+                                CircleAvatar(
+                                  radius: 24,
+                                  backgroundColor: Colors.white24,
+                                ),
+                                Text(
+                                  "Weight",
+                                  style: TextStyle(color: Colors.white),
+                                ),
                                 Spacer(),
                                 Align(
                                   alignment: .centerRight,
                                   child: Text(
                                     "24.5 kg",
-                                    style: TextStyle(fontWeight: .bold),
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                    ),
                                   ),
                                 ),
                               ],
