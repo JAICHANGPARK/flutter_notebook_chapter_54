@@ -257,6 +257,17 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                         shape: RoundedSuperellipseBorder(
                           borderRadius: .circular(12),
                         ),
+                        color: .fromRGBO(230, 230, 230, 1),
+                      ),
+                      child: Row(
+                        children: [
+                          Container(
+                            decoration: BoxDecoration(),
+                            height: 54,
+                            width: 54,
+                            child: Placeholder(),
+                          ),
+                        ],
                       ),
                     ),
                   ),
