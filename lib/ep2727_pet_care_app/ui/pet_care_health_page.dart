@@ -180,6 +180,31 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                               ),
                               color: .fromRGBO(230, 230, 230, 1),
                             ),
+                            padding: .all(12),
+                            child: Column(
+                              spacing: 3,
+                              crossAxisAlignment: .start,
+                              children: [
+                                CircleAvatar(
+                                  radius: 24,
+                                  backgroundColor: Colors.grey[400],
+                                ),
+                                Text("Next", style: TextStyle()),
+                                Text("Vaccination", style: TextStyle()),
+                                Spacer(),
+                                Align(
+                                  alignment: .centerRight,
+                                  child: Text(
+                                    "7 Days",
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ],
