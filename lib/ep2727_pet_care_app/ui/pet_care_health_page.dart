@@ -189,8 +189,22 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                                   radius: 24,
                                   backgroundColor: Colors.grey[400],
                                 ),
-                                Text("Next", style: TextStyle()),
-                                Text("Vaccination", style: TextStyle()),
+                                Text(
+                                  "Next",
+                                  style: TextStyle(
+                                    fontWeight: .bold,
+                                    color: Colors.grey,
+                                    fontSize: 16,
+                                  ),
+                                ),
+                                Text(
+                                  "Vaccination",
+                                  style: TextStyle(
+                                    fontWeight: .bold,
+                                    color: Colors.grey,
+                                    fontSize: 16,
+                                  ),
+                                ),
                                 Spacer(),
                                 Align(
                                   alignment: .centerRight,
