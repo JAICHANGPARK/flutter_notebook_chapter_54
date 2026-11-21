@@ -212,7 +212,6 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                                     "7 Days",
                                     style: TextStyle(
                                       fontWeight: .bold,
-
                                       fontSize: 20,
                                     ),
                                   ),
@@ -252,8 +251,11 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                     5,
                     (idx) => Container(
                       height: 62,
-                      child: Placeholder(),
+
                       margin: .only(bottom: 8),
+                      decoration: ShapeDecoration(
+                        shape: RoundedSuperellipseBorder(),
+                      ),
                     ),
                   ),
                 ),
