@@ -62,7 +62,20 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                               ),
                               color: .fromRGBO(174, 162, 141, 1),
                             ),
-                            child: Column(children: [CircleAvatar(radius: 26)]),
+                            child: Column(
+                              crossAxisAlignment: .start,
+                              children: [
+                                CircleAvatar(radius: 26),
+                                Text("Weight"),
+                                Spacer(),
+                                Align(
+                                  child: Text(
+                                    "24.5 kg",
+                                    style: TextStyle(fontWeight: .bold),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                         Expanded(
