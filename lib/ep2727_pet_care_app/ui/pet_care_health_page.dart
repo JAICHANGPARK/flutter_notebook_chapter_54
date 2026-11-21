@@ -254,7 +254,9 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
 
                       margin: .only(bottom: 8),
                       decoration: ShapeDecoration(
-                        shape: RoundedSuperellipseBorder(),
+                        shape: RoundedSuperellipseBorder(
+                          borderRadius: .circular(12),
+                        ),
                       ),
                     ),
                   ),
