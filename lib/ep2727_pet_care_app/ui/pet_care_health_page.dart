@@ -99,6 +99,33 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                               ),
                               color: .fromRGBO(122, 153, 140, 1),
                             ),
+                            padding: .all(12),
+                            child: Column(
+                              spacing: 3,
+                              crossAxisAlignment: .start,
+                              children: [
+                                CircleAvatar(
+                                  radius: 24,
+                                  backgroundColor: Colors.white24,
+                                ),
+                                Text(
+                                  "Core Score",
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                                Spacer(),
+                                Align(
+                                  alignment: .centerRight,
+                                  child: Text(
+                                    "92",
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ],
@@ -115,6 +142,33 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                                 borderRadius: .circular(24),
                               ),
                               color: .fromRGBO(181, 179, 219, 1),
+                            ),
+                            padding: .all(12),
+                            child: Column(
+                              spacing: 3,
+                              crossAxisAlignment: .start,
+                              children: [
+                                CircleAvatar(
+                                  radius: 24,
+                                  backgroundColor: Colors.white24,
+                                ),
+                                Text(
+                                  "Steps Today",
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                                Spacer(),
+                                Align(
+                                  alignment: .centerRight,
+                                  child: Text(
+                                    "8,420",
+                                    style: TextStyle(
+                                      fontWeight: .bold,
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
