@@ -62,6 +62,7 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                               ),
                               color: .fromRGBO(174, 162, 141, 1),
                             ),
+                            child: Column(children: [CircleAvatar(radius: 26)]),
                           ),
                         ),
                         Expanded(
