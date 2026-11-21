@@ -284,6 +284,7 @@ class _PetCareHealthPageState extends State<PetCareHealthPage> {
                               shape: StadiumBorder(),
                               color: .fromRGBO(181, 179, 219, 1),
                             ),
+                            padding: .symmetric(horizontal: 16, vertical: 6),
                             child: Center(
                               child: Text(
                                 "Done",
