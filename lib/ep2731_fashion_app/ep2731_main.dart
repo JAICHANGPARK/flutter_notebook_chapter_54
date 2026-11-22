@@ -1,3 +1,7 @@
 import 'package:material_ui/material_ui.dart';
 
-void main() {}
+import 'fashion_app.dart';
+
+void main() {
+  runApp(FashionApp());
+}
