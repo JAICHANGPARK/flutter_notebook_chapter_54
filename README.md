@@ -6,7 +6,7 @@
 - SM Rubel ✦
 - https://dribbble.com/shots/27907072-Fashion-Shopping-App-UI-Modern-E-commerce-Mobile-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/49625592/file/6ea97de65e9bebe23c176c8bfe6ae0af.mp4" alt=""/>
+<img src="https://cdn.dribbble.com/userupload/49685575/file/4847041c60265d19b532b07460432103.png?resize=2048x1536&vertical=center" alt=""/>
 
 # EP2727-2730
 
