@@ -19,11 +19,25 @@ class _FashionMainPageState extends State<FashionMainPage> {
             Align(
               alignment: .bottomCenter,
               child: Container(
-                decoration: ShapeDecoration(shape: RoundedSuperellipseBorder()),
+                padding: .all(6),
+                margin: .only(bottom: 12),
+                decoration: ShapeDecoration(
+                  shape: RoundedSuperellipseBorder(),
+                  color: Colors.grey,
+                ),
                 child: Container(
+                  padding: .all(6),
+                  decoration: ShapeDecoration(
+                    shape: RoundedSuperellipseBorder(),
+                    color: Colors.white,
+                  ),
                   child: Row(
                     mainAxisSize: .min,
+                    spacing: 12,
                     children: [
+                      Container(height: 52, width: 52, child: Placeholder()),
+                      Container(height: 52, width: 52, child: Placeholder()),
+                      Container(height: 52, width: 52, child: Placeholder()),
                       Container(height: 52, width: 52, child: Placeholder()),
                     ],
                   ),
