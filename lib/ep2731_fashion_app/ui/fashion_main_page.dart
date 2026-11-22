@@ -10,6 +10,29 @@ class FashionMainPage extends StatefulWidget {
 class _FashionMainPageState extends State<FashionMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: SafeArea(
+        child: Stack(
+          children: [
+            Positioned.fill(child: IndexedStack()),
+
+            Align(
+              alignment: .bottomCenter,
+              child: Container(
+                decoration: ShapeDecoration(shape: RoundedSuperellipseBorder()),
+                child: Container(
+                  child: Row(
+                    mainAxisSize: .min,
+                    children: [
+                      Container(height: 52, width: 52, child: Placeholder()),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
