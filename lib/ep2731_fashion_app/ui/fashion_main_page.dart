@@ -22,13 +22,15 @@ class _FashionMainPageState extends State<FashionMainPage> {
                 padding: .all(6),
                 margin: .only(bottom: 12),
                 decoration: ShapeDecoration(
-                  shape: RoundedSuperellipseBorder(),
+                  shape: RoundedSuperellipseBorder(borderRadius: .circular(20)),
                   color: Colors.grey,
                 ),
                 child: Container(
-                  padding: .all(6),
+                  padding: .all(8),
                   decoration: ShapeDecoration(
-                    shape: RoundedSuperellipseBorder(),
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: .circular(16),
+                    ),
                     color: Colors.white,
                   ),
                   child: Row(
