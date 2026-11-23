@@ -1,3 +1,5 @@
+import 'package:flutter_notebook_chapter_54/ep2731_fashion_app/fashion_app.dart';
+import 'package:flutter_notebook_chapter_54/ep2731_fashion_app/ui/fashion_home_page.dart';
 import 'package:material_ui/material_ui.dart';
 
 class FashionMainPage extends StatefulWidget {
@@ -11,10 +13,11 @@ class _FashionMainPageState extends State<FashionMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Stack(
           children: [
-            Positioned.fill(child: IndexedStack()),
+            Positioned.fill(child: IndexedStack(children: [FashionHomePage()])),
             Align(
               alignment: .bottomCenter,
               child: Container(
