@@ -15,7 +15,6 @@ class _FashionMainPageState extends State<FashionMainPage> {
         child: Stack(
           children: [
             Positioned.fill(child: IndexedStack()),
-
             Align(
               alignment: .bottomCenter,
               child: Container(
