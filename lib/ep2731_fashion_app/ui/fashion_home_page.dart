@@ -17,8 +17,10 @@ class _FashionHomePageState extends State<FashionHomePage> {
           children: [
             Text("DREAM"),
             Container(
+              padding: .all(16),
               decoration: BoxDecoration(
                 color: Colors.grey[100],
+                borderRadius: .circular(12)
 
               ),
               child: Icon(Icons.favorite_border_outlined),
