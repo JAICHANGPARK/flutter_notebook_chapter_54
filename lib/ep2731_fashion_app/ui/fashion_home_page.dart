@@ -1,3 +1,4 @@
+import 'package:gap/gap.dart';
 import 'package:material_ui/material_ui.dart';
 
 class FashionHomePage extends StatefulWidget {
@@ -38,18 +39,19 @@ class _FashionHomePageState extends State<FashionHomePage> {
                 ),
                 child: Icon(Icons.shopping_bag_outlined),
               ),
-
-
             ],
           ),
+          Gap(32),
           Container(
             height: 62,
             child: Placeholder(),
           ),
+          Gap(16),
           Container(
             height: 62,
             child: Placeholder(),
           ),
+          Gap(16),
           Container(
             height: 240,
             child: Placeholder(),
@@ -61,10 +63,22 @@ class _FashionHomePageState extends State<FashionHomePage> {
               TextButton(onPressed: (){}, child: Text("See all")),
             ],
           ),
+          Gap(8),
           Container(
             height: 100,
             child: Placeholder(),
           ),
+          Row(
+            mainAxisAlignment: .spaceBetween,
+            children: [
+              Text("Trending Now"),
+              TextButton(onPressed: (){}, child: Text("See all")),
+            ],
+          ),
+          Container(
+            height: 320,
+            child: Placeholder(),
+          )
 
         ],
       ),
