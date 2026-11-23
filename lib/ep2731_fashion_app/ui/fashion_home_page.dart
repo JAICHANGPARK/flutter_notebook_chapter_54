@@ -10,24 +10,38 @@ class FashionHomePage extends StatefulWidget {
 class _FashionHomePageState extends State<FashionHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: .start,
-      children: [
-        Row(
-          children: [
-            Text("DREAM"),
-            Container(
-              padding: .all(16),
-              decoration: BoxDecoration(
-                color: Colors.grey[100],
-                borderRadius: .circular(12)
+    return Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: Column(
+        crossAxisAlignment: .start,
+        children: [
+          Row(
+            spacing: 8,
+            children: [
+              Text("DREAM"),
+              Spacer(),
+              Container(
+                padding: .all(16),
+                decoration: BoxDecoration(
+                  color: Colors.grey[100],
+                  borderRadius: .circular(12)
 
+                ),
+                child: Icon(Icons.favorite_border_outlined),
               ),
-              child: Icon(Icons.favorite_border_outlined),
-            )
-          ],
-        )
-      ],
+              Container(
+                padding: .all(16),
+                decoration: BoxDecoration(
+                    color: Colors.grey[100],
+                    borderRadius: .circular(12)
+
+                ),
+                child: Icon(Icons.shopping_bag_outlined),
+              )
+            ],
+          )
+        ],
+      ),
     );
   }
 }
