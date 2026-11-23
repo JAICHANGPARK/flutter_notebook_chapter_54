@@ -37,9 +37,35 @@ class _FashionHomePageState extends State<FashionHomePage> {
 
                 ),
                 child: Icon(Icons.shopping_bag_outlined),
-              )
+              ),
+
+
             ],
-          )
+          ),
+          Container(
+            height: 62,
+            child: Placeholder(),
+          ),
+          Container(
+            height: 62,
+            child: Placeholder(),
+          ),
+          Container(
+            height: 240,
+            child: Placeholder(),
+          ),
+          Row(
+            mainAxisAlignment: .spaceBetween,
+            children: [
+              Text("Category"),
+              TextButton(onPressed: (){}, child: Text("See all")),
+            ],
+          ),
+          Container(
+            height: 100,
+            child: Placeholder(),
+          ),
+
         ],
       ),
     );
