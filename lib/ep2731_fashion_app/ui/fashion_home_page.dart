@@ -101,7 +101,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
                   ),
                   Gap(16),
                   Container(
-                    height: 240,
+                    height: 220,
                     decoration: BoxDecoration(
                       borderRadius: .circular(16),
                       color: Colors.orange,
