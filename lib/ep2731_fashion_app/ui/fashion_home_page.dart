@@ -75,7 +75,14 @@ class _FashionHomePageState extends State<FashionHomePage> {
                 Gap(16),
                 Container(
                   height: 62,
-                  child: Placeholder(),
+                  child: Row(
+                    children: [
+                      Expanded(child: Container(decoration: BoxDecoration(
+                        color: Colors.black,
+                        borderRadius: .circular(24),
+                      ),))
+                    ],
+                  )
                 ),
                 Gap(16),
                 Container(
