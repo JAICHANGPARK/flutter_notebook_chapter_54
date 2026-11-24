@@ -78,11 +78,20 @@ class _FashionHomePageState extends State<FashionHomePage> {
                   Container(
                     height: 62,
                     child: Row(
+                      spacing: 12,
                       children: [
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
                               color: Colors.black,
+                              borderRadius: .circular(24),
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: Colors.grey,
                               borderRadius: .circular(24),
                             ),
                           ),
