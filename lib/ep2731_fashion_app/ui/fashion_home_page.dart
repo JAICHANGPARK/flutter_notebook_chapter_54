@@ -42,7 +42,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
           ),
           Gap(32),
           Container(
-            height: 62,
+            height: 54,
             decoration: BoxDecoration(
               color: Colors.grey[100],
               borderRadius: .circular(16)
@@ -52,7 +52,12 @@ class _FashionHomePageState extends State<FashionHomePage> {
               spacing: 12,
               children: [
                 Icon(Icons.search),
-                Expanded(child: TextField()),
+                Expanded(child: TextField(
+                  decoration: InputDecoration(
+                    border: .none,
+                    hintText: "Search for brands, styles...",
+                  ),
+                )),
                 Container(
                   padding: .all(12),
                   decoration: BoxDecoration(
