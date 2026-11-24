@@ -47,7 +47,9 @@ class _FashionHomePageState extends State<FashionHomePage> {
               color: Colors.grey[100],
               borderRadius: .circular(16)
             ),
+            padding: .symmetric(horizontal: 12),
             child: Row(
+              spacing: 12,
               children: [
                 Icon(Icons.search),
                 Expanded(child: TextField()),
