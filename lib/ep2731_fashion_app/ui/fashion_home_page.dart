@@ -48,44 +48,45 @@ class _FashionHomePageState extends State<FashionHomePage> {
           ),
           Expanded(child: SingleChildScrollView(
             child: Column(
+              crossAxisAlignment: .start,
               children: [
-                
+                Gap(16),
+                Container(
+                  height: 62,
+                  child: Placeholder(),
+                ),
+                Gap(16),
+                Container(
+                  height: 240,
+                  child: Placeholder(),
+                ),
+                Row(
+                  mainAxisAlignment: .spaceBetween,
+                  children: [
+                    Text("Category"),
+                    TextButton(onPressed: (){}, child: Text("See all")),
+                  ],
+                ),
+                Gap(8),
+                Container(
+                  height: 100,
+                  child: Placeholder(),
+                ),
+                Row(
+                  mainAxisAlignment: .spaceBetween,
+                  children: [
+                    Text("Trending Now"),
+                    TextButton(onPressed: (){}, child: Text("See all")),
+                  ],
+                ),
+                Container(
+                  height: 320,
+                  child: Placeholder(),
+                )
               ],
             ),
           )),
-          Gap(16),
-          Container(
-            height: 62,
-            child: Placeholder(),
-          ),
-          Gap(16),
-          Container(
-            height: 240,
-            child: Placeholder(),
-          ),
-          Row(
-            mainAxisAlignment: .spaceBetween,
-            children: [
-              Text("Category"),
-              TextButton(onPressed: (){}, child: Text("See all")),
-            ],
-          ),
-          Gap(8),
-          Container(
-            height: 100,
-            child: Placeholder(),
-          ),
-          Row(
-            mainAxisAlignment: .spaceBetween,
-            children: [
-              Text("Trending Now"),
-              TextButton(onPressed: (){}, child: Text("See all")),
-            ],
-          ),
-          Container(
-            height: 320,
-            child: Placeholder(),
-          )
+
 
         ],
       ),
