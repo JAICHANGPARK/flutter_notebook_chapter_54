@@ -35,7 +35,6 @@ class _FashionHomePageState extends State<FashionHomePage> {
                 decoration: BoxDecoration(
                     color: Colors.grey[100],
                     borderRadius: .circular(12)
-
                 ),
                 child: Icon(Icons.shopping_bag_outlined),
               ),
@@ -44,7 +43,17 @@ class _FashionHomePageState extends State<FashionHomePage> {
           Gap(32),
           Container(
             height: 62,
-            child: Placeholder(),
+            child: Row(
+              children: [
+                Icon(Icons.search),
+                Expanded(child: TextField()),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                  ),
+                )
+              ],
+            )
           ),
           Expanded(child: SingleChildScrollView(
             child: Column(
