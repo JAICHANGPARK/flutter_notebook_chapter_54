@@ -100,26 +100,51 @@ class _FashionHomePageState extends State<FashionHomePage> {
                     ),
                   ),
                   Gap(16),
-                  Container(height: 240, decoration: BoxDecoration(
-                    borderRadius: .circular(16),
-                    color: Colors.orange
-                  ),),
+                  Container(
+                    height: 240,
+                    decoration: BoxDecoration(
+                      borderRadius: .circular(16),
+                      color: Colors.orange,
+                    ),
+                  ),
+                  Gap(12),
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
-                      Text("Category"),
+                      Text(
+                        "Category",
+                        style: TextStyle(fontSize: 24, fontWeight: .bold),
+                      ),
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
                   Gap(8),
-                  Container(height: 100, child: Placeholder()),
+                  Container(
+                    height: 100,
+                    child: Row(
+                      spacing: 8,
+                      children: [
+                        Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
+                        Expanded(child: Placeholder()),
+                      ],
+                    ),
+                  ),
+                  Gap(16),
                   Row(
                     mainAxisAlignment: .spaceBetween,
                     children: [
-                      Text("Trending Now"),
+                      Text(
+                        "Trending Now",
+                        style: TextStyle(fontSize: 24, fontWeight: .bold),
+                      ),
+
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
+                  Gap(4),
                   Container(height: 320, child: Placeholder()),
                 ],
               ),
