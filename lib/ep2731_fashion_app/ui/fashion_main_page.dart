@@ -16,6 +16,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
+        bottom: false,
         child: Stack(
           children: [
             Positioned.fill(child: IndexedStack(
@@ -25,7 +26,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
               alignment: .bottomCenter,
               child: Container(
                 padding: .all(6),
-                margin: .only(bottom: 12),
+                margin: .only(bottom: 32),
                 decoration: ShapeDecoration(
                   shape: RoundedSuperellipseBorder(borderRadius: .circular(20)),
                   color: Colors.grey,
