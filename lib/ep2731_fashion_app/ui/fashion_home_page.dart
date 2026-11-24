@@ -43,14 +43,20 @@ class _FashionHomePageState extends State<FashionHomePage> {
           Gap(32),
           Container(
             height: 62,
+            decoration: BoxDecoration(
+              color: Colors.grey[100],
+              borderRadius: .circular(16)
+            ),
             child: Row(
               children: [
                 Icon(Icons.search),
                 Expanded(child: TextField()),
                 Container(
+                  padding: .all(12),
                   decoration: BoxDecoration(
                     color: Colors.white,
                   ),
+                  child: Icon(Icons.tune),
                 )
               ],
             )
