@@ -40,14 +40,13 @@ class _FashionHomePageState extends State<FashionHomePage> {
               ),
             ],
           ),
-          Gap(32),
+          Gap(28),
           Container(
-            height: 54,
             decoration: BoxDecoration(
               color: Colors.grey[100],
               borderRadius: .circular(16)
             ),
-            padding: .symmetric(horizontal: 12),
+            padding: .symmetric(horizontal: 8, vertical: 4),
             child: Row(
               spacing: 12,
               children: [
@@ -62,6 +61,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
                   padding: .all(12),
                   decoration: BoxDecoration(
                     color: Colors.white,
+                    borderRadius: .circular(16)
                   ),
                   child: Icon(Icons.tune),
                 )
