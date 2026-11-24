@@ -46,6 +46,13 @@ class _FashionHomePageState extends State<FashionHomePage> {
             height: 62,
             child: Placeholder(),
           ),
+          Expanded(child: SingleChildScrollView(
+            child: Column(
+              children: [
+                
+              ],
+            ),
+          )),
           Gap(16),
           Container(
             height: 62,
