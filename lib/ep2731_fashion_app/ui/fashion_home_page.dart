@@ -19,10 +19,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
           Row(
             spacing: 8,
             children: [
-              Text("DREAM", style: TextStyle(
-                fontSize: 28,
-                fontWeight: .bold,
-              ),),
+              Text("DREAM", style: TextStyle(fontSize: 28, fontWeight: .bold)),
               Spacer(),
               Container(
                 padding: .all(16),
@@ -89,18 +86,31 @@ class _FashionHomePageState extends State<FashionHomePage> {
                               color: Colors.black,
                               borderRadius: .circular(24),
                             ),
-                            child: Center(child: Text("Women", style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: .bold,
-                            ),),),
+                            child: Center(
+                              child: Text(
+                                "Women",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: .bold,
+                                ),
+                              ),
+                            ),
                           ),
-
                         ),
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
                               color: Colors.grey,
                               borderRadius: .circular(24),
+                            ),
+                            child: Center(
+                              child: Text(
+                                "Women",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: .bold,
+                                ),
+                              ),
                             ),
                           ),
                         ),
@@ -150,9 +160,8 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                       shape: RoundedSuperellipseBorder(
                                         borderRadius: .circular(24),
                                       ),
-                                      color: Colors.grey[200]
+                                      color: Colors.grey[200],
                                     ),
-
                                   ),
                                 ),
                               ),
@@ -175,12 +184,11 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                   ),
                                   child: Container(
                                     decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(
-                                          borderRadius: .circular(24),
-                                        ),
-                                        color: Colors.grey[200]
+                                      shape: RoundedSuperellipseBorder(
+                                        borderRadius: .circular(24),
+                                      ),
+                                      color: Colors.grey[200],
                                     ),
-
                                   ),
                                 ),
                               ),
@@ -203,12 +211,11 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                   ),
                                   child: Container(
                                     decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(
-                                          borderRadius: .circular(24),
-                                        ),
-                                        color: Colors.grey[200]
+                                      shape: RoundedSuperellipseBorder(
+                                        borderRadius: .circular(24),
+                                      ),
+                                      color: Colors.grey[200],
                                     ),
-
                                   ),
                                 ),
                               ),
@@ -231,12 +238,11 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                   ),
                                   child: Container(
                                     decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(
-                                          borderRadius: .circular(24),
-                                        ),
-                                        color: Colors.grey[200]
+                                      shape: RoundedSuperellipseBorder(
+                                        borderRadius: .circular(24),
+                                      ),
+                                      color: Colors.grey[200],
                                     ),
-
                                   ),
                                 ),
                               ),
@@ -259,12 +265,11 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                   ),
                                   child: Container(
                                     decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(
-                                          borderRadius: .circular(24),
-                                        ),
-                                        color: Colors.grey[200]
+                                      shape: RoundedSuperellipseBorder(
+                                        borderRadius: .circular(24),
+                                      ),
+                                      color: Colors.grey[200],
                                     ),
-
                                   ),
                                 ),
                               ),
