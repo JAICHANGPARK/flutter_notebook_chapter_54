@@ -125,8 +125,16 @@ class _FashionHomePageState extends State<FashionHomePage> {
                       spacing: 8,
                       children: [
                         Expanded(child: Column(
+                          spacing: 6,
                           children: [
-                            
+                            Container(
+                              decoration: ShapeDecoration(shape: RoundedRectangleBorder(
+                                side: BorderSide(
+                                  color: Colors.grey,
+                                )
+                              )),
+                            ),
+                            Text("Dresses")
                           ],
                         )),
                         Expanded(child: Placeholder()),
