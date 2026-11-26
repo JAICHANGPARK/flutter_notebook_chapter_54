@@ -260,7 +260,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                   ),
                                 ),
                               ),
-                              Text("Dresses"),
+                              Text("Accessories"),
                             ],
                           ),
                         ),
