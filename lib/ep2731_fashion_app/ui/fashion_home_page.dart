@@ -127,12 +127,14 @@ class _FashionHomePageState extends State<FashionHomePage> {
                         Expanded(child: Column(
                           spacing: 6,
                           children: [
-                            Container(
-                              decoration: ShapeDecoration(shape: RoundedRectangleBorder(
-                                side: BorderSide(
-                                  color: Colors.grey,
-                                )
-                              )),
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(shape: RoundedRectangleBorder(
+                                  side: BorderSide(
+                                    color: Colors.grey,
+                                  )
+                                )),
+                              ),
                             ),
                             Text("Dresses")
                           ],
