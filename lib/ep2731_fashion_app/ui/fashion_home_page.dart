@@ -130,8 +130,9 @@ class _FashionHomePageState extends State<FashionHomePage> {
                             children: [
                               Expanded(
                                 child: Container(
+                                  padding: .all(2),
                                   decoration: ShapeDecoration(
-                                    shape: RoundedRectangleBorder(
+                                    shape: RoundedSuperellipseBorder(
                                       borderRadius: .circular(24),
                                       side: BorderSide(color: Colors.grey),
                                     ),
@@ -141,7 +142,9 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                       shape: RoundedSuperellipseBorder(
                                         borderRadius: .circular(24),
                                       ),
+                                      color: Colors.grey[200]
                                     ),
+
                                   ),
                                 ),
                               ),
