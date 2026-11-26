@@ -299,10 +299,18 @@ class _FashionHomePageState extends State<FashionHomePage> {
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
                         crossAxisSpacing: 16,
-                        mainAxisSpacing: 16
+                        mainAxisSpacing: 16,
+                        childAspectRatio: .7,
                       ),
                       itemBuilder: (context, index) {
-                        return Placeholder();
+                        return Container(
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: .circular(20),
+                            ),
+                            color: Colors.grey,
+                          ),
+                        );
                       },
                     ),
                   ),
