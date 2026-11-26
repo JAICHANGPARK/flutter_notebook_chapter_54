@@ -138,7 +138,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
                   ),
                   Gap(8),
                   Container(
-                    height: 100,
+                    height: 98,
                     child: Row(
                       spacing: 8,
                       children: [
