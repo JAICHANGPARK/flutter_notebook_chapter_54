@@ -11,6 +11,7 @@ class FashionMainPage extends StatefulWidget {
 
 class _FashionMainPageState extends State<FashionMainPage> {
   int pageNum = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,9 +20,12 @@ class _FashionMainPageState extends State<FashionMainPage> {
         bottom: false,
         child: Stack(
           children: [
-            Positioned.fill(child: IndexedStack(
+            Positioned.fill(
+              child: IndexedStack(
                 index: pageNum,
-                children: [FashionHomePage()])),
+                children: [FashionHomePage()],
+              ),
+            ),
             Align(
               alignment: .bottomCenter,
               child: Container(
