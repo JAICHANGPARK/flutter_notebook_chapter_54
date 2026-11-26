@@ -124,22 +124,24 @@ class _FashionHomePageState extends State<FashionHomePage> {
                     child: Row(
                       spacing: 8,
                       children: [
-                        Expanded(child: Column(
-                          spacing: 6,
-                          children: [
-                            Expanded(
-                              child: Container(
-                                decoration: ShapeDecoration(shape: RoundedRectangleBorder(
-                                  borderRadius: .circular(24),
-                                  side: BorderSide(
-                                    color: Colors.grey,
-                                  )
-                                )),
+                        Expanded(
+                          child: Column(
+                            spacing: 6,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedRectangleBorder(
+                                      borderRadius: .circular(24),
+                                      side: BorderSide(color: Colors.grey),
+                                    ),
+                                  ),
+                                ),
                               ),
-                            ),
-                            Text("Dresses")
-                          ],
-                        )),
+                              Text("Dresses"),
+                            ],
+                          ),
+                        ),
                         Expanded(child: Placeholder()),
                         Expanded(child: Placeholder()),
                         Expanded(child: Placeholder()),
