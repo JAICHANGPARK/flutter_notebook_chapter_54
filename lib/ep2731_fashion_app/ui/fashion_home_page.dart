@@ -136,6 +136,10 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                       side: BorderSide(color: Colors.grey),
                                     ),
                                   ),
+                                  child: Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+                                    borderRadius: .circular(24,),
+                                    
+                                  )),),
                                 ),
                               ),
                               Text("Dresses"),
