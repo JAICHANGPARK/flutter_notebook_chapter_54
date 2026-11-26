@@ -19,7 +19,10 @@ class _FashionHomePageState extends State<FashionHomePage> {
           Row(
             spacing: 8,
             children: [
-              Text("DREAM"),
+              Text("DREAM", style: TextStyle(
+                fontSize: 28,
+                fontWeight: .bold,
+              ),),
               Spacer(),
               Container(
                 padding: .all(16),
@@ -86,7 +89,12 @@ class _FashionHomePageState extends State<FashionHomePage> {
                               color: Colors.black,
                               borderRadius: .circular(24),
                             ),
+                            child: Center(child: Text("Women", style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: .bold,
+                            ),),),
                           ),
+
                         ),
                         Expanded(
                           child: Container(
