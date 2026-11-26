@@ -130,6 +130,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
                             Expanded(
                               child: Container(
                                 decoration: ShapeDecoration(shape: RoundedRectangleBorder(
+                                  borderRadius: .circular(24),
                                   side: BorderSide(
                                     color: Colors.grey,
                                   )
