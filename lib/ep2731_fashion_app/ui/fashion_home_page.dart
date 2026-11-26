@@ -208,8 +208,62 @@ class _FashionHomePageState extends State<FashionHomePage> {
                             ],
                           ),
                         ),
-                        Expanded(child: Placeholder()),
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                          child: Column(
+                            spacing: 6,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  padding: .all(2),
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(24),
+                                      side: BorderSide(color: Colors.grey),
+                                    ),
+                                  ),
+                                  child: Container(
+                                    decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(
+                                          borderRadius: .circular(24),
+                                        ),
+                                        color: Colors.grey[200]
+                                    ),
+
+                                  ),
+                                ),
+                              ),
+                              Text("Beauty"),
+                            ],
+                          ),
+                        ),
+                        Expanded(
+                          child: Column(
+                            spacing: 6,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  padding: .all(2),
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: .circular(24),
+                                      side: BorderSide(color: Colors.grey),
+                                    ),
+                                  ),
+                                  child: Container(
+                                    decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(
+                                          borderRadius: .circular(24),
+                                        ),
+                                        color: Colors.grey[200]
+                                    ),
+
+                                  ),
+                                ),
+                              ),
+                              Text("Dresses"),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
