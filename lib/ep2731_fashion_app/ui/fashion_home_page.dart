@@ -124,7 +124,11 @@ class _FashionHomePageState extends State<FashionHomePage> {
                     child: Row(
                       spacing: 8,
                       children: [
-                        Expanded(child: Placeholder()),
+                        Expanded(child: Column(
+                          children: [
+                            
+                          ],
+                        )),
                         Expanded(child: Placeholder()),
                         Expanded(child: Placeholder()),
                         Expanded(child: Placeholder()),
