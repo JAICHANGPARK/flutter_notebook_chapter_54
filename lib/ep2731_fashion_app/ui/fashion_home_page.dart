@@ -100,14 +100,14 @@ class _FashionHomePageState extends State<FashionHomePage> {
                         Expanded(
                           child: Container(
                             decoration: BoxDecoration(
-                              color: Colors.grey,
+                              color: Colors.grey[400],
                               borderRadius: .circular(24),
                             ),
                             child: Center(
                               child: Text(
-                                "Women",
+                                "Men",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: Colors.black,
                                   fontWeight: .bold,
                                 ),
                               ),
