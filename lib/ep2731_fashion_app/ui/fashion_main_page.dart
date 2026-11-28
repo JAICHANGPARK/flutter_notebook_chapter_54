@@ -49,7 +49,9 @@ class _FashionMainPageState extends State<FashionMainPage> {
                     children: [
                       Container(height: 52, width: 52,
                           decoration: BoxDecoration(
-                            borderRadius: .circular(24),
+                            borderRadius: .circular(16),
+                            color: .fromRGBO(38, 39, 36, 1),
+
                           ),
                           child: Icon(Icons.home_outlined, size: 32,)),
                       Container(height: 52, width: 52, child: Placeholder()),
