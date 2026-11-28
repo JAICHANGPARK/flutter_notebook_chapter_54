@@ -62,10 +62,10 @@ class _FashionMainPageState extends State<FashionMainPage> {
                       ),
                       Container(height: 52, width: 52,
                           decoration: BoxDecoration(
-                            borderRadius: .circular(16),
-                           border: .all(color: Colors.grey[300]!,)
+                              borderRadius: .circular(16),
+                              border: .all(color: Colors.grey[300]!,)
                           ),
-                          child: Placeholder()),
+                          child: Icon(Icons.favorite_outline)),
                       Container(height: 52, width: 52, child: Placeholder()),
                       Container(height: 52, width: 52, child: Placeholder()),
                     ],
