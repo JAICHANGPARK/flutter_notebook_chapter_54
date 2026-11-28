@@ -33,7 +33,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                 margin: .only(bottom: 32),
                 decoration: ShapeDecoration(
                   shape: RoundedSuperellipseBorder(borderRadius: .circular(20)),
-                  color: Colors.grey,
+                  color: .fromRGBO(238, 238, 238, 1),
                 ),
                 child: Container(
                   padding: .all(8),
