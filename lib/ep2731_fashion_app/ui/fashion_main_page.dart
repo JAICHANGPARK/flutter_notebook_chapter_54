@@ -47,13 +47,19 @@ class _FashionMainPageState extends State<FashionMainPage> {
                     mainAxisSize: .min,
                     spacing: 12,
                     children: [
-                      Container(height: 52, width: 52,
-                          decoration: BoxDecoration(
-                            borderRadius: .circular(16),
-                            color: .fromRGBO(38, 39, 36, 1),
-
-                          ),
-                          child: Icon(Icons.home_outlined, size: 32,)),
+                      Container(
+                        height: 52,
+                        width: 52,
+                        decoration: BoxDecoration(
+                          borderRadius: .circular(16),
+                          color: .fromRGBO(38, 39, 36, 1),
+                        ),
+                        child: Icon(
+                          Icons.home_outlined,
+                          size: 32,
+                          color: Colors.white,
+                        ),
+                      ),
                       Container(height: 52, width: 52, child: Placeholder()),
                       Container(height: 52, width: 52, child: Placeholder()),
                       Container(height: 52, width: 52, child: Placeholder()),
