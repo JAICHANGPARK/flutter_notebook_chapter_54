@@ -309,7 +309,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
                             shape: RoundedSuperellipseBorder(
                               borderRadius: .circular(20),
                             ),
-                            color: Colors.grey,
+                            color: Color.fromRGBO(212, 210, 211, 1),
                           ),
                           child: Stack(
                             children: [
@@ -328,7 +328,12 @@ class _FashionHomePageState extends State<FashionHomePage> {
                               Positioned.fill(
                                 child: Container(
                                   decoration: BoxDecoration(
-                                    gradient: LinearGradient(colors: []),
+                                    gradient: LinearGradient(
+                                      colors: [
+                                        .fromRGBO(229, 231, 231, 1),
+                                        .fromRGBO(212, 210, 211, 1),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),
