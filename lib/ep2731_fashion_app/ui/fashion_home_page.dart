@@ -303,6 +303,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
                         mainAxisSpacing: 16,
                         childAspectRatio: .7,
                       ),
+
                       itemBuilder: (context, index) {
                         return Container(
                           decoration: ShapeDecoration(
@@ -325,10 +326,18 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                   child: Icon(Icons.favorite_border),
                                 ),
                               ),
-                              Positioned.fill(
+                              Positioned(
+                                bottom: 0,
+                                left: 0,
+                                right: 0,
+
                                 child: Container(
+                                  height: 80,
                                   decoration: BoxDecoration(
+                                    borderRadius: .circular(14),
                                     gradient: LinearGradient(
+                                      begin: .bottomCenter,
+                                      end: .topCenter,
                                       colors: [
                                         .fromRGBO(229, 231, 231, 1),
                                         .fromRGBO(212, 210, 211, 1),
