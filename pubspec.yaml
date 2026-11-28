@@ -9,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  material_ui: ^1.6.0
-  gap: ^3.0.1
+  material_ui: ^1.11.1
+  gap: ^3.1.0
   hugeicons: ^1.2.0
 
 dev_dependencies:
