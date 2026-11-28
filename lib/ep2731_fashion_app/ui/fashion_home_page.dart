@@ -294,9 +294,9 @@ class _FashionHomePageState extends State<FashionHomePage> {
                   ),
                   Gap(4),
                   Container(
-                    height: 320,
+                    height: 720,
                     child: GridView.builder(
-                      physics: NeverScrollableScrollPhysics(),
+physics: NeverScrollableScrollPhysics(),
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
                         crossAxisSpacing: 16,
