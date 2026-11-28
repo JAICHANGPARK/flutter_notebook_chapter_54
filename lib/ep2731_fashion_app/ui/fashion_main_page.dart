@@ -47,7 +47,7 @@ class _FashionMainPageState extends State<FashionMainPage> {
                     mainAxisSize: .min,
                     spacing: 12,
                     children: [
-                      Container(height: 52, width: 52, child: Placeholder()),
+                      Container(height: 52, width: 52, child: Icon(Icons.home_outlined, size: 32,)),
                       Container(height: 52, width: 52, child: Placeholder()),
                       Container(height: 52, width: 52, child: Placeholder()),
                       Container(height: 52, width: 52, child: Placeholder()),
