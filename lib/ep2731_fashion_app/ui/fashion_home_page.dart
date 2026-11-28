@@ -296,7 +296,7 @@ class _FashionHomePageState extends State<FashionHomePage> {
                   Container(
                     height: 720,
                     child: GridView.builder(
-physics: NeverScrollableScrollPhysics(),
+                      physics: NeverScrollableScrollPhysics(),
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
                         crossAxisSpacing: 16,
@@ -310,6 +310,22 @@ physics: NeverScrollableScrollPhysics(),
                               borderRadius: .circular(20),
                             ),
                             color: Colors.grey,
+                          ),
+                          child: Stack(
+                            children: [
+                              Positioned(
+                                right: 8,
+                                top: 8,
+                                child: Container(
+                                  padding: .all(12),
+                                  decoration: BoxDecoration(
+                                    borderRadius: .circular(14),
+                                    color: Colors.white,
+                                  ),
+                                  child: Icon(Icons.favorite_border),
+                                ),
+                              ),
+                            ],
                           ),
                         );
                       },
