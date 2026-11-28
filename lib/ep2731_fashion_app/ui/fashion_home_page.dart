@@ -325,6 +325,13 @@ class _FashionHomePageState extends State<FashionHomePage> {
                                   child: Icon(Icons.favorite_border),
                                 ),
                               ),
+                              Positioned.fill(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    gradient: LinearGradient(colors: []),
+                                  ),
+                                ),
+                              ),
                             ],
                           ),
                         );
