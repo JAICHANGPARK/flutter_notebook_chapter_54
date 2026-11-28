@@ -56,11 +56,16 @@ class _FashionMainPageState extends State<FashionMainPage> {
                         ),
                         child: Icon(
                           Icons.home_outlined,
-                          size: 32,
+                          size: 28,
                           color: Colors.white,
                         ),
                       ),
-                      Container(height: 52, width: 52, child: Placeholder()),
+                      Container(height: 52, width: 52,
+                          decoration: BoxDecoration(
+                            borderRadius: .circular(16),
+                           border: .all(color: Colors.grey[300]!,)
+                          ),
+                          child: Placeholder()),
                       Container(height: 52, width: 52, child: Placeholder()),
                       Container(height: 52, width: 52, child: Placeholder()),
                     ],
